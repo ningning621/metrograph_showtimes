@@ -1,0 +1,451 @@
+@theme {
+	/* fonts */
+	--font-sans: 'Inter', 'serif';
+
+	/* Sample primitive colors */
+	--color-white: #fff;
+	--color-black: #000;
+
+	/* Red */
+	--color-red-50: #FEF2F2;
+	--color-red-100: #FEE2E2;
+	--color-red-200: #FECACA;
+	--color-red-300: #FCA5A5;
+	--color-red-400: #F87171;
+	--color-red-500: #EF4444;
+	--color-red-600: #DC2626;
+	--color-red-700: #B91C1C;
+	--color-red-800: #991B1B;
+	--color-red-900: #7F1D1D;
+	--color-red-950: #450A0A;
+
+	/* Gray */
+	--color-gray-50: #F9FAFB;
+	--color-gray-100: #F3F4F6;
+	--color-gray-200: #E5E7EB;
+	--color-gray-300: #D1D5DB;
+	--color-gray-400: #9CA3AF;
+	--color-gray-500: #6B7280;
+	--color-gray-600: #4B5563;
+	--color-gray-700: #374151;
+	--color-gray-800: #1F2937;
+	--color-gray-900: #111827;
+	--color-gray-950: #030712;
+
+	/* Blue */
+	--color-blue-50: #EFF6FF;
+	--color-blue-100: #DBEAFE;
+	--color-blue-200: #BFDBFE;
+	--color-blue-300: #93C5FD;
+	--color-blue-400: #60A5FA;
+	--color-blue-500: #3B82F6;
+	--color-blue-600: #2563EB;
+	--color-blue-700: #1D4ED8;
+	--color-blue-800: #1E40AF;
+	--color-blue-900: #1E3A8A;
+	--color-blue-950: #172554;
+
+	/* Green */
+	--color-green-50: #F0FDF4;
+	--color-green-100: #DCFCE7;
+	--color-green-200: #BBF7D0;
+	--color-green-300: #86EFAC;
+	--color-green-400: #4ADE80;
+	--color-green-500: #22C55E;
+	--color-green-600: #16A34A;
+	--color-green-700: #15803D;
+	--color-green-800: #166534;
+	--color-green-900: #14532D;
+	--color-green-950: #052E16;
+}
+
+@theme inline {
+	--spacing-masthead: var(--masthead-height);
+	--spacing-screen-minus-masthead: calc(100vh - var(--masthead-height));
+	--spacing-screen-minus-masthead-colophon: calc(100vh - var(--masthead-height) - var(--colophon-height));
+
+	/* Sample semantic colors */
+	/* Background */
+	--color-background-primary: var(--is-light-theme, var(--color-white)) var(--is-dark-theme, var(--color-gray-950));
+	--color-background-secondary: var(--is-light-theme, var(--color-gray-100)) var(--is-dark-theme, var(--color-gray-900));
+	--color-background-tertiary: var(--is-light-theme, var(--color-gray-200)) var(--is-dark-theme, var(--color-gray-800));
+	--color-background-accent: var(--is-light-theme, var(--color-blue-600)) var(--is-dark-theme, var(--color-gray-800));
+	--color-background-offset: var(--is-light-theme, var(--color-gray-950)) var(--is-dark-theme, var(--color-white));
+
+	/* Text */
+	--color-text-primary: var(--is-light-theme, var(--color-gray-950)) var(--is-dark-theme, var(--color-gray-50));
+	--color-text-secondary: var(--is-light-theme, var(--color-gray-800)) var(--is-dark-theme, var(--color-gray-100));
+	--color-text-tertiary: var(--is-light-theme, var(--color-gray-600)) var(--is-dark-theme, var(--color-gray-300));
+	--color-text-accent: var(--is-light-theme, var(--color-blue-600)) var(--is-dark-theme, var(--color-blue-500));
+	--color-text-inactive: var(--is-light-theme, var(--color-gray-500)) var(--is-dark-theme, var(--color-gray-400));
+	--color-text-offset: var(--is-light-theme, var(--color-gray-50)) var(--is-dark-theme, var(--color-gray-950));
+
+	/* Icon */
+	--color-icon-primary: var(--is-light-theme, var(--color-gray-950)) var(--is-dark-theme, var(--color-gray-50));
+	--color-icon-secondary: var(--is-light-theme, var(--color-gray-500)) var(--is-dark-theme, var(--color-gray-400));
+	--color-icon-accent: var(--is-light-theme, var(--color-blue-600)) var(--is-dark-theme, var(--color-blue-500));
+	--color-icon-inactive: var(--is-light-theme, var(--color-gray-400)) var(--is-dark-theme, var(--color-gray-600));
+	--color-icon-offset: var(--is-light-theme, var(--color-white)) var(--is-dark-theme, var(--color-gray-950));
+
+	/* Border */
+	--color-border-primary: var(--is-light-theme, var(--color-gray-300)) var(--is-dark-theme, var(--color-gray-800));
+	--color-border-secondary: var(--is-light-theme, var(--color-gray-400)) var(--is-dark-theme, var(--color-gray-700));
+	--color-border-tertiary: var(--is-light-theme, var(--color-gray-500)) var(--is-dark-theme, var(--color-gray-600));
+	--color-border-strong: var(--is-light-theme, var(--color-gray-800)) var(--is-dark-theme, var(--color-gray-100));
+	--color-border-accent: var(--is-light-theme, var(--color-blue-600)) var(--is-dark-theme, var(--color-blue-500));
+	--color-border-offset: var(--is-light-theme, var(--color-gray-800)) var(--is-dark-theme, var(--color-gray-300));
+}
+
+@utility text-* {
+	color: --value(--color-text- *);
+}
+
+@utility bg-* {
+	background-color: --value(--color-background- *);
+}
+
+@utility border-* {
+	border-color: --value(--color-border- *);
+	outline-color: --value(--color-border- *);
+}
+
+/* Display */
+@utility display-1 {
+	line-height: 1.2;
+	font-size: 3rem;
+	/* font-size: 48px; */
+
+	@variant md {
+		font-size: 4rem;
+		/* font-size: 64px; */
+	}
+
+	@variant lg {
+		font-size: 6rem;
+		/* font-size: 96px; */
+	}
+}
+
+@utility display-2 {
+	line-height: 1.2;
+	font-size: 2.375rem;
+	/* font-size: 38px; */
+
+	@variant md {
+		font-size: 3.125rem;
+		/* font-size: 50px; */
+	}
+
+	@variant lg {
+		font-size: 4.5rem;
+		/* font-size: 72px; */
+	}
+}
+
+/* Headline */
+@utility headline-1 {
+	line-height: 1.2;
+	font-size: 2.125rem;
+	/* font-size: 34px; */
+
+	@variant md {
+		font-size: 2.75rem;
+		/* font-size: 44px; */
+	}
+
+	@variant lg {
+		font-size: 3.5rem;
+		/* font-size: 56px; */
+	}
+}
+
+@utility headline-2 {
+	line-height: 1.2;
+	font-size: 2rem;
+	/* font-size: 32px; */
+
+	@variant md {
+		font-size: 2.625rem;
+		/* font-size: 42px; */
+	}
+
+	@variant lg {
+		font-size: 3rem;
+		/* font-size: 48px; */
+	}
+}
+
+@utility headline-3 {
+	line-height: 1.2;
+	font-size: 2.25rem;
+	/* font-size: 36px; */
+
+	@variant md {
+		font-size: 2.5rem;
+		/* font-size: 40px; */
+	}
+
+	@variant lg {
+		font-size: 2.5rem;
+		/* font-size: 40px; */
+	}
+}
+
+@utility headline-4 {
+	line-height: 1.2;
+	font-size: 1.75rem;
+	/* font-size: 28px; */
+
+	@variant md {
+		font-size: 2.25rem;
+		/* font-size: 36px; */
+	}
+
+	@variant lg {
+		font-size: 2.25rem;
+		/* font-size: 36px; */
+	}
+}
+
+@utility headline-5 {
+	line-height: 1.2;
+	font-size: 1.625rem;
+	/* font-size: 26px; */
+
+	@variant md {
+		font-size: 2rem;
+		/* font-size: 32px; */
+	}
+
+	@variant lg {
+		font-size: 2rem;
+		/* font-size: 32px; */
+	}
+}
+
+@utility headline-6 {
+	line-height: 1.2;
+	font-size: 1.375rem;
+	/* font-size: 22px; */
+
+	@variant md {
+		font-size: 1.375rem;
+		/* font-size: 22px; */
+	}
+
+	@variant lg {
+		font-size: 1.5rem;
+		/* font-size: 24px; */
+	}
+}
+
+@utility headline-7 {
+	line-height: 1.2;
+	font-size: 1rem;
+	/* font-size: 16px; */
+
+	@variant md {
+		font-size: 1rem;
+		/* font-size: 16px; */
+	}
+
+	@variant lg {
+		font-size: 1rem;
+		/* font-size: 16px; */
+	}
+}
+
+/* Eyebrow */
+@utility eyebrow-1 {
+	line-height: 1.2;
+	font-size: 1.125rem;
+	/* font-size: 18px; */
+
+	@variant md {
+		font-size: 1.125rem;
+		/* font-size: 18px; */
+	}
+
+	@variant lg {
+		font-size: 1.125rem;
+		/* font-size: 18px; */
+	}
+}
+
+@utility eyebrow-2 {
+	line-height: 1.2;
+	font-size: 1rem;
+	/* font-size: 16px; */
+
+	@variant md {
+		font-size: 1rem;
+		/* font-size: 16px; */
+	}
+
+	@variant lg {
+		font-size: 1rem;
+		/* font-size: 16px; */
+	}
+}
+
+@utility eyebrow-3 {
+	line-height: 1.2;
+	font-size: 0.875rem;
+	/* font-size: 14px; */
+
+	@variant md {
+		font-size: 0.875rem;
+		/* font-size: 14px; */
+	}
+
+	@variant lg {
+		font-size: 0.875rem;
+		/* font-size: 14px; */
+	}
+}
+
+@utility eyebrow-4 {
+	line-height: 1.2;
+	font-size: 0.75rem;
+	/* font-size: 12px; */
+
+	@variant md {
+		font-size: 0.75rem;
+		/* font-size: 12px; */
+	}
+
+	@variant lg {
+		font-size: 0.75rem;
+		/* font-size: 12px; */
+	}
+}
+
+/* Label */
+@utility label-1 {
+	line-height: 1.2;
+	font-size: 1.25rem;
+	/* font-size: 20px; */
+
+	@variant md {
+		font-size: 1.25rem;
+		/* font-size: 20px; */
+	}
+
+	@variant lg {
+		font-size: 1.25rem;
+		/* font-size: 20px; */
+	}
+}
+
+@utility label-2 {
+	line-height: 1.2;
+	font-size: 1rem;
+	/* font-size: 16px; */
+
+	@variant md {
+		font-size: 1rem;
+		/* font-size: 16px; */
+	}
+
+	@variant lg {
+		font-size: 1rem;
+		/* font-size: 16px; */
+	}
+}
+
+@utility label-3 {
+	line-height: 1.2;
+	font-size: 0.875rem;
+	/* font-size: 14px; */
+
+	@variant md {
+		font-size: 0.875rem;
+		/* font-size: 14px; */
+	}
+
+	@variant lg {
+		font-size: 0.875rem;
+		/* font-size: 14px; */
+	}
+}
+
+@utility label-4 {
+	line-height: 1.2;
+	font-size: 0.75rem;
+	/* font-size: 12px; */
+
+	@variant md {
+		font-size: 0.75rem;
+		/* font-size: 12px; */
+	}
+
+	@variant lg {
+		font-size: 0.75rem;
+		/* font-size: 12px; */
+	}
+}
+
+/* Body */
+@utility body-1 {
+	line-height: 1.2;
+	font-size: 0.875rem;
+	/* font-size: 18px; */
+
+	@variant md {
+		font-size: 1rem;
+		/* font-size: 18px; */
+	}
+
+	@variant lg {
+		font-size: 1.125rem;
+		/* font-size: 18px; */
+	}
+}
+
+@utility body-2 {
+	line-height: 1.2;
+	font-size: 0.875rem;
+	/* font-size: 16px; */
+
+	@variant md {
+		font-size: 1rem;
+		/* font-size: 16px; */
+	}
+
+	@variant lg {
+		font-size: 1rem;
+		/* font-size: 16px; */
+	}
+}
+
+@utility body-3 {
+	line-height: 1.2;
+	font-size: 0.875rem;
+	/* font-size: 14px; */
+
+	@variant md {
+		font-size: 0.875rem;
+		/* font-size: 14px; */
+	}
+
+	@variant lg {
+		font-size: 0.875rem;
+		/* font-size: 14px; */
+	}
+}
+
+@utility body-4 {
+	line-height: 1.2;
+	font-size: 0.75rem;
+	/* font-size: 12px; */
+
+	@variant md {
+		font-size: 0.75rem;
+		/* font-size: 12px; */
+	}
+
+	@variant lg {
+		font-size: 0.75rem;
+		/* font-size: 12px; */
+	}
+}

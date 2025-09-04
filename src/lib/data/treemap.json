@@ -1,0 +1,260 @@
+[
+	[
+		{
+			"name": "2011/Part A/FFS/Inpatient hospital",
+			"value": 135274000000
+		},
+		{
+			"name": "2011/Part A/FFS/Skilled nursing facility",
+			"value": 31104000000
+		},
+		{
+			"name": "2011/Part A/FFS/Home health agency",
+			"value": 6916000000
+		},
+		{
+			"name": "2011/Part A/FFS/Hospice",
+			"value": 13991000000
+		},
+		{
+			"name": "2011/Part A/Private health plans",
+			"value": 64682000000
+		},
+		{
+			"name": "2011/Part B/FFS/Practitioner/Physician fee schedule",
+			"value": 68555000000
+		},
+		{
+			"name": "2011/Part B/FFS/Practitioner/DME",
+			"value": 8115000000
+		},
+		{
+			"name": "2011/Part B/FFS/Practitioner/Lab",
+			"value": 4705000000
+		},
+		{
+			"name": "2011/Part B/FFS/Practitioner/Physician-administered drugs",
+			"value": 9611000000
+		},
+		{
+			"name": "2011/Part B/FFS/Practitioner/Other",
+			"value": 8934000000
+		},
+		{
+			"name": "2011/Part B/FFS/Institutional/Hospital",
+			"value": 30850000000
+		},
+		{
+			"name": "2011/Part B/FFS/Institutional/Lab",
+			"value": 3835000000
+		},
+		{
+			"name": "2011/Part B/FFS/Institutional/Home health agency",
+			"value": 11700000000
+		},
+		{
+			"name": "2011/Part B/FFS/Institutional/Other",
+			"value": 16980000000
+		},
+		{
+			"name": "2011/Part B/Private health plans",
+			"value": 59086000000
+		},
+		{
+			"name": "2011/Part D/Premiums",
+			"value": 7300000000
+		},
+		{
+			"name": "2011/Part D/Direct subsidy",
+			"value": 20100000000
+		},
+		{
+			"name": "2011/Part D/Reinsurance",
+			"value": 13700000000
+		},
+		{
+			"name": "2011/Part D/Low-income subsidy",
+			"value": 22200000000
+		},
+		{
+			"name": "2011/Part D/Retiree drug subsidy",
+			"value": 3600000000
+		},
+		{
+			"name": "2011/Part D/Risk sharing and other",
+			"value": -900000000
+		}
+	],
+	[
+		{
+			"name": "2020/Part A/FFS/Inpatient hospital",
+			"value": 140192000000
+		},
+		{
+			"name": "2020/Part A/FFS/Skilled nursing facility",
+			"value": 28859000000
+		},
+		{
+			"name": "2020/Part A/FFS/Home health agency",
+			"value": 5913000000
+		},
+		{
+			"name": "2020/Part A/FFS/Hospice",
+			"value": 20988000000
+		},
+		{
+			"name": "2020/Part A/Private health plans",
+			"value": 138872000000
+		},
+		{
+			"name": "2020/Part B/FFS/Practitioner/Physician fee schedule",
+			"value": 64813000000
+		},
+		{
+			"name": "2020/Part B/FFS/Practitioner/DME",
+			"value": 7291000000
+		},
+		{
+			"name": "2020/Part B/FFS/Practitioner/Lab",
+			"value": 6189000000
+		},
+		{
+			"name": "2020/Part B/FFS/Practitioner/Physician-administered drugs",
+			"value": 18731000000
+		},
+		{
+			"name": "2020/Part B/FFS/Practitioner/Other",
+			"value": 10270000000
+		},
+		{
+			"name": "2020/Part B/FFS/Institutional/Hospital",
+			"value": 52496000000
+		},
+		{
+			"name": "2020/Part B/FFS/Institutional/Lab",
+			"value": 3017000000
+		},
+		{
+			"name": "2020/Part B/FFS/Institutional/Home health agency",
+			"value": 9854000000
+		},
+		{
+			"name": "2020/Part B/FFS/Institutional/Other",
+			"value": 21867000000
+		},
+		{
+			"name": "2020/Part B/Private health plans",
+			"value": 183280000000
+		},
+		{
+			"name": "2020/Part D/Premiums",
+			"value": 13600000000
+		},
+		{
+			"name": "2020/Part D/Direct subsidy",
+			"value": 9500000000
+		},
+		{
+			"name": "2020/Part D/Reinsurance",
+			"value": 47800000000
+		},
+		{
+			"name": "2020/Part D/Low-income subsidy",
+			"value": 33100000000
+		},
+		{
+			"name": "2020/Part D/Retiree drug subsidy",
+			"value": 600000000
+		},
+		{
+			"name": "2020/Part D/Risk sharing and other",
+			"value": 700000000
+		}
+	],
+	[
+		{
+			"name": "2030/Part A/FFS/Inpatient hospital",
+			"value": 212810000000
+		},
+		{
+			"name": "2030/Part A/FFS/Skilled nursing facility",
+			"value": 44470000000
+		},
+		{
+			"name": "2030/Part A/FFS/Home health agency",
+			"value": 12226000000
+		},
+		{
+			"name": "2030/Part A/FFS/Hospice",
+			"value": 41874000000
+		},
+		{
+			"name": "2030/Part A/Private health plans",
+			"value": 310412000000
+		},
+		{
+			"name": "2030/Part B/FFS/Practitioner/Physician fee schedule",
+			"value": 94868000000
+		},
+		{
+			"name": "2030/Part B/FFS/Practitioner/DME",
+			"value": 10654000000
+		},
+		{
+			"name": "2030/Part B/FFS/Practitioner/Lab",
+			"value": 11686000000
+		},
+		{
+			"name": "2030/Part B/FFS/Practitioner/Physician-administered drugs",
+			"value": 46225000000
+		},
+		{
+			"name": "2030/Part B/FFS/Practitioner/Other",
+			"value": 14945000000
+		},
+		{
+			"name": "2030/Part B/FFS/Institutional/Hospital",
+			"value": 133077000000
+		},
+		{
+			"name": "2030/Part B/FFS/Institutional/Lab",
+			"value": 4128000000
+		},
+		{
+			"name": "2030/Part B/FFS/Institutional/Home health agency",
+			"value": 20428000000
+		},
+		{
+			"name": "2030/Part B/FFS/Institutional/Other",
+			"value": 36096000000
+		},
+		{
+			"name": "2030/Part B/Private health plans",
+			"value": 490790000000
+		},
+		{
+			"name": "2030/Part D/Premiums",
+			"value": 25600000000
+		},
+		{
+			"name": "2030/Part D/Direct subsidy",
+			"value": 10000000000
+		},
+		{
+			"name": "2030/Part D/Reinsurance",
+			"value": 92500000000
+		},
+		{
+			"name": "2030/Part D/Low-income subsidy",
+			"value": 62100000000
+		},
+		{
+			"name": "2030/Part D/Retiree drug subsidy",
+			"value": 600000000
+		},
+		{
+			"name": "2030/Part D/Risk sharing and other",
+			"value": 200000000
+		}
+	]
+]

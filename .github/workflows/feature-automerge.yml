@@ -1,0 +1,38 @@
+name: Auto Merge from Main to Feature Branches
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-cms-master:
+    name: Merge main into feature branches after any commits to main
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: merge-storyblok
+        uses: mtanzi/action-automerge@v1
+        id: merge-storyblok
+        with:
+          github_token: ${{ github.token }}
+          source: 'main'
+          target: 'feature/storyblok'
+
+      - name: merge-supabase
+        uses: mtanzi/action-automerge@v1
+        id: merge-supabase
+        with:
+          github_token: ${{ github.token }}
+          source: 'main'
+          target: 'feature/supabase'
+
+      - name: merge-pdfs
+        uses: mtanzi/action-automerge@v1
+        id: merge-pdfs
+        with:
+          github_token: ${{ github.token }}
+          source: 'main'
+          target: 'feature/pdfs'

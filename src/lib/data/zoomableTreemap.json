@@ -1,0 +1,371 @@
+[
+	{
+		"name": 2011,
+		"children": [
+			{
+				"name": "Part A",
+				"children": [
+					{
+						"name": "FFS",
+						"children": [
+							{
+								"name": "Inpatient hospital",
+								"value": 135274000000
+							},
+							{
+								"name": "Skilled nursing facility",
+								"value": 31104000000
+							},
+							{
+								"name": "Home health agency",
+								"value": 6916000000
+							},
+							{
+								"name": "Hospice",
+								"value": 13991000000
+							}
+						]
+					},
+					{
+						"name": "Private health plans",
+						"value": 6916000000
+					}
+				]
+			},
+			{
+				"name": "Part B",
+				"children": [
+					{
+						"name": "FFS",
+						"children": [
+							{
+								"name": "Practitioner",
+								"children": [
+									{
+										"name": "Physician fee schedule",
+										"value": 68555000000
+									},
+									{
+										"name": "DME",
+										"value": 8115000000
+									},
+									{
+										"name": "Lab",
+										"value": 4705000000
+									},
+									{
+										"name": "Physician-administered drugs",
+										"value": 9611000000
+									},
+									{
+										"name": "Other",
+										"value": 8934000000
+									}
+								]
+							},
+							{
+								"name": "Institutional",
+								"children": [
+									{
+										"name": "Hospital",
+										"value": 30850000000
+									},
+									{
+										"name": "Lab",
+										"value": 3835000000
+									},
+									{
+										"name": "Home health agency",
+										"value": 11700000000
+									},
+									{
+										"name": "Other",
+										"value": 16980000000
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Private health plans",
+						"value": 59086000000
+					}
+				]
+			},
+			{
+				"name": "Part D",
+				"children": [
+					{
+						"name": "Premiums",
+						"value": 7300000000
+					},
+					{
+						"name": "Direct subsidy",
+						"value": 20100000000
+					},
+					{
+						"name": "Reinsurance",
+						"value": 13700000000
+					},
+					{
+						"name": "Low-income subsidy",
+						"value": 22200000000
+					},
+					{
+						"name": "Retiree drug subsidy",
+						"value": 3600000000
+					},
+					{
+						"name": "Risk sharing and other",
+						"value": -900000000
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": 2020,
+		"children": [
+			{
+				"name": "Part A",
+				"children": [
+					{
+						"name": "FFS",
+						"children": [
+							{
+								"name": "Inpatient hospital",
+								"value": 140192000000
+							},
+							{
+								"name": "Skilled nursing facility",
+								"value": 28859000000
+							},
+							{
+								"name": "Home health agency",
+								"value": 5913000000
+							},
+							{
+								"name": "Hospice",
+								"value": 20988000000
+							}
+						]
+					},
+					{
+						"name": "Private health plans",
+						"value": 138872000000
+					}
+				]
+			},
+			{
+				"name": "Part B",
+				"children": [
+					{
+						"name": "FFS",
+						"children": [
+							{
+								"name": "Practitioner",
+								"children": [
+									{
+										"name": "Physician fee schedule",
+										"value": 64813000000
+									},
+									{
+										"name": "DME",
+										"value": 7291000000
+									},
+									{
+										"name": "Lab",
+										"value": 6189000000
+									},
+									{
+										"name": "Physician-administered drugs",
+										"value": 18731000000
+									},
+									{
+										"name": "Other",
+										"value": 10270000000
+									}
+								]
+							},
+							{
+								"name": "Institutional",
+								"children": [
+									{
+										"name": "Hospital",
+										"value": 52496000000
+									},
+									{
+										"name": "Lab",
+										"value": 3017000000
+									},
+									{
+										"name": "Home health agency",
+										"value": 9854000000
+									},
+									{
+										"name": "Other",
+										"value": 21867000000
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Private health plans",
+						"value": 183280000000
+					}
+				]
+			},
+			{
+				"name": "Part D",
+				"children": [
+					{
+						"name": "Premiums",
+						"value": 13600000000
+					},
+					{
+						"name": "Direct subsidy",
+						"value": 9500000000
+					},
+					{
+						"name": "Reinsurance",
+						"value": 47800000000
+					},
+					{
+						"name": "Low-income subsidy",
+						"value": 33100000000
+					},
+					{
+						"name": "Retiree drug subsidy",
+						"value": 600000000
+					},
+					{
+						"name": "Risk sharing and other",
+						"value": 700000000
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": 2030,
+		"children": [
+			{
+				"name": "Part A",
+				"children": [
+					{
+						"name": "FFS",
+						"children": [
+							{ "name": "Inpatient hospital", "value": 212810000000 },
+							{
+								"name": "Skilled nursing facility",
+								"value": 44470000000
+							},
+							{
+								"name": "Home health agency",
+								"value": 12226000000
+							},
+							{
+								"name": "Hospice",
+								"value": 41874000000
+							}
+						]
+					},
+					{
+						"name": "Private health plans",
+						"value": 310412000000
+					}
+				]
+			},
+			{
+				"name": "Plan B",
+				"children": [
+					{
+						"name": "FFS",
+						"children": [
+							{
+								"name": "Practitioner",
+								"children": [
+									{
+										"name": "Physician fee schedule",
+										"value": 94868000000
+									},
+									{
+										"name": "DME",
+										"value": 10654000000
+									},
+									{
+										"name": "Lab",
+										"value": 11686000000
+									},
+									{
+										"name": "Physician-administered drugs",
+										"value": 46225000000
+									},
+									{
+										"name": "Other",
+										"value": 14945000000
+									}
+								]
+							},
+							{
+								"name": "Institutional",
+								"children": [
+									{
+										"name": "Hospital",
+										"value": 133077000000
+									},
+									{
+										"name": "Lab",
+										"value": 4128000000
+									},
+									{
+										"name": "Home health agency",
+										"value": 20428000000
+									},
+									{
+										"name": "Other",
+										"value": 36096000000
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Private health plans",
+						"value": 490790000000
+					}
+				]
+			},
+			{
+				"name": "Part D",
+				"children": [
+					{
+						"name": "Premiums",
+						"value": 25600000000
+					},
+					{
+						"name": "Direct subsidy",
+						"value": 10000000000
+					},
+					{
+						"name": "Reinsurance",
+						"value": 92500000000
+					},
+					{
+						"name": "Low-income subsidy",
+						"value": 62100000000
+					},
+					{
+						"name": "Retiree drug subsidy",
+						"value": 600000000
+					},
+					{
+						"name": "Risk sharing and other",
+						"value": 200000000
+					}
+				]
+			}
+		]
+	}
+]

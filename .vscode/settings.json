@@ -1,0 +1,14 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit"
+	},
+	"eslint.enable": true,
+	"eslint.format.enable": true,
+	"eslint.autoFixOnSave": true,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"eslint.validate": ["javascript", "typescript", "svelte"],
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	}
+}

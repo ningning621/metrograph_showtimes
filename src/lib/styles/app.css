@@ -1,0 +1,132 @@
+@import 'tailwindcss';
+@plugin "tailwindcss-animate";
+
+@import './fonts.css';
+@import './tokens.css';
+@import './animations.css';
+
+/* purgecss start ignore */
+@layer base {
+	:root {
+		@apply scheme-only-light;
+		--is-light-theme: initial;
+		--is-dark-theme: ;
+	}
+
+	/* default focus visible for elements, which can be overwritten by the classes below if a section is specifically light or dark */
+	:focus-visible {
+		outline: 2px solid var(--color-bg-accent);
+	}
+
+	:where(.scheme-dark, .sheme-dark *, .scheme-only-dark, .sheme-only-dark *) {
+		--is-light-theme: ;
+		--is-dark-theme: initial;
+
+		/* shows the universal focus indicator only when elements receive keyboard focus */
+		:focus-visible {
+			outline: 2px solid var(--color-bg-accent) !important;
+		}
+	}
+
+	:where(.scheme-light, .sheme-light *, .scheme-only-light, .sheme-only-light *) {
+		--is-light-theme: initial;
+		--is-dark-theme: ;
+
+		/* shows the universal focus indicator only when elements receive keyboard focus */
+		:focus-visible {
+			outline: 2px solid var(--color-bg-accent) !important;
+		}
+	}
+
+	/* removes the focus indicator from presentational chart elements */
+	[role="presentation"]:focus-visible,
+	[role="presentation"]:focus {
+		outline: none !important;
+	}
+
+	.markdown {
+		@apply flex flex-col gap-y-2;
+
+		a {
+			@apply underline;
+		}
+
+		ul {
+			@apply list-outside list-disc;
+		}
+	}
+
+	body {
+		&::-webkit-scrollbar {
+			@apply w-2;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			@apply rounded-full bg-offset;
+		}
+
+		&::-webkit-scrollbar-track {
+			@apply bg-primary;
+		}
+	}
+}
+
+@layer components {
+	.content-well {
+		@apply mx-auto w-full max-w-[1200px] px-4 md:px-8 lg:px-12;
+	}
+
+	.button {
+		@apply flex cursor-pointer items-center justify-center gap-1;
+
+		&.sm {
+			@apply label-3;
+		}
+
+		&.md {
+			@apply label-2;
+		}
+
+		&.lg {
+			@apply label-1;
+		}
+	
+
+		&.pill {
+			@apply rounded-md px-3 py-2 hover:scale-102 transition-transform;
+
+			&.primary {
+				@apply bg-offset text-offset;
+			}
+	
+			&.accent {
+				@apply bg-accent text-offset;
+			}
+
+			&:disabled {
+				@apply cursor-not-allowed opacity-50 pointer-events-none;
+			}
+		}
+		
+
+		&.underlined {
+			@apply border-b;
+
+			&.primary {
+				@apply border-strong text-primary hover:border-accent;
+
+				.icon {
+					@apply group-hover:text-accent;
+				}
+			}
+	
+			&.accent {
+				@apply border-accent text-primary hover:border-strong;
+
+				.icon {
+					@apply text-accent group-hover:text-primary;
+				}
+			}
+		}
+	}
+}

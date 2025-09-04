@@ -1,0 +1,5 @@
+---
+# write page-specific copy + data here
+# defer to src/lib/site.yaml for defaults
+body: >
+  Copy goes in ./+page.yaml under `body`.

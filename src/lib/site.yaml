@@ -1,0 +1,83 @@
+---
+# FONT OPTIONS
+## Remove or comment out any of these options to disable them.
+# fontAwesome: 030560e164
+# typekit: id
+googleFonts:
+  - family: Inter
+    weights:
+      - 400
+      - 500
+      - 700
+    # italics:
+    # -
+
+# META DATA
+siteName: The DataFace
+tag: The DataFace
+title: The DataFace
+description: We help brands and NGOs with impactful, data-driven research from concept to execution.
+date_created: 1969-12-31
+date_modified: 1969-12-31
+url: https://df-sveltekit.vercel.app
+publisher:
+  name: The DataFace
+  url: https://www.thedataface.com#about
+author:
+  name: The DataFace
+  url: https://www.thedataface.com#about
+  twitter:
+    url: https://twitter.com/thedataface
+    handle: '@thedataface'
+image:
+  alt: A branded image for The DataFace, a digital agency focused on data visualization.
+  large:
+    src: https://df-sveltekit.vercel.app/1200x630.png
+    width: 1200
+    height: 630
+  small:
+    src: https://df-sveltekit.vercel.app/1012x506.png
+    width: 1012
+    height: 506
+email:
+# social media accounts for brand
+social:
+  - title: Email
+    url: mailto:hello@thedataface.com
+    icon: mdi:email
+  - title: Twitter
+    url: https://twitter.com/thedataface
+    icon: mdi:twitter
+  - title: Facebook
+    url: https://www.facebook.com/thedataface
+    icon: mdi:facebook
+  - title: Instagram
+    url: https://www.instagram.com/thedataface
+    icon: mdi:instagram
+# social media accounts for sharing website
+share:
+  - title: Email
+    url: mailto:?subject=Hello%20World&body=Check%20out%20this%20cool%20website%20
+    icon: mdi:email
+  - title: Twitter
+    url: https://twitter.com/intent/tweet?text=Check%20out%20this%20cool%20website%20
+    icon: mdi:twitter
+  - title: Facebook
+    url: https://www.facebook.com/sharer/sharer.php?u=
+    icon: mdi:facebook
+colors:
+  background: '#ffffff'
+  theme: '#ffffff'
+
+# STATIC NAVIGATION LINKS
+links:
+  - title: Home
+    href: /
+  - title: About
+    href: /
+  - parent: Playground
+    links:
+      - title: Dialog
+        href: /playground
+      - title: Button
+        href: /playground
