@@ -4,6 +4,7 @@ import json
 import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from urllib.parse import quote_plus
@@ -19,7 +20,6 @@ def get_metrograph_films(isLocal: bool):
         with open("./scripts/scrap/metrograph.html", "w", encoding="utf-8") as f:
             f.write(response.text)
         
-
     soup_response = response if isLocal else response.text
     soup = BeautifulSoup(soup_response, "html.parser")
     films = soup.find_all("div", class_="homepage-in-theater-movie")
@@ -46,21 +46,27 @@ def get_metrograph_films(isLocal: bool):
     with open("./scripts/scrap/raw_films.json", "w", encoding="utf-8") as f:
         json.dump(parsed_films, f, ensure_ascii=False, indent=2)
 
-
 def parse_letterboxd():
     with open("./scripts/scrap/raw_films.json", "r", encoding="utf-8") as f:
         parsed_films = json.load(f)
 
     # set up selenium
-    driver = webdriver.Chrome()
+    options = Options()
+    options.add_argument("--headless=new")
+    options.add_argument("--blink-settings=imagesEnabled=false")
+    driver = webdriver.Chrome(options=options)
 
     skipped_films = []
     done_films = []
 
-    for film in parsed_films[:2]:
+    for film in parsed_films:
         film_title = film["title"]
 
-        if "ace presents" in film_title.lower() or 'private event' in film_title.lower() or 'multiple dirs' in film['directors']:
+        if ("ace presents" in film_title.lower() 
+            or 'private event' in film_title.lower() 
+            or 'afternoon cartoons' in film_title.lower()
+            or 'preceded by' in film_title.lower()
+            or 'multiple dirs' in film['directors']):
             skipped_films.append(film)
         else: 
             try:
@@ -88,7 +94,7 @@ def parse_letterboxd():
                 driver.implicitly_wait(5)
                 done_films.append(film)
             except Exception as e:
-                film['e'] = e
+                # film['e'] = e
                 skipped_films.append(film)
 
     driver.quit()
