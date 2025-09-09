@@ -8,7 +8,7 @@ export const load = async ({ url, cookies }) => {
 	const { pathname } = url;
 
 	// whitelist dev always. check for password in production
-	const isPreviewProtected = PASSWORD !== '' && !building;
+	const isPreviewProtected = PASSWORD !== '' && !building && !dev;
 
 	if (isPreviewProtected) {
 		const isProtected = !unprotectedRoutes.has(pathname);
