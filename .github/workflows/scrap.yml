@@ -28,7 +28,7 @@ jobs:
 
       - name: Run script
         run: |
-          python scripts/scrap/getShowtimes.py
+          python -u scripts/scrap/getShowtimes.py
 
       - name: Commit data files
         run: |

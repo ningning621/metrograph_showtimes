@@ -152,6 +152,6 @@ def parse_letterboxd():
     
     print(f"5️⃣ Wrote data to files")
 
-    
+print('start')
 get_metrograph_films(False)
 parse_letterboxd()
