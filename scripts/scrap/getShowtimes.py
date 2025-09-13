@@ -30,7 +30,7 @@ def get_metrograph_films(isLocal: bool):
     parsed_films = []
 
     # parse raw information into list of films
-    for film in films:
+    for film in films[:5]:
         # print(film)
         title = film.find("h3", class_="movie_title").get_text(strip=True)
 
