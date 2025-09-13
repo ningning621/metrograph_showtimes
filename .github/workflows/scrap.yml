@@ -2,9 +2,11 @@ name: Grab Metrograph films for the week
 
 on:
   schedule:
-    # Every Monday at 10:00 AM Eastern Time
-    - cron: '0 14 * * 1' # 14:00 UTC = 10:00 ET
-  workflow_dispatch: # allow manual runs too
+    - cron: '0 14 * * 1' # Every Monday at 10:00 AM ET
+  workflow_dispatch: # allow manual runs
+
+permissions:
+  contents: write
 
 jobs:
   run-script:
@@ -27,3 +29,11 @@ jobs:
       - name: Run script
         run: |
           python scripts/scrap/getShowtimes.py
+
+      - name: Commit data files
+        run: |
+          git add scripts/scrap/data/raw_films.json
+          git add scripts/scrap/data/parsed_films.csv
+          git add scripts/scrap/data/skipped_films.csv
+          git commit -m "Update files [skip ci]" || echo "No changes to commit"
+          git push
