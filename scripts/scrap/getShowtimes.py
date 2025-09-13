@@ -13,6 +13,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import quote_plus
 
 def get_metrograph_films(isLocal: bool):
+    print("0️⃣ Starting work")
+
     if isLocal:
         # pull raw html from local file
         with open("./scripts/scrap/data/metrograph.html", "r", encoding="utf-8") as f:
@@ -108,7 +110,7 @@ def parse_letterboxd():
             try:
                 driver.get("https://letterboxd.com/search/" + quote_plus(f"{film_title} {film['year']}")) 
 
-                wait = WebDriverWait(driver, 10)
+                wait = WebDriverWait(driver, 5)
                 
                 link_tag = wait.until(
                     EC.presence_of_element_located(
