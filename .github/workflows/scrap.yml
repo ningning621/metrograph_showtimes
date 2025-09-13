@@ -21,7 +21,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install -r ./scrap/requirements.txt
+          pip install -r scrap/requirements.txt
           pip install webdriver-manager
 
       - name: Run script
