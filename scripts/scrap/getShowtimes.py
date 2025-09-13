@@ -39,7 +39,6 @@ def get_metrograph_films(isLocal: bool):
             "h5",
             string=lambda t: isinstance(t, str) and pattern.match(t.strip())
         )
-        print(raw_year_duration)
         year = int(raw_year_duration.get_text(strip=True).split("/")[0].strip()) if raw_year_duration else 0
 
         if raw_director:
@@ -57,7 +56,7 @@ def get_metrograph_films(isLocal: bool):
         json.dump(parsed_films, f, ensure_ascii=False, indent=2)
 
 def parse_letterboxd():
-    with open("./scripts/scrap/raw_films2.json", "r", encoding="utf-8") as f:
+    with open("./scripts/scrap/temp.json", "r", encoding="utf-8") as f:
         parsed_films = json.load(f)
 
     # set up selenium
@@ -80,8 +79,8 @@ def parse_letterboxd():
     ]
 
     for film in parsed_films:
-        print(film)
-        film_title = film["title"]
+        # print(film)
+        film_title = re.sub(r"[^\w\s]", "", film["title"]) 
 
         if (any(p in film_title.lower() for p in skip_phrases) or 'multiple dirs' in film['directors']):
             skipped_films.append(film)
@@ -90,13 +89,12 @@ def parse_letterboxd():
                 driver.get("https://letterboxd.com/search/" + quote_plus(f"{film_title} {film['year']}")) 
 
                 wait = WebDriverWait(driver, 10)
-                results = wait.until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, "ul.results li.search-result"))
-                )
-
-                first_result = results
                 
-                link_tag = first_result.find_element(By.CSS_SELECTOR, "h2.headline-2 span.film-title-wrapper a")
+                link_tag = wait.until(
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, "h2.headline-2 span.film-title-wrapper a")
+                    )
+                )
 
                 # Extract the film page URL
                 film_url = link_tag.get_attribute("href")
@@ -111,20 +109,20 @@ def parse_letterboxd():
                 driver.implicitly_wait(5)
                 done_films.append(film)
             except Exception as e:
-                print(e)
+                # print(e)
                 skipped_films.append(film)
 
     driver.quit()
 
-    with open("./scripts/scrap/parsed_films2.csv", "w", newline="", encoding="utf-8") as f:
+    with open("./scripts/scrap/parsed_films.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating"])
         writer.writeheader()
         writer.writerows(done_films)
 
-    with open("./scripts/scrap/skipped_films2.csv", "w", newline="", encoding="utf-8") as f:
+    with open("./scripts/scrap/skipped_films.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis",])
         writer.writeheader()
         writer.writerows(skipped_films)
     
-# get_metrograph_films(True)
+get_metrograph_films(False)
 parse_letterboxd()

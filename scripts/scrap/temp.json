@@ -1,0 +1,23 @@
+[
+	{
+		"title": "The Beguiled",
+		"imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/THE-BEGUILED_3-copy.jpg",
+		"directors": ["Don Siegel"],
+		"synopsis": "Rooster-in-the-hen house Eastwood gets taken down a peg (and a leg) by the residents of Miss Martha Farnsworth Seminary for Young Ladies in Siegel’s seamy Southern Gothic psychological thriller, based on Thomas P. Cullinan’s 1966 novel of the same…",
+		"year": 1971
+	},
+	{
+		"title": "Hackers",
+		"imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/HACKERS_1-copy.jpg",
+		"directors": ["Ian Sofley"],
+		"synopsis": "Legally forbidden from touching a computer for seven years after a legendary hack, prodigy cyberwarrior Dade Murphy, aka “Zero Cool,” aka “Crash Override” (Jonny Lee Miller) logs back on for his 18th birthday, falls in with a gang of fellow teen…",
+		"year": 1992
+	},
+	{
+		"title": "East Palace, West Palace",
+		"imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/EAST-PALACE-WEST-PALACE_1-copy.jpg",
+		"directors": ["Zhang Yuan"],
+		"synopsis": "One of the first films from Mainland China to explore queer life, Zhang’s film revolves around a young gay writer who, pinched by police during a night raid in a Beijing park, recounts his troubled childhood, sexual awakening, and ongoing search for…",
+		"year": 1996
+	}
+]
