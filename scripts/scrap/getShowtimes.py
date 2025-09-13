@@ -23,11 +23,15 @@ def get_metrograph_films(isLocal: bool):
         with open("./scripts/scrap/data/metrograph.html", "w", encoding="utf-8") as f:
             f.write(response.text)
         
+    print("1️⃣ Successfully open metrograph website")
+
     soup_response = response if isLocal else response.text
     soup = BeautifulSoup(soup_response, "html.parser")
     films = soup.find_all("div", class_="homepage-in-theater-movie")
 
     parsed_films = []
+
+    print("2️⃣ Start parsing html")
 
     # parse raw information into list of films
     for film in films[:5]:
@@ -52,10 +56,14 @@ def get_metrograph_films(isLocal: bool):
         imageUrl = film.find("img").attrs["src"]
 
         parsed_films.append({"title": title, "imageUrl": imageUrl, "directors": directors, "synopsis": synopsis, "year": year })
+    
+    print("2️⃣ Finish parsing html")
 
     # add metrograph html to file for local storage 
     with open("./scripts/scrap/data/raw_films.json", "w", encoding="utf-8") as f:
         json.dump(parsed_films, f, ensure_ascii=False, indent=2)
+    
+    print("3️⃣ Finish writing html to file")
 
 def parse_letterboxd():
     with open("./scripts/scrap/data/raw_films.json", "r", encoding="utf-8") as f:
@@ -88,6 +96,8 @@ def parse_letterboxd():
         "short film program",
     ]
 
+    print(f"4️⃣ Start parsing film info: {len(parsed_films)} films")
+
     for film in parsed_films:
         # print(film)
         film_title = re.sub(r"[^\w\s]", "", film["title"]) 
@@ -118,11 +128,15 @@ def parse_letterboxd():
 
                 driver.implicitly_wait(5)
                 done_films.append(film)
+
+                print(f"→ Successfully parsed {film_title}")
             except Exception as e:
                 # print(e)
                 skipped_films.append(film)
+                print(f"→ Skipped {film_title}")
 
     driver.quit()
+    print(f"4️⃣ Finish parsing film info")
 
     with open("./scripts/scrap/data/parsed_films.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating"])
@@ -133,6 +147,9 @@ def parse_letterboxd():
         writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis",])
         writer.writeheader()
         writer.writerows(skipped_films)
+    
+    print(f"5️⃣ Wrote data to files")
+
     
 get_metrograph_films(False)
 parse_letterboxd()
