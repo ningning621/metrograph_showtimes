@@ -32,6 +32,8 @@ jobs:
 
       - name: Commit data files
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add scripts/scrap/data/raw_films.json
           git add scripts/scrap/data/parsed_films.csv
           git add scripts/scrap/data/skipped_films.csv
