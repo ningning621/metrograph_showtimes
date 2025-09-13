@@ -36,7 +36,7 @@ def get_metrograph_films(isLocal: bool):
     print("2️⃣ Start parsing html")
 
     # parse raw information into list of films
-    for film in films[:5]:
+    for film in films:
         # print(film)
         title = film.find("h3", class_="movie_title").get_text(strip=True)
 
@@ -152,6 +152,5 @@ def parse_letterboxd():
     
     print(f"5️⃣ Wrote data to files")
 
-print('start')
 get_metrograph_films(False)
 parse_letterboxd()
