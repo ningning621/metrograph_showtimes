@@ -26,4 +26,4 @@ jobs:
 
       - name: Run script
         run: |
-          python ./scrap/getShowtimes.py
+          python scripts/scrap/getShowtimes.py
