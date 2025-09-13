@@ -8,17 +8,19 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import quote_plus
 
 def get_metrograph_films(isLocal: bool):
     if isLocal:
         # pull raw html from local file
-        with open("./scripts/scrap/metrograph.html", "r", encoding="utf-8") as f:
+        with open("./scripts/scrap/data/metrograph.html", "r", encoding="utf-8") as f:
             response = f.read()
     else:
         # pull raw html 
         response = requests.get("https://metrograph.com/nyc/")
-        with open("./scripts/scrap/metrograph.html", "w", encoding="utf-8") as f:
+        with open("./scripts/scrap/data/metrograph.html", "w", encoding="utf-8") as f:
             f.write(response.text)
         
     soup_response = response if isLocal else response.text
@@ -52,18 +54,26 @@ def get_metrograph_films(isLocal: bool):
         parsed_films.append({"title": title, "imageUrl": imageUrl, "directors": directors, "synopsis": synopsis, "year": year })
 
     # add metrograph html to file for local storage 
-    with open("./scripts/scrap/raw_films.json", "w", encoding="utf-8") as f:
+    with open("./scripts/scrap/data/raw_films.json", "w", encoding="utf-8") as f:
         json.dump(parsed_films, f, ensure_ascii=False, indent=2)
 
 def parse_letterboxd():
-    with open("./scripts/scrap/temp.json", "r", encoding="utf-8") as f:
+    with open("./scripts/scrap/data/raw_films.json", "r", encoding="utf-8") as f:
         parsed_films = json.load(f)
 
     # set up selenium
     options = Options()
-    # options.add_argument("--headless=new")
-    # options.add_argument("--blink-settings=imagesEnabled=false")
-    driver = webdriver.Chrome(options=options)
+
+    # note: comment this out on local
+    options.add_argument("--headless=new")   
+
+    options.add_argument("--no-sandbox")             
+    options.add_argument("--disable-dev-shm-usage")   
+    options.add_argument("--blink-settings=imagesEnabled=false")
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()),
+        options=options
+    )
 
     skipped_films = []
     done_films = []
@@ -114,12 +124,12 @@ def parse_letterboxd():
 
     driver.quit()
 
-    with open("./scripts/scrap/parsed_films.csv", "w", newline="", encoding="utf-8") as f:
+    with open("./scripts/scrap/data/parsed_films.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating"])
         writer.writeheader()
         writer.writerows(done_films)
 
-    with open("./scripts/scrap/skipped_films.csv", "w", newline="", encoding="utf-8") as f:
+    with open("./scripts/scrap/data/skipped_films.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis",])
         writer.writeheader()
         writer.writerows(skipped_films)
