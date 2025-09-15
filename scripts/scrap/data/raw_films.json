@@ -1,50 +1,5 @@
 [
   {
-    "title": "Made In New York: Best of NYC Indie Animation",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/BUNNY_5.jpeg",
-    "directors": [
-      "Multiple Dirs"
-    ],
-    "synopsis": "Post-screening panel discussion with filmmakers in person",
-    "year": 2004
-  },
-  {
-    "title": "Happyend",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/HAPPYEND_2.jpg",
-    "directors": [
-      "Neo Sora"
-    ],
-    "synopsis": "Q&As with director Neo Sora on Friday and Saturday and an introduction on Sunday.",
-    "year": 2024
-  },
-  {
-    "title": "The Ceremony",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/THE-CEREMONY_18.jpg",
-    "directors": [
-      "Nagisa  Oshima"
-    ],
-    "synopsis": "Ōshima plants a ticking time bomb under the placid surface of the classic Japanese family melodrama in this acerbic depiction of the highly dysfunctional (and highly influential) Sakurada clan, whose pathological devotion to keeping up appearances of…",
-    "year": 1971
-  },
-  {
-    "title": "Madame Wang's",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/MADAME-WANGS_2.webp",
-    "directors": [
-      "Paul Morrissey"
-    ],
-    "synopsis": "Introduction by writer Nick Pinkerton on Saturday, September 6th",
-    "year": 1981
-  },
-  {
-    "title": "Dirty Harry [4K DCP]",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/DIRTY-HARRY_6-copy.jpg",
-    "directors": [
-      "Don Siegel"
-    ],
-    "synopsis": "An outraged Pauline Kael called it a “fascist masterpiece” in The New Yorker, Warner Brothers called it a cash cow, and audiences around the world called it a helluva wild ride, besotted with an entirely new breed of urban antihero, Clint Eastwood’s…",
-    "year": 1971
-  },
-  {
     "title": "Farewell My Concubine",
     "imageUrl": "https://metrograph.imgix.net/2023/12/CIN_FarewellMyConcubine_1600x900.jpg?fm=pjpg&ixlib=php-3.3.1",
     "directors": [
@@ -54,70 +9,6 @@
     "year": 1993
   },
   {
-    "title": "Design for Living",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/DESIGN-FOR-LIVING_3.webp",
-    "directors": [
-      "Ernst Lubitsch"
-    ],
-    "synopsis": "Introduction by filmmaker Neo Sora on Friday, September 12th",
-    "year": 1933
-  },
-  {
-    "title": "Henri-Georges Clouzot's Inferno",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/HENRI-GEORGES-CLOUZOTS-INFERNO_1.webp",
-    "directors": [
-      "Ruxandra Medrea",
-      "Serge Bromberg"
-    ],
-    "synopsis": "Clouzot began filming his Inferno—the story of a middle-aged provincial hotelier (Serge Reggiani) tormented by jealousy and covetousness and the much younger wife (Schneider) who is the subject of his gnawing obsession—with a bottomless budget from…",
-    "year": 2009
-  },
-  {
-    "title": "Beethoven's Nephew",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/BEETHOVENS-NEPHEW_1.webp",
-    "directors": [
-      "Paul Morrissey"
-    ],
-    "synopsis": "Introduction by writer Nick Pinkerton on Sunday, September 14th",
-    "year": 1985
-  },
-  {
-    "title": "The Marriage of Maria Braun",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/THE-MARRIAGE-OF-MARIA-BRAUN_4.jpg",
-    "directors": [
-      "Rainer Werner Fassbinder"
-    ],
-    "synopsis": "Introduction by filmmaker Neo Sora on Sunday, September 14th",
-    "year": 1979
-  },
-  {
-    "title": "Songs from the Second Floor",
-    "imageUrl": "https://metrograph.imgix.net/2023/12/songs-from-the-second-floor.jpg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Roy  Andersson"
-    ],
-    "synopsis": "Andersson’s triumphant return to feature filmmaking after a 25-year hiatus, Songs from the Second Floor focuses on a nearly bankrupt bookstore owner who, in the midst of an economic crisis, botches a plan to burn his shop down, precipitating an aimless,…",
-    "year": 2000
-  },
-  {
-    "title": "Riot in Cell Block 11",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/RIOT-IN-CELL-BLOCK-11_11.jpg",
-    "directors": [
-      "Don Siegel"
-    ],
-    "synopsis": "Producer Walter Wanger earned himself a stint at the County Honor Farm at Castaic after shooting agent Jennings Lang in the groin, suspecting an affair between Lang and his wife, actress Joan Bennett, and came out of the stir determined to make a film…",
-    "year": 1954
-  },
-  {
-    "title": "Invasion of the Body Snatchers",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/INVASION-OF-THE-BODY-SNATCHERS_2-scaled.jpg",
-    "directors": [
-      "Don Siegel"
-    ],
-    "synopsis": "Author Jack Finney deserves ample credit for the ingenious, paranoia-inducing concept of his 1955 novel The Body Snatchers—the citizens of a small California town are gradually replaced as they sleep by duplicates that gestate in alien seed pods, their…",
-    "year": 1956
-  },
-  {
     "title": "Nostalghia",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/02/NOSTALGHIA_4.jpeg",
     "directors": [
@@ -125,6 +16,15 @@
     ],
     "synopsis": "Tarkovsky’s penultimate film, and his first shot outside the USSR, channels the filmmaker’s own sense of displacement into the story of a homesick Russian poet (Oleg Yankovsky)—in Italy to do research on 18th-century Russian expatriate composer…",
     "year": 1983
+  },
+  {
+    "title": "Happyend",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/HAPPYEND_2.jpg",
+    "directors": [
+      "Neo Sora"
+    ],
+    "synopsis": "Q&As with director Neo Sora on Friday and Saturday and an introduction on Sunday.",
+    "year": 2024
   },
   {
     "title": "Made in Hong Kong",
@@ -145,6 +45,15 @@
     "year": 1982
   },
   {
+    "title": "Design for Living",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/DESIGN-FOR-LIVING_3.webp",
+    "directors": [
+      "Ernst Lubitsch"
+    ],
+    "synopsis": "Introduction by filmmaker Neo Sora on Friday, September 12th",
+    "year": 1933
+  },
+  {
     "title": "Days of Heaven",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/07/DAYS-OF-HEAVEN_1-copy.jpg",
     "directors": [
@@ -163,10 +72,19 @@
     "year": 1969
   },
   {
+    "title": "Madame Wang's",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/MADAME-WANGS_2.webp",
+    "directors": [
+      "Paul Morrissey"
+    ],
+    "synopsis": "Introduction by writer Nick Pinkerton on Saturday, September 6th",
+    "year": 1981
+  },
+  {
     "title": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
     "imageUrl": "https://metrograph.imgix.net/2022/05/privateevent.jpg?fm=pjpg&ixlib=php-3.3.1",
     "directors": [
-      "Jacques Deray"
+      "Paul Morrissey"
     ],
     "synopsis": "Please check back soon for updated showtimes!",
     "year": 2025
