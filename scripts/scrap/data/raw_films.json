@@ -1,23 +1,5 @@
 [
   {
-    "title": "Farewell My Concubine",
-    "imageUrl": "https://metrograph.imgix.net/2023/12/CIN_FarewellMyConcubine_1600x900.jpg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Kaige  Chen"
-    ],
-    "synopsis": "Art and life become inextricably entwined in Chen’s gorgeously arrayed triumph of costume and production design, an epic spanning 50 years of 20th-century Chinese history in the life of a troupe of Peking opera actors based on the 1985 Lilian Lee novel,…",
-    "year": 1993
-  },
-  {
-    "title": "Nostalghia",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/02/NOSTALGHIA_4.jpeg",
-    "directors": [
-      "Andrei Tarkovsky"
-    ],
-    "synopsis": "Tarkovsky’s penultimate film, and his first shot outside the USSR, channels the filmmaker’s own sense of displacement into the story of a homesick Russian poet (Oleg Yankovsky)—in Italy to do research on 18th-century Russian expatriate composer…",
-    "year": 1983
-  },
-  {
     "title": "Happyend",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/HAPPYEND_2.jpg",
     "directors": [
@@ -27,94 +9,13 @@
     "year": 2024
   },
   {
-    "title": "Made in Hong Kong",
-    "imageUrl": "https://metrograph.imgix.net/2020/11/MadeinHK_3.jpg?fm=pjpg&ixlib=php-3.3.1",
+    "title": "Love and Pop",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/07/LOVE-AND-POP_2.jpeg",
     "directors": [
-      "Fruit Chan"
+      "Hideaki Anno"
     ],
-    "synopsis": "The first independent film released in post-Handover Hong Kong, Chan’s atmospheric shoestring-budget character study is a rough-and-ready piece of work shot on grainy leftover 35mm short ends in the city’s overcrowded subsidized housing projects. The…",
-    "year": 1997
-  },
-  {
-    "title": "Forty Deuce",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/MSDFODE_EC007.jpeg",
-    "directors": [
-      "Paul Morrissey"
-    ],
-    "synopsis": "Introduction by filmmaker Michael M. Bilandic on Friday, September 12th",
-    "year": 1982
-  },
-  {
-    "title": "Design for Living",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/DESIGN-FOR-LIVING_3.webp",
-    "directors": [
-      "Ernst Lubitsch"
-    ],
-    "synopsis": "Introduction by filmmaker Neo Sora on Friday, September 12th",
-    "year": 1933
-  },
-  {
-    "title": "Days of Heaven",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/07/DAYS-OF-HEAVEN_1-copy.jpg",
-    "directors": [
-      "Terrence  Malick"
-    ],
-    "synopsis": "Richard Gere flees the factory floors of Chicago for the wheat fields of the Texas panhandle with his girlfriend (Brooke Adams) and kid sister (Linda Manz) in tow, only to find himself in a love triangle with gentleman farmer Sam Shepard. The second…",
-    "year": 1978
-  },
-  {
-    "title": "La Piscine",
-    "imageUrl": "https://metrograph.imgix.net/2022/07/LAPISCINE.jpeg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Jacques Deray"
-    ],
-    "synopsis": "It’s trouble in paradise when lovers Alain Delon and Romy Schneider’s poolside idyll at a St. Tropez villa is interrupted by the arrival of her ex, Maurice Ronet, and his rapidly maturing daughter, Jane Birkin. Beautiful people, ravishing landscapes,…",
-    "year": 1969
-  },
-  {
-    "title": "Madame Wang's",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/MADAME-WANGS_2.webp",
-    "directors": [
-      "Paul Morrissey"
-    ],
-    "synopsis": "Introduction by writer Nick Pinkerton on Saturday, September 6th",
-    "year": 1981
-  },
-  {
-    "title": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
-    "imageUrl": "https://metrograph.imgix.net/2022/05/privateevent.jpg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Paul Morrissey"
-    ],
-    "synopsis": "Please check back soon for updated showtimes!",
-    "year": 2025
-  },
-  {
-    "title": "The Conversation",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/01/THE-CONVERSATION_4-Large.jpeg",
-    "directors": [
-      "Francis Ford  Coppola"
-    ],
-    "synopsis": "Suffused in sorrow and creeping paranoia, Coppola’s Palme d’Or-winning follow-up to The Godfather stars Gene Hackman as Harry Caul, a solitary, guilt-gnawed San Francisco surveillance expert drawn into a murder mystery when one of his for-hire gigs…",
-    "year": 1974
-  },
-  {
-    "title": "Her",
-    "imageUrl": "https://metrograph.imgix.net/2023/12/her.jpg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Spike Jonze"
-    ],
-    "synopsis": "Recently divorced sad sack Theodore Twombly (Joaquin Phoenix), working as a personal letter writer for strangers in a Los Angeles of the not-too-distant future, discovers a new sense of purpose after acquiring an AI virtual assistant who speaks with the…",
-    "year": 2013
-  },
-  {
-    "title": "Hell Is For Heroes",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/HELL-IS-FOR-HEROES_9.jpeg",
-    "directors": [
-      "Don Siegel"
-    ],
-    "synopsis": "Months after D-Day but still a long way from the fall of Berlin, in autumn of 1944, a squad of US troops from the 95th Infantry Division—including sullen, submachine gun-toting supersoldier Steve McQueen, Bobby Darin, James Coburn, and Bob…",
-    "year": 1962
+    "synopsis": "Neon Genesis Evangelion creator Anno’s live-action feature debut, based on a novel by Ryū Murakami, the stylistically exuberant Love & Pop centers on Tokyo schoolgirl Hiromi (Asumi Miwa) and her three friends, all of whom have begun earning extra…",
+    "year": 1998
   },
   {
     "title": "Peacock",
@@ -122,128 +23,8 @@
     "directors": [
       "Bernhard Wenger"
     ],
-    "synopsis": "Wenger’s acidically funny, consistently unpredictable feature debut is a bittersweet satire starring Albrecht Schuch (All Quiet on the Western Front), in a role taking full advantage of his gift for physical comedy and capacity for pathos. As Matthias,…",
+    "synopsis": "Q&A with director Bernhard Wenger and actor Albrecht Schuch on September 19th, 20th, and 21st",
     "year": 2024
-  },
-  {
-    "title": "Gosford Park",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/GOSFORD-PARK_1-copy.jpg",
-    "directors": [
-      "Robert Altman"
-    ],
-    "synopsis": "Altman’s whodunit, set over a weekend of outdoor sport and lavish dinners at a c. 1932 English country estate, features a peerless ensemble cast (Helen Mirren, Alan Bates, Maggie Smith, and many, many more) coming together to portray the…",
-    "year": 2001
-  },
-  {
-    "title": "Institute Benjamenta, or This Dream That One...",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/INSTITUTE-BENJAMENTA_11-copy.jpg",
-    "directors": [
-      "Timothy Quay",
-      "Stephen  Quay"
-    ],
-    "synopsis": "Timothy and Stephen Quays’ first live-action feature, a free adaptation of Jakob von Gunten, the 1909 Bildungsroman by Swiss author Robert Walser, is a troubling work of oneiric cinema that garnered comparisons to early David Lynch. A young Mark Rylance…",
-    "year": 1995
-  },
-  {
-    "title": "East Palace, West Palace",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/EAST-PALACE-WEST-PALACE_1-copy.jpg",
-    "directors": [
-      "Zhang Yuan"
-    ],
-    "synopsis": "One of the first films from Mainland China to explore queer life, Zhang’s film revolves around a young gay writer who, pinched by police during a night raid in a Beijing park, recounts his troubled childhood, sexual awakening, and ongoing search for…",
-    "year": 1996
-  },
-  {
-    "title": "Saturday Afternoon Cartoons: School is Cool",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/Bobby-Bumps-Starts-to-School-desk-scene.jpeg",
-    "directors": [
-      "Multiple Dirs"
-    ],
-    "synopsis": "Saturday Afternoon Cartoons is New York City’s prime theatrical showcase of early and classic animated cartoons, shown in vintage 16mm film prints from the personal archives of historian Tommy José Stathes. Beginning more than 25 years ago as a casual…",
-    "year": 1950
-  },
-  {
-    "title": "The Double",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/THE-DOUBLE_6_resize.jpg",
-    "directors": [
-      "Richard  Ayoade"
-    ],
-    "synopsis": "Inspired by the Dostoyevsky novella of the same title, Ayoade’s noir-inflected sophomore feature gives a dead game Jesse Eisenberg not one but two juicy parts as both a mousy, long-overlooked office drone, Simon James, and his new colleague, the…",
-    "year": 2013
-  },
-  {
-    "title": "Lan Yu",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/LAN-YU_5.jpeg",
-    "directors": [
-      "Stanely  Kwan"
-    ],
-    "synopsis": "A taboo-buster in multiple regards from Kwan, Hong Kong’s first openly gay filmmaker of note, Lan Yu treads dangerous ground in both its explicit reference to the Tiananmen Square massacre and its focus on the powerful erotic frissons that develop…",
-    "year": 2001
-  },
-  {
-    "title": "The Gospel According to André",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/THE-GOSPEL-ACCORDING-TO-ANDRE_6.jpeg",
-    "directors": [
-      "Kate Novack"
-    ],
-    "synopsis": "Fashion Advocate Bethann Hardison in conversation with Series Curator Monica L. Miller on Saturday, September 20th",
-    "year": 2017
-  },
-  {
-    "title": "Atlantic Watch: Love + War",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/LoveWar-CK-0L4A3521-R.jpeg",
-    "directors": [
-      "Chai Vasarhelyi",
-      "Jimmy Chin"
-    ],
-    "synopsis": "Post-screening conversation with Pulitzer Prize–winning photographer, Lynsey Addario, and director, Chai Vasarhelyi",
-    "year": 2025
-  },
-  {
-    "title": "Black Is... Black Ain't",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/BLACK-IS.-BLACK-AINT_3-copy.jpg",
-    "directors": [
-      "Marlon Riggs"
-    ],
-    "synopsis": "Riggs was dead of complications of AIDS at age 37 before his final film had its much-praised theatrical rollout, his depiction of his own race against time to complete Black Is… Black Ain’t: one of the many threads making up the rich tapestry that is…",
-    "year": 1995
-  },
-  {
-    "title": "Realm of Satan",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/REALM-OF-SATAN_2-copy.jpg",
-    "directors": [
-      "Scott Cummings"
-    ],
-    "synopsis": "Q&A with director Scott Cummings moderated by filmmaker Tim Sutton on Saturday, September 20th",
-    "year": 2024
-  },
-  {
-    "title": "Looking for Langston + Dressed Like Kings",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/DRESSED-LIKE-KINGS_1-copy.jpg",
-    "directors": [
-      "Isaac Julien",
-      "Stacey Holman"
-    ],
-    "synopsis": "British artist Isaac Julien’s lyrical Looking for Langston fuses archival newsreel footage of 1920s Harlem with original scripted scenes shot in lush black-and-white, in order not only to recreate the atmosphere of the Harlem Renaissance as it exists in…",
-    "year": 1989
-  },
-  {
-    "title": "Ruggles of Red Gap",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/RUGGLES-OF-RED-GAP_1-copy.jpg",
-    "directors": [
-      "Leo  McCarey"
-    ],
-    "synopsis": "British butler Marmaduke Ruggles (Charles Laughton), gambled away by aristocrat owner Roland Young over a Paris poker table to nouveau riche hick Charlie Ruggles (purely coincidental), suddenly finds himself in the backwater of Red Gap, Washington State,…",
-    "year": 1935
-  },
-  {
-    "title": "Portrait of Jason",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/PORTRAIT-OF-JASON_4.jpeg",
-    "directors": [
-      "Shirley  Clarke"
-    ],
-    "synopsis": "A distillation of a single 12-hour interview in a room at the Chelsea Hotel with the charismatic Jason Holliday (“real” name Aaron Payne), a gay, African American cabaret dancer, part-time hustler, and full-time raconteur, Portrait of Jason grows from…",
-    "year": 1967
   },
   {
     "title": "My Man Godfrey",
@@ -255,7 +36,106 @@
     "year": 1936
   },
   {
-    "title": "Merry Christmas, Mr. Lawrence",
+    "title": "Nostalghia",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/02/NOSTALGHIA_4.jpeg",
+    "directors": [
+      "Andrei Tarkovsky"
+    ],
+    "synopsis": "Tarkovsky’s penultimate film, and his first shot outside the USSR, channels the filmmaker’s own sense of displacement into the story of a homesick Russian poet (Oleg Yankovsky)—in Italy to do research on 18th-century Russian expatriate composer…",
+    "year": 1983
+  },
+  {
+    "title": "Come Drink with Me",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/07/COME-DRINK-WITH-ME_4-copy.jpg",
+    "directors": [
+      "King Hu"
+    ],
+    "synopsis": "Hu singlehandedly revolutionized the wuxia film with this critical and popular sensation, employing silky smooth ’Scope cinematography inspired by Chinese scroll painting, kinetic camera movement, gravity-defying action choreography, and meticulous…",
+    "year": 1966
+  },
+  {
+    "title": "Apocalypse Now: Redux",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/07/APOCALYPSE-NOW-REDUX_3.jpeg",
+    "directors": [
+      "Francis Ford  Coppola"
+    ],
+    "synopsis": "Twenty-two years after emerging from the bush with his psychotropic, hallucinatory vision of the Vietnam War by way of Joseph Conrad and the lens of visionary cinematographer Vittorio Storaro, Coppola went upriver one more time on the hunt for his elusive…",
+    "year": 2001
+  },
+  {
+    "title": "Hell Is For Heroes",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/HELL-IS-FOR-HEROES_9.jpeg",
+    "directors": [
+      "Don Siegel"
+    ],
+    "synopsis": "Months after D-Day but still a long way from the fall of Berlin, in autumn of 1944, a squad of US troops from the 95th Infantry Division—including sullen, submachine gun-toting supersoldier Steve McQueen, Bobby Darin, James Coburn, and Bob…",
+    "year": 1962
+  },
+  {
+    "title": "All About Lily Chou-Chou",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/09/ALL-ABOUT-LILY-CHOU-CHOU_1.jpg",
+    "directors": [
+      "Shunji  Iwai"
+    ],
+    "synopsis": "Incredibly prescient in its understanding of how a still-young internet would fundamentally alter youth culture, Shunji’s film introduces Yuichi (Hayato Ichihara) in an ice field, the landscape gradually obscured by accreting chat room messages.…",
+    "year": 2001
+  },
+  {
+    "title": "Days of Heaven",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/07/DAYS-OF-HEAVEN_1-copy.jpg",
+    "directors": [
+      "Terrence  Malick"
+    ],
+    "synopsis": "Richard Gere flees the factory floors of Chicago for the wheat fields of the Texas panhandle with his girlfriend (Brooke Adams) and kid sister (Linda Manz) in tow, only to find himself in a love triangle with gentleman farmer Sam Shepard. The second…",
+    "year": 1978
+  },
+  {
+    "title": "Lan Yu",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/LAN-YU_5.jpeg",
+    "directors": [
+      "Stanely  Kwan"
+    ],
+    "synopsis": "A taboo-buster in multiple regards from Kwan, Hong Kong’s first openly gay filmmaker of note, Lan Yu treads dangerous ground in both its explicit reference to the Tiananmen Square massacre and its focus on the powerful erotic frissons that develop…",
+    "year": 2001
+  },
+  {
+    "title": "Ruggles of Red Gap",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/RUGGLES-OF-RED-GAP_1-copy.jpg",
+    "directors": [
+      "Leo  McCarey"
+    ],
+    "synopsis": "British butler Marmaduke Ruggles (Charles Laughton), gambled away by aristocrat owner Roland Young over a Paris poker table to nouveau riche hick Charlie Ruggles (purely coincidental), suddenly finds himself in the backwater of Red Gap, Washington State,…",
+    "year": 1935
+  },
+  {
+    "title": "Her",
+    "imageUrl": "https://metrograph.imgix.net/2023/12/her.jpg?fm=pjpg&ixlib=php-3.3.1",
+    "directors": [
+      "Spike Jonze"
+    ],
+    "synopsis": "Recently divorced sad sack Theodore Twombly (Joaquin Phoenix), working as a personal letter writer for strangers in a Los Angeles of the not-too-distant future, discovers a new sense of purpose after acquiring an AI virtual assistant who speaks with the…",
+    "year": 2013
+  },
+  {
+    "title": "La Piscine",
+    "imageUrl": "https://metrograph.imgix.net/2022/07/LAPISCINE.jpeg?fm=pjpg&ixlib=php-3.3.1",
+    "directors": [
+      "Jacques Deray"
+    ],
+    "synopsis": "It’s trouble in paradise when lovers Alain Delon and Romy Schneider’s poolside idyll at a St. Tropez villa is interrupted by the arrival of her ex, Maurice Ronet, and his rapidly maturing daughter, Jane Birkin. Beautiful people, ravishing landscapes,…",
+    "year": 1969
+  },
+  {
+    "title": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
+    "imageUrl": "https://metrograph.imgix.net/2022/05/privateevent.jpg?fm=pjpg&ixlib=php-3.3.1",
+    "directors": [
+      "Jacques Deray"
+    ],
+    "synopsis": "Please check back soon for updated showtimes!",
+    "year": 2025
+  },
+  {
+    "title": "Merry Christmas  Mr. Lawrence",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/MERRY-CHRISTMAS-MR.-LAWRENCE_6.jpeg",
     "directors": [
       "Nagisa  Ôshima"
@@ -291,6 +171,25 @@
     "year": 1970
   },
   {
+    "title": "The Conversation",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/01/THE-CONVERSATION_4-Large.jpeg",
+    "directors": [
+      "Francis Ford  Coppola"
+    ],
+    "synopsis": "Suffused in sorrow and creeping paranoia, Coppola’s Palme d’Or-winning follow-up to The Godfather stars Gene Hackman as Harry Caul, a solitary, guilt-gnawed San Francisco surveillance expert drawn into a murder mystery when one of his for-hire gigs…",
+    "year": 1974
+  },
+  {
+    "title": "Institute Benjamenta  or This Dream That One...",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/INSTITUTE-BENJAMENTA_11-copy.jpg",
+    "directors": [
+      "Timothy Quay",
+      "Stephen  Quay"
+    ],
+    "synopsis": "Timothy and Stephen Quays’ first live-action feature, a free adaptation of Jakob von Gunten, the 1909 Bildungsroman by Swiss author Robert Walser, is a troubling work of oneiric cinema that garnered comparisons to early David Lynch. A young Mark Rylance…",
+    "year": 1995
+  },
+  {
     "title": "The Handmaiden",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/THE-HANDMAIDEN_2-copy.jpg",
     "directors": [
@@ -307,6 +206,24 @@
     ],
     "synopsis": "The seemingly disparate sensibilities of sentimentalist Steven Spielberg and chilly ironist Stanley Kubrick, who left this science fiction Pinocchio story unrealized at the time of his death, here achieve an unexpected harmony. Haley Joel Osment plays a…",
     "year": 2001
+  },
+  {
+    "title": "Gosford Park",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/GOSFORD-PARK_1-copy.jpg",
+    "directors": [
+      "Robert Altman"
+    ],
+    "synopsis": "Altman’s whodunit, set over a weekend of outdoor sport and lavish dinners at a c. 1932 English country estate, features a peerless ensemble cast (Helen Mirren, Alan Bates, Maggie Smith, and many, many more) coming together to portray the…",
+    "year": 2001
+  },
+  {
+    "title": "East Palace  West Palace",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/EAST-PALACE-WEST-PALACE_1-copy.jpg",
+    "directors": [
+      "Zhang Yuan"
+    ],
+    "synopsis": "One of the first films from Mainland China to explore queer life, Zhang’s film revolves around a young gay writer who, pinched by police during a night raid in a Beijing park, recounts his troubled childhood, sexual awakening, and ongoing search for…",
+    "year": 1996
   },
   {
     "title": "Holy Spider",
@@ -390,6 +307,70 @@
     ],
     "synopsis": "Amir’s feature directorial debut, made in collaboration with Guy Nattiv—the first feature film co-directed by an Iranian and an Israeli filmmaker—is a potent mixture of political thriller and old-fashioned never-say-die sports drama (in black and…",
     "year": 2023
+  },
+  {
+    "title": "The Trial",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/THE-TRIAL_9.jpeg",
+    "directors": [
+      "Orson Welles"
+    ],
+    "synopsis": "Welles’s fever dream adaptation of Franz Kafka’s posthumously published 1925 novel of the same name opens with the director narrating the author’s parable “Before the Law” over pinscreen scenes created by artists Alexandre Alexeieff and Claire…",
+    "year": 1962
+  },
+  {
+    "title": "Riot in Cell Block 11",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/RIOT-IN-CELL-BLOCK-11_11.jpg",
+    "directors": [
+      "Don Siegel"
+    ],
+    "synopsis": "Producer Walter Wanger earned himself a stint at the County Honor Farm at Castaic after shooting agent Jennings Lang in the groin, suspecting an affair between Lang and his wife, actress Joan Bennett, and came out of the stir determined to make a film…",
+    "year": 1954
+  },
+  {
+    "title": "Days",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/DAYS_5.jpg",
+    "directors": [
+      "Tsai Ming-liang"
+    ],
+    "synopsis": "Tsai’s gradual refinement of his cinema to bare essentials reaches a new level of rhapsodic serenity in Days, in which the parallel narratives of a middle-aged man seeking treatment for a chronic illness in Hong Kong (Lee Kang-sheng) and a Laotian…",
+    "year": 2020
+  },
+  {
+    "title": "The Matrix",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/05/THE-MATRIX_6-copy.jpg",
+    "directors": [
+      "Lilly  Wachowski",
+      "Lana  Wachowski"
+    ],
+    "synopsis": "Keanu Reeves’s cubicle drone/hacker Neo gets a rude awakening, discovering that the real world he knows is a shared hallucination and that humankind are being harvested for bioelectricity by their machine overlords. A watershed movie, not only for the…",
+    "year": 1999
+  },
+  {
+    "title": "Invasion of the Body Snatchers",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/INVASION-OF-THE-BODY-SNATCHERS_2-scaled.jpg",
+    "directors": [
+      "Don Siegel"
+    ],
+    "synopsis": "Author Jack Finney deserves ample credit for the ingenious, paranoia-inducing concept of his 1955 novel The Body Snatchers—the citizens of a small California town are gradually replaced as they sleep by duplicates that gestate in alien seed pods, their…",
+    "year": 1956
+  },
+  {
+    "title": "The Double",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/THE-DOUBLE_6_resize.jpg",
+    "directors": [
+      "Richard  Ayoade"
+    ],
+    "synopsis": "Inspired by the Dostoyevsky novella of the same title, Ayoade’s noir-inflected sophomore feature gives a dead game Jesse Eisenberg not one but two juicy parts as both a mousy, long-overlooked office drone, Simon James, and his new colleague, the…",
+    "year": 2013
+  },
+  {
+    "title": "Farewell My Concubine",
+    "imageUrl": "https://metrograph.imgix.net/2023/12/CIN_FarewellMyConcubine_1600x900.jpg?fm=pjpg&ixlib=php-3.3.1",
+    "directors": [
+      "Kaige  Chen"
+    ],
+    "synopsis": "Art and life become inextricably entwined in Chen’s gorgeously arrayed triumph of costume and production design, an epic spanning 50 years of 20th-century Chinese history in the life of a troupe of Peking opera actors based on the 1985 Lilian Lee novel,…",
+    "year": 1993
   },
   {
     "title": "The Godfather",
@@ -687,5 +668,189 @@
     ],
     "synopsis": "Introduction by filmmaker Sarah Friedland on Sunday, October 12th",
     "year": 1952
+  },
+  {
+    "title": "Poetry",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/02/poetry.jpg",
+    "directors": [
+      "Lee  Chang-dong"
+    ],
+    "synopsis": "Mija (Yun Jung-hee) has been tasked with raising her troubled teenaged grandson, Jong-wook, while her daughter, Jong-wook’s single mother, works in far-off Busan. When her capacity as a caregiver is threatened by a diagnosis of Alzheimer’s, Mija…",
+    "year": 2010
+  },
+  {
+    "title": "This Is Not A Burial  It's A Resurrection",
+    "imageUrl": "https://metrograph.imgix.net/2023/12/this-is-not-a-burial416x9.jpg?fm=pjpg&ixlib=php-3.3.1",
+    "directors": [
+      "Lemohang  Jeremiah Mosese"
+    ],
+    "synopsis": "A poetic contemplation on death, tradition, and the sacrifices made in the name of progress. Stricken with grief and solitude after losing her husband and children, the elderly Mantoa (Mary Twala Mhlongo) readies herself for death, seeking burial…",
+    "year": 2019
+  },
+  {
+    "title": "23",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/23.jpeg",
+    "directors": [
+      "Hans-Christian  Schmid"
+    ],
+    "synopsis": "Schmid spins a cracking thriller out of the real case of Karl Koch, aka “hagbard,” a West German hacker prodigy who put his talents to use for the KGB in the waning years of the Cold War, the circumstances surrounding his death in 1989 at age…",
+    "year": 1998
+  },
+  {
+    "title": "The Little Girl of Hanoi",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/LittleGirlfromHanoi1.jpg",
+    "directors": [
+      "Hải Ninh"
+    ],
+    "synopsis": "“In the aftermath of the ‘Christmas bombing’ of Hanoi in December 1972, young Ngọc Hà (Lan Hương) searches through the city’s rubble for her missing family. Shot in neorealist style by Hải Ninh, a graduate of the first directing class of…",
+    "year": 1974
+  },
+  {
+    "title": "WarGames",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/WAR-GAMES_1.jpeg",
+    "directors": [
+      "John Badham"
+    ],
+    "synopsis": "Long before hacktivism and computer counterintelligence were routine news items, there was WarGames. Matthew Broderick’s teen hacker accesses what he believes is a new game called “Global Thermonuclear War” and unwittingly triggers World War III, in…",
+    "year": 1984
+  },
+  {
+    "title": "Cairo Station + Cairo As Seen by Chahine",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/CAIRO-STATION_3.jpeg",
+    "directors": [
+      "Youssef Chahine"
+    ],
+    "synopsis": "Introduction by Alia Ayman on Friday, October 17th",
+    "year": 1958
+  },
+  {
+    "title": "Happy Together",
+    "imageUrl": "https://metrograph.imgix.net/2023/01/happy-together.jpeg?fm=pjpg&ixlib=php-3.3.1",
+    "directors": [
+      "Wong Kar-wai"
+    ],
+    "synopsis": "Hong Kong cinema superstars Tony Leung and Leslie Cheung play a pair of lovers living out the waning days of their relationship as expatriates in Buenos Aires. Lusty tango bars, the salsa music of the La Boca sidewalks, and a hypnotic visit to the nearby…",
+    "year": 1997
+  },
+  {
+    "title": "Touch of Evil (1998 Reconstruction)",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/TOUCH-OF-EVIL_2-copy.jpg",
+    "directors": [
+      "Orson Welles"
+    ],
+    "synopsis": "A movie you could use to explain the concept of great cinema to a visiting Martian, Welles’s Hollywood homecoming after several years spent in Europe, an acrid late film noir with the seediest black-and-white cinematography you’ve ever seen, features…",
+    "year": 1958
+  },
+  {
+    "title": "Ombres de Soie + Labyrinthe + A Very Easy Death",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/O-de-S-13.jpeg",
+    "directors": [
+      "Mary Stephen"
+    ],
+    "synopsis": "Summoning up a remarkably convincing 1930s Shanghai in the Paris of the late ’70s, Stephen’s feature debut, the seductively dreamlike, exquisitely composed Ombres de Soie, charts the shifting (and ambiguous) dynamics between two women whose lingering…",
+    "year": 1973
+  },
+  {
+    "title": "On the Same River",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/ON-THE-SAME-RIVER_1-copy.jpg",
+    "directors": [
+      "Phạm Kỳ Nam",
+      "Nguyễn Hồng Nghi"
+    ],
+    "synopsis": "“The first feature from Vietnam Feature Film Studio follows lovers Hoài, a guerilla fighter from the North, and Vận, a young woman from the South, during the war against the French. Their romance becomes a casualty of partition when the country is…",
+    "year": 1959
+  },
+  {
+    "title": "Hanoi Through Whose Eyes?",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/image-w1280-copy.jpg",
+    "directors": [
+      "Lê Minh Hiền",
+      "Trương Qua",
+      "Ngô Mạnh Lân",
+      "Trần Văn Thuỷ"
+    ],
+    "synopsis": "“Commissioned to create a tourism film celebrating Hanoi’s attractions, Trần Văn Thuỷ instead made Hanoi Through Whose Eyes?, a melancholic meditation on the capital, considering official narratives of ancient elegance alongside the reality of…",
+    "year": 1959
+  },
+  {
+    "title": "Past Lives",
+    "imageUrl": "https://metrograph.imgix.net/2023/07/PastLives_Still268_R.jpg?fm=pjpg&ixlib=php-3.3.1",
+    "directors": [
+      "Celine  Song"
+    ],
+    "synopsis": "Q&A with production designer Grace Yun on Saturday, October 18th",
+    "year": 2023
+  },
+  {
+    "title": "Hereditary",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/HEREDITARY_5-copy.jpg",
+    "directors": [
+      "Ari Aster"
+    ],
+    "synopsis": "Introduction by production designer Grace Yun on Saturday, October 18th",
+    "year": 2018
+  },
+  {
+    "title": "Goodbye  Dragon Inn",
+    "imageUrl": "https://metrograph.imgix.net/2020/11/GOOD-BYE-DRAGON-INN-04.jpg?fm=pjpg&ixlib=php-3.3.1",
+    "directors": [
+      "Tsai Ming-liang"
+    ],
+    "synopsis": "The Fu-Ho Grand, a movie palace in Taipei, is closing its doors. Its valedictory screening: King\r…",
+    "year": 2003
+  },
+  {
+    "title": "Art Cinema for Tots: Up in the Air",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/THE-RED-BALLOON_3.jpeg",
+    "directors": [
+      "Multiple Dirs"
+    ],
+    "synopsis": "Born out of a commitment to the idea that it’s never too early to introduce kids to the pleasures of movies made outside of the commercial mainstream—and the suspicion that young audiences are often more open-minded and curious than their elders when…",
+    "year": 1965
+  },
+  {
+    "title": "The Death of Mr. Lazarescu",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/THE-DEATH-OF-MR.-LAZARESCU_2.jpeg",
+    "directors": [
+      "Cristi Puiu"
+    ],
+    "synopsis": "Responsible more than any other film for establishing Romanian film as a force to be reckoned with on the international stage with its lauded Cannes premiere, Puiu’s second feature, shot in a perfect simulacra of in-the-moment vérité style, is a…",
+    "year": 2005
+  },
+  {
+    "title": "Alexandria... Why?",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/ALEXANDRIA.-WHY.jpg",
+    "directors": [
+      "Youssef Chahine"
+    ],
+    "synopsis": "Introduction by Alia Ayman on Sunday, October 19th",
+    "year": 1979
+  },
+  {
+    "title": "An Egyptian Story",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/AN-EGYPTIAN-STORY.jpg",
+    "directors": [
+      "Youssef Chahine"
+    ],
+    "synopsis": "Introduction by Alia Ayman on Sunday, October 19th",
+    "year": 1982
+  },
+  {
+    "title": "Escape from Alcatraz",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/Escape-from-Alcatraz.jpeg",
+    "directors": [
+      "Don Siegel"
+    ],
+    "synopsis": "Siegel’s fifth and final teaming with star Clint Eastwood, by then an established director in his own right, is the closest an American prison break thriller ever came to the absorbing, process-driven, largely dialogue-free approach to the subject…",
+    "year": 1979
+  },
+  {
+    "title": "Alexandria: Again and Forever",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/ALEXANDRIA-AGAIN-AND-FOREVER.jpg",
+    "directors": [
+      "Youssef Chahine"
+    ],
+    "synopsis": "The third entry in Chahine’s autobiographical Alexandria Tetralogy finds Yehia (played, again, by Chahine himself) enjoying new international recognition but at another personal crossroads: at loggerheads with his favorite actor, Amr (Amr Abdel Gelil);…",
+    "year": 1989
   }
 ]
