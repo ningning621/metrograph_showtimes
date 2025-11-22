@@ -99,24 +99,28 @@ def add_events_to_films():
     # Create a dictionary indexed by title for O(1) lookups
     films_by_title = {film["title"]: film for film in parsed_films}
     
-    # Add events to matching films
+    # Add event description and time_date to matching films
     for event in raw_events:
         if event["title"] in films_by_title:
-            if "events" not in films_by_title[event["title"]]:
-                films_by_title[event["title"]]["events"] = []
-            films_by_title[event["title"]]["events"].append(event)
-    
+            # Add event description and time as separate fields
+            films_by_title[event["title"]]["event_description"] = event["description"]
+            films_by_title[event["title"]]["event_time_date"] = event["time_date"]
+        
     # Convert films_by_title back to list for output
     films_with_events = list(films_by_title.values())
     
-    # Write to JSON (better for nested data structures)
-    with open("./scripts/scrap/data/parsed_films_with_events.json", "w", encoding="utf-8") as f:
-        json.dump(films_with_events, f, ensure_ascii=False, indent=2)
+    # Write to CSV with event fields as separate columns
+    with open("./src/lib/data/films.csv", "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating", "event_description", "event_time_date"])
+        writer.writeheader()
+        
+        for film in films_with_events:
+            # Ensure event fields exist (empty string if no event)
+            film.setdefault("event_description", "")
+            film.setdefault("event_time_date", "")
+            writer.writerow(film)
     
-    print(f"✅ Finish adding events to films - {len(films_with_events)} films processed")
-    
-    return films_with_events
-    
+    print("3️⃣ Finish writing events to file")
 
 def get_metrograph_films(isLocal: bool):
     print("0️⃣ Starting film scraping work")
