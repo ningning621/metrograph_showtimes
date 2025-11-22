@@ -26,6 +26,16 @@ publisher:
 author:
   name: Lesley Huang
   url: https://lesleyhuang.com
+image:
+  alt: Metrograph Weekly - NYC film schedule with Letterboxd ratings
+  large:
+    src: https://metrograph.lesleyhuang.com/madeinhk.jpg
+    width: 1200
+    height: 630
+  small:
+    src: https://metrograph.lesleyhuang.com/madeinhk.jpg
+    width: 1012
+    height: 506
 colors:
   background: '#ffffff'
   theme: '#ffffff'
