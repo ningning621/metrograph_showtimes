@@ -207,7 +207,10 @@ def parse_letterboxd():
         "preceded by",
         "presents:",
         "short film program",
-        "shorts program"
+        "shorts program",
+        "commissary closed",
+        "part 1",
+        "part 2"
     ]
 
     print(f"4️⃣ Start parsing film info: {len(parsed_films)} films")

@@ -1,8 +1,7 @@
 import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
-import { PASSWORD } from '$env/static/private';
 import site from '$lib/site.yaml';
 
-export const prerender = !PASSWORD;
+export const prerender = true;
 export const trailingSlash = 'never';
 
 injectSpeedInsights();
