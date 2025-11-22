@@ -207,6 +207,7 @@ def parse_letterboxd():
         "preceded by",
         "presents:",
         "short film program",
+        "shorts program"
     ]
 
     print(f"4️⃣ Start parsing film info: {len(parsed_films)} films")
@@ -259,7 +260,7 @@ def parse_letterboxd():
         writer.writerows(done_films)
 
     with open("./scripts/scrap/data/skipped_films.csv", "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis",])
+        writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis", "letterboxd_url"], extrasaction='ignore')
         writer.writeheader()
         writer.writerows(skipped_films)
     

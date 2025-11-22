@@ -4,7 +4,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev --host",
-		"build": "pnpm fetch:airtable && vite build",
+		"build": "vite build",
 		"preview": "vite preview --host",
 		"fetch:doc": "node scripts/fetch/doc.js",
 		"fetch:sheet": "node scripts/fetch/sheet.js",
