@@ -2,843 +2,649 @@
   {
     "title": "Angel's Egg",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/ANGELS-EGG_1.jpeg",
-    "directors": [
-      "Mamoru  Oshii"
-    ],
+    "directors": "['Mamoru  Oshii']",
     "synopsis": "Made in collaboration with storied illustrator Yoshitaka Amano (Final Fantasy), Oshii’s lyrical animated allegory, rich in Biblical allusions and parsimonious in spoken dialogue, follows a young girl traveling through the ruins of a post-apocalyptic…",
-    "year": 1985
+    "year": "1985",
+    "rating": "4.1"
   },
   {
     "title": "Nomad",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/NOMAD_2-copy.jpg",
-    "directors": [
-      "Patrick Tam"
-    ],
+    "directors": "['Patrick Tam']",
     "synopsis": "A key text of the Hong Kong New Wave, the sophomore feature by Tam—later to become a mentor figure to a young Wong Kar-wai, whose regular art director William Chang contributes high-style work here—is a plangent portrait of teenage malaise starring…",
-    "year": 1982
+    "year": "1982",
+    "rating": "3.8"
   },
   {
     "title": "Mean Streets",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/MEAN-STREETS_1.jpeg",
-    "directors": [
-      "Martin Scorsese"
-    ],
+    "directors": "['Martin Scorsese']",
     "synopsis": "“You don’t make up for your sins in church. You do it in the streets. You do it at home. The rest is bullshit and you know it.” With these words, and the “Bum-ba-bum-BOOM” drum intro of The Ronettes’ “Be My Baby,” the first Scorsese film…",
-    "year": 1973
+    "year": "1973",
+    "rating": "3.7"
   },
   {
     "title": "I'm Not Everything I Want to Be",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/IM-NOT-EVERYTHING._3.jpeg",
-    "directors": [
-      "Klára Tasovská"
-    ],
+    "directors": "['Klára Tasovská']",
     "synopsis": "Q&A with director Klára Tasovská, producer Lukáš Kokeš, and photographer Libuše Jarcovjáková on Friday, November 7th, Saturday, November 8th, and Sunday November 9th",
-    "year": 2024
+    "year": "2024",
+    "rating": "4.1"
   },
   {
     "title": "Trouble Every Day",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/TROUBLE-EVERY-DAY_3-copy.jpg",
-    "directors": [
-      "Claire Denis"
-    ],
+    "directors": "['Claire Denis']",
     "synopsis": "An abattoir-gory work festering with blighted sexuality, Trouble Every Day shocked audiences at its 2001 Cannes Film Festival debut with its graphic depiction of carnal hunger as a cannibalistic disease. American newlyweds Shane and June Brown (Vincent…",
-    "year": 2001
+    "year": "2001",
+    "rating": "3.4"
   },
   {
     "title": "Mad Max Beyond Thunderdome",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/MAD-MAX-BEYOND-THUNDERDOME_2-copy.jpg",
-    "directors": [
-      "George  Miller",
-      "George Ogilivie"
-    ],
+    "directors": "['George  Miller', 'George Ogilivie']",
     "synopsis": "Turner, in the middle of an ’80s career renaissance following the release of her album Private Dancer and its Grammy Record of the Year–winning single “What’s Love Got to Do with It,” took a trip to the Antipodes to play Aunty Entity, the…",
-    "year": 1985
-  },
-  {
-    "title": "Speed [4K DCP]",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/SPEED_3.webp",
-    "directors": [
-      "Jan de Bont"
-    ],
-    "synopsis": "Screenwriter Graham Yost supplied the delicious premise (a city bus is carrying a bomb rigged to go off if its speedometer drops below 50 miles per hour); cinematographer-turned-director De Bont, the nonstop demoniac action; Dennis Hopper, the…",
-    "year": 1994
+    "year": "1985",
+    "rating": "3.0"
   },
   {
     "title": "Bill & Ted's Excellent Adventure",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/BILL-TEDS-EXCELLENT-ADVENTURE_1.jpeg",
-    "directors": [
-      "Stephen Herek"
-    ],
+    "directors": "['Stephen Herek']",
     "synopsis": "Keanu Reeves had his breakout role as Ted “Theodore” Logan, one half of the titular duo of time-traveling slackers alongside Alex Winter’s Bill S. Preston, Esq., in Herek’s endearingly goofy-sweet sci-fi comedy about two San Dimas, California high…",
-    "year": 1989
+    "year": "1989",
+    "rating": "3.7"
   },
   {
     "title": "Stalker",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/STALKER_6.jpeg",
-    "directors": [
-      "Andrei Tarkovsky"
-    ],
+    "directors": "['Andrei Tarkovsky']",
     "synopsis": "Tarkovsky’s stunning, haunted sepia-toned sci-fi masterpiece follows a scientist and a writer who, living in a broken-down totalitarian dystopia, recruit the help of a “Stalker”—a kind of post-apocalyptic Sherpa—to guide them on a voyage of…",
-    "year": 1979
-  },
-  {
-    "title": "Kleber Mendonça Filho Shorts Program",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/GREEN-VINYL_1-copy.jpg",
-    "directors": [
-      "Kleber Mendonça Filho"
-    ],
-    "synopsis": "A program of Mendonça Filho’s rarely screened shorts. Includes Green Vinyl, a dark fairy tale in which a girl receives a box of colorful children’s records from her mother, one of them imbued with the sinister air of forbidden fruit;…",
-    "year": 2005
+    "year": "1979",
+    "rating": "4.4"
   },
   {
     "title": "Daughter's Daughter",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/DAUGHTERS-DAUGHTER_5.jpeg",
-    "directors": [
-      "Huang Xi"
-    ],
+    "directors": "['Huang Xi']",
     "synopsis": "Introductions by FIlmHub NYC, Accent Society, and CineCina Film Festival on Friday, November 21st, Saturday, November 22nd, and Sunday, November 23rd",
-    "year": 2024
+    "year": "2024",
+    "rating": "4.2"
   },
   {
     "title": "Bacurau",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/BACURAU_3.jpeg",
-    "directors": [
-      "Kleber Mendonça Filho",
-      "Juliano Dornelles"
-    ],
+    "directors": "['Kleber Mendonça Filho', 'Juliano Dornelles']",
     "synopsis": "Winner of the Jury Prize at the 2019 Cannes Film Festival, Mendonça Filho and Dornelles’s Bacurau is a gripping slow-burn action-thriller that follows the strange goings-on in a village in the remote, arid Brazilian sertão following the death of its…",
-    "year": 2019
+    "year": "2019",
+    "rating": "3.9"
   },
   {
     "title": "The Red Spectacles",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/RED-SPECTACLES_1-copy.jpg",
-    "directors": [
-      "Mamoru  Oshii"
-    ],
+    "directors": "['Mamoru  Oshii']",
     "synopsis": "Though Oshii is more widely known as one of the titans of Japanese anime, with classics like Ghost in the Shell (1995) and Jin-Roh: The Wolf Brigade (1999) to his name, his excursions into live-action filmmaking are no less distinguished, as is attested…",
-    "year": 1987
+    "year": "1987",
+    "rating": "3.7"
   },
   {
     "title": "Dangerous Game",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/DANGEROUS-GAME_2-copy.jpg",
-    "directors": [
-      "Abel Ferrara"
-    ],
+    "directors": "['Abel Ferrara']",
     "synopsis": "The most daring role of Madonna’s film career and the first movie produced by her production company Maverick, Ferrara’s underrated masterpiece was pulled after only one week at the Art Greenwich Twin, despite Janet Maslin’s compliment that…",
-    "year": 1993
+    "year": "1993",
+    "rating": "3.5"
   },
   {
     "title": "Mirror",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/MIRROR_9.jpeg",
-    "directors": [
-      "Andrei Tarkovsky"
-    ],
+    "directors": "['Andrei Tarkovsky']",
     "synopsis": "Integrating original footage shot in both color and black and white, shard-like splinters of scenes whose significance isn’t always immediately evident, cryptically oneiric images, and even historical documentary footage, Tarkovsky’s transcendent epic…",
-    "year": 1975
+    "year": "1975",
+    "rating": "4.3"
   },
   {
     "title": "Pictures of Ghosts",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/PICTURES-OF-GHOSTS_1.jpeg",
-    "directors": [
-      "Kleber Mendonça Filho"
-    ],
+    "directors": "['Kleber Mendonça Filho']",
     "synopsis": "A film that functions as a kind of memoir/essay film companion piece to The Secret Agent, with the later film’s loving evocation of the largely disappeared Recife movie palaces remembered from Mendonça Filho’s youth, the diptych Pictures of Ghosts…",
-    "year": 2023
+    "year": "2023",
+    "rating": "3.9"
   },
   {
     "title": "Neighboring Sounds",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/NEIGHBORING-SOUNDS_1.jpeg",
-    "directors": [
-      "Kleber Mendonça Filho"
-    ],
+    "directors": "['Kleber Mendonça Filho']",
     "synopsis": "Q&A with director Kleber Mendonça Filho moderated by Dennis Lim, Artistic Director of the NYFF, on Saturday, November 22nd",
-    "year": 2012
-  },
-  {
-    "title": "Around Ludlow: Henry Street Settlement Movie Club",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/Summer-On-Henry-Street-1.jpeg",
-    "directors": [
-      "Multiple Dirs"
-    ],
-    "synopsis": "Q&A with Michael Jacobsohn, Jose Peppy Rivera, and Ted Glass moderated by Ali Rosa-Salas, Director of Abrons Art Center on Saturday, November 22nd",
-    "year": 1970
-  },
-  {
-    "title": "Members Only: The Secret Agent",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-SECRET-AGENT_01.jpg",
-    "directors": [
-      "Kleber Mendonça Filho"
-    ],
-    "synopsis": "Q&A with director Kleber Mendonça Filho, actor Wagner Moura, and producer Emilie Lesclaux on Saturday, November 22nd",
-    "year": 2025
+    "year": "2012",
+    "rating": "3.8",
+    "events": [
+      {
+        "title": "Neighboring Sounds",
+        "directors": "Kleber Mendonça Filho",
+        "description": "Q&A with director Kleber Mendonça Filho moderated by Dennis Lim, Artistic Director of the NYFF, on Saturday, November 22nd",
+        "time_date": "Saturday November 22, 1:15pm"
+      }
+    ]
   },
   {
     "title": "Inflatable Sex Doll of the Wastelands",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/INFLATABLE-SEX-DOLL._1.jpeg",
-    "directors": [
-      "Atsushi Yamatoya"
-    ],
+    "directors": "['Atsushi Yamatoya']",
     "synopsis": "Yamatoya, co-writer of Seijun Suzuki’s Branded to Kill, released the same year, used his occasional forays into directing softcore Pink films as theaters for formal experimentation, a propensity much in evidence in this gonzo down-and-dirty yarn about a…",
-    "year": 1967
+    "year": "1967",
+    "rating": "3.3"
   },
   {
     "title": "L'intrus",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/LINTRUS_4.jpeg",
-    "directors": [
-      "Claire Denis"
-    ],
+    "directors": "['Claire Denis']",
     "synopsis": "One of Denis’s most ambitious, complicated, and exhilaratingly daring films charts an itinerary traveling from the snowy Alps to Korea to Tahiti, following an old mercenary (Michel Subor, from Le petit soldat and Beau travail) in search of both a heart…",
-    "year": 2004
+    "year": "2004",
+    "rating": "3.7"
   },
   {
     "title": "Possession",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2024/11/FILM.00_31_13_18.Still012-1.jpg",
-    "directors": [
-      "Andrzej  Żuławski"
-    ],
+    "directors": "['Andrzej  Żuławski']",
     "synopsis": "Easily the most harrowing divorce drama ever made, Zuławski’s one-of-a-kind genre pastiche has spy Sam Neill returning to his Berlin home from a mission abroad to discover that wife Isabelle Adjani wants suddenly to split up. Launching an investigation…",
-    "year": 1981
-  },
-  {
-    "title": "Speed [35mm]",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/SPEED_6-copy.jpg",
-    "directors": [
-      "Jan de Bont"
-    ],
-    "synopsis": "Screenwriter Graham Yost supplied the delicious premise (a city bus is carrying a bomb rigged to go off if its speedometer drops below 50 miles per hour); cinematographer-turned-director De Bont, the nonstop demoniac action; Dennis Hopper, the…",
-    "year": 1994
-  },
-  {
-    "title": "My Friend Ivan Lapshin",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/MY-FRIEND-IVAN-LAPSHIN_2-copy-3.jpg",
-    "directors": [
-      "Aleksei German"
-    ],
-    "synopsis": "Adapted from short stories written by the director’s father, the popular writer Yuri German, My Friend Ivan Lapshin features a present-day narrator looking back on a youth spent in a communal apartment in the fictional city of Unchansk circa 1935, when…",
-    "year": 1984
-  },
-  {
-    "title": "Evening News",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/Evening-News.jpg",
-    "directors": [
-      "Lee Mi-mi"
-    ],
-    "synopsis": "A sensitive drama addressing the insoluble dilemmas faced in choosing between work and family life by Taipei career women at the beginning of the ’80s, Evening News, the second film in Lee’s newly restored Taiwanese Urban Female trilogy, begins with…",
-    "year": 1981
-  },
-  {
-    "title": "Unmarried Mothers",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/Unmarried-Mothers.jpg",
-    "directors": [
-      "Lee Mi-mi"
-    ],
-    "synopsis": "Sent to a maternity home for unattached pregnant women, most of whom have been shipped there by mortified parents hoping to hide their family shame from the world until the unwanted child is delivered and disposed of through adoption, Hsiao-Peng (Hwa…",
-    "year": 1980
+    "year": "1981",
+    "rating": "4.0"
   },
   {
     "title": "Girls' School",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/GIRLS-SCHOOL_1.jpg",
-    "directors": [
-      "Lee Mi-mi"
-    ],
+    "directors": "['Lee Mi-mi']",
     "synopsis": "Best friends Chih-ting and Chia-lin (Tien Niu and Jean Shen), classmates at an all-girls high school, find themselves the subjects of unwanted scrutiny when a rumor begins making the rounds that the inseparable duo are in fact a couple in this, the final…",
-    "year": 1982
-  },
-  {
-    "title": "Earth featuring an Original Score by DakhaBrakha",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/EARTH_preferred.jpeg",
-    "directors": [
-      "Oleksandr Dovzhenko"
-    ],
-    "synopsis": "Pre-screening performance by polyphonic folk choir, Ukrainian Village Voices on Saturday, November 8th",
-    "year": 1930
+    "year": "1982",
+    "rating": "3.3"
   },
   {
     "title": "La Chinoise",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/LA-CHINOISE_7.jpg",
-    "directors": [
-      "Jean-Luc Godard"
-    ],
+    "directors": "['Jean-Luc Godard']",
     "synopsis": "Introduction by Reel Politik author Nathan Gelgud on Friday, November 7th",
-    "year": 1967
+    "year": "1967",
+    "rating": "3.7"
   },
   {
     "title": "The Stone Cross",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-STONE-CROSS_4-copy.jpg",
-    "directors": [
-      "Leonid Osyka"
-    ],
+    "directors": "['Leonid Osyka']",
     "synopsis": "Introduction by series programmer Anri Vartanov on Sunday, November 9th",
-    "year": 1968
+    "year": "1968",
+    "rating": "3.7"
   },
   {
     "title": "Moonstruck",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/MOONSTRUCK_8.jpg",
-    "directors": [
-      "Norman  Jewison"
-    ],
+    "directors": "['Norman  Jewison']",
     "synopsis": "Presenting Italian American New York family life at its most unapologetically and operatically emotional, the magically madcap romantic comedy Moonstruck stars Cher as a 37-year-old Brooklyn Heights widow who, not long after accepting a marriage proposal…",
-    "year": 1987
+    "year": "1987",
+    "rating": "3.8"
   },
   {
     "title": "Babylon XX",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/BABYLON-XX_10-1.jpg",
-    "directors": [
-      "Ivan Mykolaichuk"
-    ],
+    "directors": "['Ivan Mykolaichuk']",
     "synopsis": "Introduction by series programmer Anri Vartanov on Sunday, November 9th",
-    "year": 1979
+    "year": "1979",
+    "rating": "3.6"
   },
   {
     "title": "The Eve of Ivan Kupalo",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/THE-EVE-OF-IVAN-KUPALO_8_preferred-1.jpg",
-    "directors": [
-      "Yuri Illienko"
-    ],
+    "directors": "['Yuri Illienko']",
     "synopsis": "Introduction by composer Leonid Hrabovsky and Pylyp Illienko, Film Producer and son of Yuri Illienko Friday, November 14th",
-    "year": 1968
+    "year": "1968",
+    "rating": "4.0"
   },
   {
     "title": "Downtown 81",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2020/11/DT81_4_1600x900-1.jpg",
-    "directors": [
-      "Edo Bertoglio"
-    ],
+    "directors": "['Edo Bertoglio']",
     "synopsis": "In 1980, writer and Warhol associate Glenn O’Brien, Swiss photographer Edo Bertoglio, and Jean-Michel Basquiat, a graffiti innovator and noise music artist who’d just begun to exhibit his paintings, hit the streets of lower Manhattan to make a movie…",
-    "year": 2000
+    "year": "2000",
+    "rating": "3.6"
   },
   {
     "title": "The White Bird Marked with Black",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/THE-WHITE-BIRD-MARKED-WITH-BLACK_1_preferred.jpeg",
-    "directors": [
-      "Yuri Illienko"
-    ],
+    "directors": "['Yuri Illienko']",
     "synopsis": "Introduction by Pylyp Illienko, Film Producer and son of Yuri Illienko on Saturday, November 15th",
-    "year": 1971
+    "year": "1971",
+    "rating": "3.8"
   },
   {
     "title": "The Blackout",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/THE-BLACKOUT_6-copy.jpg",
-    "directors": [
-      "Abel Ferrara"
-    ],
+    "directors": "['Abel Ferrara']",
     "synopsis": "Movie star Matty (Matthew Modine), burned out on Hollywood, strung out on opioids, and spurned by his girlfriend (Beatrice Dalle) after proposing marriage, sets off on a bender for the ages with pal Mickey (Dennis Hopper), a fanatic proselytizer for video…",
-    "year": 1997
-  },
-  {
-    "title": "THEATER AND COMMISSARY CLOSED FOR HOLIDAY",
-    "imageUrl": "https://metrograph.com/wp-content/plugins/vista-sso/css/cinema-seats.jpg",
-    "directors": [
-      "Abel Ferrara"
-    ],
-    "synopsis": "",
-    "year": 2023
+    "year": "1997",
+    "rating": "3.6"
   },
   {
     "title": "Fantasia",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/FANTASIA_7-copy.jpg",
-    "directors": [
-      "James Algar",
-      "Samuel Armstrong",
-      "Ford Beebe Jr."
-    ],
+    "directors": "['James Algar', 'Samuel Armstrong', 'Ford Beebe Jr.']",
     "synopsis": "The Philadelphia Orchestra, following the hand of conductor Leopold Stokowski, performs selections from Bach, Tchaikovsky, Stravinsky, Beethoven, and other giants, each accompanied by animated vignettes—most famously the mischievous Mickey Mouse vehicle…",
-    "year": 1940
+    "year": "1940",
+    "rating": "3.9"
   },
   {
     "title": "Four Adventures of Reinette and Mirabelle",
     "imageUrl": "https://metrograph.imgix.net/2020/10/4adventures_6_1600x900.jpg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Éric Rohmer"
-    ],
+    "directors": "['Éric Rohmer']",
     "synopsis": "Shot quickly in and around Paris during a production break on Rohmer’s Le Rayon Vert, this breezy, witty film traces the exploits of two young women—one an ethnology student from the city, the other an unsophisticated aspiring artist from the country.…",
-    "year": 1987
+    "year": "1987",
+    "rating": "4.0"
   },
   {
     "title": "Chungking Express",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/CHUNGKING-EXPRESS_7.jpeg",
-    "directors": [
-      "Wong Kar-wai"
-    ],
+    "directors": "['Wong Kar-wai']",
     "synopsis": "A hot-shot to the heart, pop masterpiece Chungking Express tells the stories of two lovelorn cops (Takeshi Kaneshiro and Tony Leung) and the women who baffle them (Brigitte Lin and Faye Wong, who contributes a Cantopop cover of The Cranberries’…",
-    "year": 1994
+    "year": "1994",
+    "rating": "4.3"
   },
   {
     "title": "The Freshman",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/THE-FRESHMAN_5.jpeg",
-    "directors": [
-      "Fred C. Newmeyer",
-      "Sam Taylor"
-    ],
+    "directors": "['Fred C. Newmeyer', 'Sam Taylor']",
     "synopsis": "Harold Lloyd, whose round horn-rimmed glasses and straw-boater had, by 1925, become the international symbol for a certain breed of plucky can-do go-getter, initiated a craze for collegiate comedies with The Freshman, in which our eager-beaverish frosh…",
-    "year": 1925
+    "year": "1925",
+    "rating": "3.8"
   },
   {
     "title": "Aquarius",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/AQUARIUS_5-copy.jpg",
-    "directors": [
-      "Kleber Mendonça Filho"
-    ],
+    "directors": "['Kleber Mendonça Filho']",
     "synopsis": "Mendonça Filho provided Sônia Braga, the grande dame of Brazilian cinema, with her greatest role of the 21st century as Clara, a headstrong sixtysomething music writer who, as the last resident of the titular apartment building, digs in her heels to…",
-    "year": 2016
+    "year": "2016",
+    "rating": "4.0"
   },
   {
     "title": "My Own Private Idaho",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/MY-OWN-PRIVATE-IDAHO_1-copy.jpg",
-    "directors": [
-      "Gus Van Sant"
-    ],
+    "directors": "['Gus Van Sant']",
     "synopsis": "Van Sant’s follow-up to Drugstore Cowboy was another road movie on the skids, the footloose bums this time a narcoleptic queer hustler, Mike (River Phoenix), and the slumming scion of a wealthy family, Scott Favor (Keanu Reeves), who takes it upon…",
-    "year": 1991
+    "year": "1991",
+    "rating": "3.9"
   },
   {
     "title": "Pola X",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/POLA-X_5-1.webp",
-    "directors": [
-      "Leos Carax"
-    ],
+    "directors": "['Leos Carax']",
     "synopsis": "Carax takes on Herman Melville’s most challenging (and virtually career-killing) novel, Pierre; or the Ambiguities, in this mournful full-blooded melodrama starring Guillaume Depardieu as a fashionable and well-off novelist who takes a headfirst plunge…",
-    "year": 1999
+    "year": "1999",
+    "rating": "3.5"
   },
   {
     "title": "Bram Stoker's Dracula",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/BRAM-STOKERS-DRACULA_1-copy.jpg",
-    "directors": [
-      "Francis Ford  Coppola"
-    ],
+    "directors": "['Francis Ford  Coppola']",
     "synopsis": "Coppola at his most boldly baroque, Gary Oldman wearing cinema’s most iconic updo, a puppyish young Keanu Reeves trying to make his way back to Winona Ryder, and Anthony Hopkins as vampire hunter Abraham Van Helsing—it’s all here in this opulent…",
-    "year": 1992
+    "year": "1992",
+    "rating": "3.7"
   },
   {
     "title": "The Bodyguard",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/THE-BODYGUARD_11.jpeg",
-    "directors": [
-      "Mick  Jackson"
-    ],
+    "directors": "['Mick  Jackson']",
     "synopsis": "Whitney Houston, already one of the most successful recording artists of the 1980s, added “movie star” to her resumé with this, her film acting debut, in which the chanteuse plays an R&B diva/actress who, harassed by death threats from an anonymous…",
-    "year": 1992
+    "year": "1992",
+    "rating": "3.2"
   },
   {
     "title": "Eat Drink Man Woman",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/EAT-DRINK-MAN._4.jpg",
-    "directors": [
-      "Ang Lee"
-    ],
+    "directors": "['Ang Lee']",
     "synopsis": "Co-written by James Schamus and Wang Hui-ling, Lee’s gently comic family fable about a semi-retired master chef and his three daughters, the director’s only film shot entirely in his native Taiwan, is arguably the best movie about how food can connect…",
-    "year": 1994
+    "year": "1994",
+    "rating": "4.1"
   },
   {
     "title": "Seven Chances",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/SEVEN-CHANCES_1-copy.jpg",
-    "directors": [
-      "Buster Keaton"
-    ],
+    "directors": "['Buster Keaton']",
     "synopsis": "Facing financial ruin, young broker Jimmie Shannon (Keaton) gets a glimmer of hope upon learning that his late grandfather has left him a seven-million-dollar legacy in his will—the only hitch being that he has to be married before 7pm on the eve of his…",
-    "year": 1925
+    "year": "1925",
+    "rating": "3.9"
   },
   {
     "title": "That Day, On The Beach",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2024/06/THAT-DAY-ON-THE-BEACH_3.jpg",
-    "directors": [
-      "Edward Yang"
-    ],
+    "directors": "['Edward Yang']",
     "synopsis": "The little-screened debut feature by Yang, prophet of and proselytizer for the Taiwanese New Wave, features Sylvia Chang and Terry Hu as two female friends, an unhappily married housewife and a concert pianist, brought together after a 13-year separation:…",
-    "year": 1983
-  },
-  {
-    "title": "Bill & Ted's Bogus Journey",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/BILL-TEDS-BOGUS-JOURNEY_3.jpg",
-    "directors": [
-      "Peter Hewitt"
-    ],
-    "synopsis": "Two years after their excellent adventure, Keanu Reeves’s Ted “Theodore” Logan and Alex Winter’s Bill S. Preston, Esq. are gearing up to play the San Dimas Battle of the Bands with their group Wyld Stallyns, but they’ll find more than mediocre…",
-    "year": 1989
+    "year": "1983",
+    "rating": "4.0"
   },
   {
     "title": "Crooklyn",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/CROOKLYN.jpg",
-    "directors": [
-      "Spike Lee"
-    ],
+    "directors": "['Spike Lee']",
     "synopsis": "Described as “a nose-to-the-sidewalk paean to Bedford-Stuyvesant as it was in Lee’s ’70s youth” by Brooklyn Magazine, Lee’s period drama centers on street-smart tomboy Troy (Zelda Harris), the youngest of five and lone daughter in the Carmichael…",
-    "year": 1994
+    "year": "1994",
+    "rating": "3.9"
   },
   {
     "title": "Twentynine Palms",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2024/05/TWENTYNINE-PALMS-6.jpg",
-    "directors": [
-      "Bruno  Dumont"
-    ],
+    "directors": "['Bruno  Dumont']",
     "synopsis": "Greeted by violently divisive reactions on its initial release, Dumont’s first and to-date only English-language film follows a Los Angeleno couple—an American photographer, David, and his unemployed Russo-French partner, Katia (David Wissak and…",
-    "year": 2003
+    "year": "2003",
+    "rating": "3.2"
   },
   {
     "title": "Millennium Mambo",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/MILLENNIUM-MAMBO_2.jpg",
-    "directors": [
-      "Hou Hsiao-hsien"
-    ],
+    "directors": "['Hou Hsiao-hsien']",
     "synopsis": "A stylish and seductive submersion into the techno-scored neon nightlife of Taipei, Hou’s much-misunderstood marvel stars Shu Qi (The Assassin) as an aimless bar hostess drifting away from her blowhard boyfriend and towards Jack Kao’s suave, sensitive…",
-    "year": 2001
+    "year": "2001",
+    "rating": "3.8"
   },
   {
     "title": "Boyfriends and Girlfriends",
     "imageUrl": "https://metrograph.imgix.net/2020/04/Boyfriends_1600.jpg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Éric Rohmer"
-    ],
+    "directors": "['Éric Rohmer']",
     "synopsis": "Rohmer uses the amorous misadventures of two girlfriends in the Paris suburbs to test the old proverb “les amis de mes amis sont mes amis”",
-    "year": 1987
-  },
-  {
-    "title": "A View to a Kill",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/02/a-view-to-a-kill.jpeg",
-    "directors": [
-      "John Glen"
-    ],
-    "synopsis": "Christopher Walken’s bottle-blonde Übermensch terrorist Max Zorin is hatching a plan to destroy Silicon Valley—in 1985 this was considered a bad thing—and only 007 stands in his way. Roger Moore, the most camp of James Bonds in perhaps his most…",
-    "year": 1988
-  },
-  {
-    "title": "Cold Water",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/COLD-WATER_3.jpeg",
-    "directors": [
-      "Olivier  Assayas"
-    ],
-    "synopsis": "Assayas revisits the scene of his own teen years, the early ’70s, in a film à clef that exemplifies all of the anguish and exhilaration of youth, orbiting a couple (Virginie Ledoyen and Cyprien Fouquet) who escape the stifling expectations of their…",
-    "year": 1994
+    "year": "1987",
+    "rating": "4.1"
   },
   {
     "title": "Sirat",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/Sirat_NYFF63_1.jpeg",
-    "directors": [
-      "Oliver Laxe"
-    ],
+    "directors": "['Oliver Laxe']",
     "synopsis": "Q&A with director Oliver Laxe on Friday, December 5th",
-    "year": 2025
+    "year": "2025",
+    "rating": "3.6",
+    "events": [
+      {
+        "title": "Sirat",
+        "directors": "Oliver Laxe",
+        "description": "Q&A with director Oliver Laxe on Friday, December 5th",
+        "time_date": "Friday December 5, 6:00pm"
+      }
+    ]
   },
   {
     "title": "The Devil's Advocate",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-DEVILS-ADVOCATE_3.jpeg",
-    "directors": [
-      "Taylor Hackford"
-    ],
+    "directors": "['Taylor Hackford']",
     "synopsis": "Keanu Reeves adopts a Wall Street slickback in Hackford’s seamy, deliciously over-the-top morality tale, playing Kevin Lomax, an up-and-coming lawyer based in Gainesville, Florida, who uproots wife Charlize Theron and heads for the Big Apple when…",
-    "year": 1997
+    "year": "1997",
+    "rating": "3.6"
   },
   {
     "title": "Fire Will Come",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/FIRE-WILL-COME_2.jpeg",
-    "directors": [
-      "Oliver Laxe"
-    ],
+    "directors": "['Oliver Laxe']",
     "synopsis": "Introduction by director Oliver Laxe on Friday, December, 5th",
-    "year": 2019
+    "year": "2019",
+    "rating": "3.6",
+    "events": [
+      {
+        "title": "Fire Will Come",
+        "directors": "Oliver Laxe",
+        "description": "Introduction by director Oliver Laxe on Friday, December, 5th",
+        "time_date": "Friday December 5, 8:50pm"
+      }
+    ]
   },
   {
     "title": "A League of Their Own",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/A-LEAGUE-OF-THEIR-OWN_1-copy.jpg",
-    "directors": [
-      "Penny Marshall"
-    ],
+    "directors": "['Penny Marshall']",
     "synopsis": "Geena Davis, Madonna, Rosie O’Donnell, Lori Petty are the star players of the Georgia Peaches, coached by crusty misogynist Tom Hanks, in Marshall’s feel-good chick-flick, a critically adored comedy about a World War II-era all-girls baseball…",
-    "year": 1992
-  },
-  {
-    "title": "Apart From You preceded by Flunky, Work Hard!",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/APART-FROM-YOU_webpull.jpeg",
-    "directors": [
-      "Mikio Naruse"
-    ],
-    "synopsis": "Live piano accompaniment by Makia Matsumura on Saturday, December 6th",
-    "year": 1931
+    "year": "1992",
+    "rating": "3.8"
   },
   {
     "title": "Small Talk",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/Small-Talk.jpg",
-    "directors": [
-      "Huang Hui-chen"
-    ],
+    "directors": "['Huang Hui-chen']",
     "synopsis": "The first documentary to be selected as Taiwan’s submission for the Academy Award for Best International Feature, Small Talk centers on an ongoing dialogue of reckoning and attempted reconciliation between Huang and her mother, A-nu, a practicing Taoist…",
-    "year": 2016
+    "year": "2016",
+    "rating": "3.7"
   },
   {
     "title": "No Blood Relation",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/NO-BLOOD-RELATION_1.jpeg",
-    "directors": [
-      "Mikio Naruse"
-    ],
+    "directors": "['Mikio Naruse']",
     "synopsis": "Live piano accompaniment by Makia Matsumura on Saturday, December 6th",
-    "year": 1932
+    "year": "1932",
+    "rating": "3.5",
+    "events": [
+      {
+        "title": "No Blood Relation",
+        "directors": "Mikio Naruse",
+        "description": "Live piano accompaniment by Makia Matsumura on Saturday, December 6th",
+        "time_date": "Saturday December 6, 4:10pm"
+      }
+    ]
   },
   {
     "title": "You All Are Captains",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/You-Are-All-Captains.jpg",
-    "directors": [
-      "Oliver Laxe"
-    ],
+    "directors": "['Oliver Laxe']",
     "synopsis": "Born out of a filmmaking workshop that Laxe, beginning in 2007, conducted with the children of poor families in Tangier, the director’s feature debut begins by depicting just such a workshop, its teacher portrayed by Laxe himself, then lights off into…",
-    "year": 2010
-  },
-  {
-    "title": "Filmmaker Magazine 25 New Faces: 2025 Part 1",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/FMM-P1-Still_1.200.1-copy.jpeg",
-    "directors": [
-      "Multiple Dirs"
-    ],
-    "synopsis": "Q&A with select filmmakers moderated by Filmmaker Editor-in-Chief Scott Macaulay on Saturday, December 6th",
-    "year": 2024
+    "year": "2010",
+    "rating": "3.3"
   },
   {
     "title": "Mimosas",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/MIMOSAS_3.jpeg",
-    "directors": [
-      "Oliver Laxe"
-    ],
+    "directors": "['Oliver Laxe']",
     "synopsis": "Described by its director as a “religious Western,” Laxe’s beguiling Mimosas—divided into three sections, each named for a prayer position in the Islamic rak’a—follows a young man (Shakib Ben Omar) who is charged with leading a dying sheikh…",
-    "year": 2016
-  },
-  {
-    "title": "Filmmaker Magazine 25 New Faces: 2025 Part 2",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/FMM-P2-ABrighterSummerDayForTheLadyAvengers_Still4.jpg",
-    "directors": [
-      "Multiple Dirs"
-    ],
-    "synopsis": "Q&A with select filmmakers moderated by Filmmaker Editor-in-Chief Scott Macaulay on Saturday, December 6th",
-    "year": 2024
+    "year": "2016",
+    "rating": "3.5"
   },
   {
     "title": "Boarding Gate",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/BOARDING-GATE_1.jpeg",
-    "directors": [
-      "Olivier  Assayas"
-    ],
+    "directors": "['Olivier  Assayas']",
     "synopsis": "Asia Argento clacks across the screen in stiletto heels with imperious flair in Assayas’s coolly kinky globe-hopping corporate espionage thriller, its centerpiece scene a blood-on-the-walls two-hander chamber drama in which Asia and ex-partner/lover…",
-    "year": 2007
+    "year": "2007",
+    "rating": "3.2"
   },
   {
     "title": "Videodrome",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/VIDEODROME_1-copy.jpg",
-    "directors": [
-      "David Cronenberg"
-    ],
+    "directors": "['David Cronenberg']",
     "synopsis": "Long live the new flesh! As Toronto UHF television programmer and softcore smut aficionado James Woods (remarkably convincing playing a scumbag) scents the trail of an intercepted snuff film broadcast, he makes a nasty NSA new friend in the form of Debbie…",
-    "year": 1983
+    "year": "1983",
+    "rating": "3.9"
   },
   {
     "title": "Portrait of a Young Girl at the End of the 60s",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/PORTRAIT-FILLE.Still021.jpg",
-    "directors": [
-      "Chantal  Akerman"
-    ],
+    "directors": "['Chantal  Akerman']",
     "synopsis": "Made, like Claire Denis’s US Go Home and Olivier Assayas’s Cold Water, for the television channel Arte’s nine-part multi-director series Tous les garcons et les filles de leur âge, Akerman’s bluntly bittersweet semi-autobiographical coming-of-age…",
-    "year": 1994
+    "year": "1994",
+    "rating": "4.2"
   },
   {
     "title": "Every Night Dreams",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/EVERY-NIGHT-DREAMS_6.jpeg",
-    "directors": [
-      "Mikio Naruse"
-    ],
+    "directors": "['Mikio Naruse']",
     "synopsis": "Live piano accompaniment by Makia Matsumura on Sunday, December 7th",
-    "year": 1933
+    "year": "1933",
+    "rating": "3.8",
+    "events": [
+      {
+        "title": "Every Night Dreams",
+        "directors": "Mikio Naruse",
+        "description": "Live piano accompaniment by Makia Matsumura on Sunday, December 7th",
+        "time_date": "Sunday December 7, 1:30pm"
+      }
+    ]
   },
   {
     "title": "Street Without End",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/STREET-WITHOUT-END_4.jpeg",
-    "directors": [
-      "Mikio Naruse"
-    ],
+    "directors": "['Mikio Naruse']",
     "synopsis": "Live piano accompaniment by Makia Matsumura on Sunday, December 7th",
-    "year": 1934
+    "year": "1934",
+    "rating": "3.5",
+    "events": [
+      {
+        "title": "Street Without End",
+        "directors": "Mikio Naruse",
+        "description": "Live piano accompaniment by Makia Matsumura on Sunday, December 7th",
+        "time_date": "Sunday December 7, 3:00pm"
+      }
+    ]
   },
   {
     "title": "The Girl in the Rumor",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/GIRL-IN-THE-RUMOUR.jpg",
-    "directors": [
-      "Mikio Naruse"
-    ],
+    "directors": "['Mikio Naruse']",
     "synopsis": "Moving at a gallop throughout, packed with corybantic camerawork and jolting cuts, the sprightly The Girl in the Rumor weaves together three distinct storylines relating to a family-run sake store on the brink of financial catastrophe: the touch-and-go…",
-    "year": 1935
-  },
-  {
-    "title": "Afterimages Across Borders: Award-Winning Shorts",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/metrograph_afterimages-across-borders.jpeg",
-    "directors": [
-      "Multiple Dirs"
-    ],
-    "synopsis": "Q&A with select filmmakers on Sunday, December 7th",
-    "year": 2025
-  },
-  {
-    "title": "This Long Century Presents Danny Lyon",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/El-Otro-Lado-02.jpg",
-    "directors": [
-      "Danny Lyon"
-    ],
-    "synopsis": "Post-screening discussion with Danny Lyon and Jason Evans on Sunday, December 7th",
-    "year": 1974
+    "year": "1935",
+    "rating": "3.6"
   },
   {
     "title": "The Godfather Part II",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/Godfather-2.jpeg",
-    "directors": [
-      "Francis Ford  Coppola"
-    ],
+    "directors": "['Francis Ford  Coppola']",
     "synopsis": "The rare sequel to, in the eyes of many viewers at least, equal or exceed its original, The Godfather Part II is in fact sequel and prequel in one package, weaving together the c.1958 story of the Corleones—now led by Al Pacino’s Michael out of a…",
-    "year": 1974
+    "year": "1974",
+    "rating": "4.6"
   },
   {
     "title": "Made in Hong Kong",
     "imageUrl": "https://metrograph.imgix.net/2020/11/MadeinHK_3.jpg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Fruit Chan"
-    ],
+    "directors": "['Fruit Chan']",
     "synopsis": "The first independent film released in post-Handover Hong Kong, Chan’s atmospheric shoestring-budget character study is a rough-and-ready piece of work shot on grainy leftover 35mm short ends in the city’s overcrowded subsidized housing projects. The…",
-    "year": 1997
+    "year": "1997",
+    "rating": "4.1"
   },
   {
     "title": "The Discreet Charm of the Bourgeoisie",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/01/discreetcharmbunuel.jpg",
-    "directors": [
-      "Luis Buñuel"
-    ],
+    "directors": "['Luis Buñuel']",
     "synopsis": "A who’s who of postwar Euro stars—including Delphine Seyrig, Fernando Rey, Stéphane Audran, and Bulle Ogier—convene for a swank dinner party that never occurs, their attempts to sit down to a meal thwarted by a series of increasingly absurdist…",
-    "year": 1972
+    "year": "1972",
+    "rating": "4.0"
   },
   {
     "title": "Dancer in the Dark",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/DANCER-IN-THE-DARK_1-copy.jpg",
-    "directors": [
-      "Lars Von Trier"
-    ],
+    "directors": "['Lars Von Trier']",
     "synopsis": "Experimentally minded Icelandic chanteuse Björk made her astonishing film debut in von Trier’s gutting musical melodrama, featuring original songs written and performed by the lead actress. An immigrant Washington state factory worker succumbing to the…",
-    "year": 2000
+    "year": "2000",
+    "rating": "4.2"
   },
   {
     "title": "Master of the House",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/MASTER-OF-THE-HOUSE_3.jpeg",
-    "directors": [
-      "Carl  Theodor Dreyer"
-    ],
+    "directors": "['Carl  Theodor Dreyer']",
     "synopsis": "Devoted to unemployed husband Johannes Meyer but driven to wit’s end by his tyrannical demands upon her, homemaker Astrid Holm, encouraged by her mother (Clara Schønfeld), the couple’s eldest daughter (Karin Nellemose), and her spouse’s aging nanny…",
-    "year": 1925
-  },
-  {
-    "title": "ACE Presents: Metropolitan",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/METROPOLITAN_5.jpeg",
-    "directors": [
-      "Whit Stillman"
-    ],
-    "synopsis": "Q&A with editor Christopher Tellefsen, ACE on Friday, December 12th",
-    "year": 1990
+    "year": "1925",
+    "rating": "3.6"
   },
   {
     "title": "Too Late to Die Young",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/TOO-LATE-TO-DIE-YOUNG_1.jpeg",
-    "directors": [
-      "Dominga Sotomayor"
-    ],
+    "directors": "['Dominga Sotomayor']",
     "synopsis": "It’s the sweltering final days of 1990 in Chile and, after 17 years under the control of General Augusto Pinochet, the country is preparing to transition to a democratically elected government. All of which is of little immediate concern to disgruntled…",
-    "year": 2018
+    "year": "2018",
+    "rating": "3.4"
   },
   {
     "title": "Linda Linda Linda",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/LINDA-LINDA-LINDA_6.jpeg",
-    "directors": [
-      "Nobuhiro Yamashita"
-    ],
+    "directors": "['Nobuhiro Yamashita']",
     "synopsis": "With their last high school concert only days away, bandmates Kei, Kyoko, and Nozomi’s hopes of taking the stage appear to be dashed when their lead singer quits the group, leaving them to hastily recruit a Korean exchange student with a limited grasp…",
-    "year": 2005
+    "year": "2005",
+    "rating": "4.2"
   },
   {
     "title": "My Night at Maud's",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/MY-NIGHT-AT-MAUDS_1.jpeg",
-    "directors": [
-      "Éric Rohmer"
-    ],
+    "directors": "['Éric Rohmer']",
     "synopsis": "Introduction by editor Christopher Tellefsen, ACE on Friday, December 12th",
-    "year": 1969
-  },
-  {
-    "title": "Tone Glow Presents Pandora and the Flying Dutchman",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/PANDORA.DUTCHMAN_webpull_3-copy.jpg",
-    "directors": [
-      "Albert Lewin"
-    ],
-    "synopsis": "Pre-screening musical performance by jazz vocalist Eliana Glass accompanied by Luke Bergman on pedal steel on Saturday, December 13th",
-    "year": 1951
-  },
-  {
-    "title": "The Last Thing I Saw: Eight Hours of Terror",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/EIGHT-HOURS-OF-TERROR_1.jpeg",
-    "directors": [
-      "Seijun  Suzuki"
-    ],
-    "synopsis": "Live podcast recording hosted by Nicolas Rapold with film critic Mark Asch in conversation on Saturday, December 13th",
-    "year": 1957
+    "year": "1969",
+    "rating": "4.2",
+    "events": [
+      {
+        "title": "My Night at Maud's",
+        "directors": "Éric Rohmer",
+        "description": "Introduction by editor Christopher Tellefsen, ACE on Friday, December 12th",
+        "time_date": "Friday December 12, 9:30pm"
+      }
+    ]
   },
   {
     "title": "Metropolitan",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/METROPOLITAN_5.jpeg",
-    "directors": [
-      "Whit Stillman"
-    ],
+    "directors": "['Whit Stillman']",
     "synopsis": "“The first feature film I edited, Metropolitan, was a strange anomaly, a no-budget film about debutantes and their escorts in New York. Whit’s charming and witty script excited me. Coming from an art and experimental film background, my challenge was…",
-    "year": 1990
+    "year": "1990",
+    "rating": "3.8"
   },
   {
     "title": "Sympathy for Mr. Vengeance",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/SYMPATHY-FOR-MR-VENGEANCE_3.jpg",
-    "directors": [
-      "Park Chan-wook"
-    ],
+    "directors": "['Park Chan-wook']",
     "synopsis": "Fired from his factory job, Ryu (Shin Ha-kyun), a gentle deaf-mute man desperately trying to scrape together funds for his sister’s kidney transplant, falls in with a plan, hatched by his anarchist activist girlfriend (Bae Doona), to kidnap the daughter…",
-    "year": 2002
+    "year": "2002",
+    "rating": "4.0"
   },
   {
     "title": "Lady Windermere's Fan",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/LADY-WINDERMERES-FAN_2-copy.jpg",
-    "directors": [
-      "Ernst Lubitsch"
-    ],
+    "directors": "['Ernst Lubitsch']",
     "synopsis": "Live piano accompaniment by Makia Matsamura on Sunday, December 14th",
-    "year": 1925
+    "year": "1925",
+    "rating": "3.7",
+    "events": [
+      {
+        "title": "Lady Windermere's Fan",
+        "directors": "Ernst Lubitsch",
+        "description": "Live piano accompaniment by Makia Matsamura on Sunday, December 14th",
+        "time_date": "Sunday December 14, 12:30pm"
+      }
+    ]
   },
   {
     "title": "Goodbye, Dragon Inn",
     "imageUrl": "https://metrograph.imgix.net/2020/11/GOOD-BYE-DRAGON-INN-04.jpg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Tsai Ming-liang"
-    ],
-    "synopsis": "The Fu-Ho Grand, a movie palace in Taipei, is closing its doors. Its valedictory screening: King\r…",
-    "year": 2003
+    "directors": "['Tsai Ming-liang']",
+    "synopsis": "The Fu-Ho Grand, a movie palace in Taipei, is closing its doors. Its valedictory screening: King\n…",
+    "year": "2003",
+    "rating": "4.0"
   },
   {
     "title": "The Salvation Hunters",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/Salvation-Hunters.jpg",
-    "directors": [
-      "Josef Von Sternberg"
-    ],
+    "directors": "['Josef Von Sternberg']",
     "synopsis": "Live piano accompaniment by Makia Matsamura on Sunday, December 14th",
-    "year": 1925
-  },
-  {
-    "title": "ACE Presents: The Menu",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-MENU_1-copy.jpg",
-    "directors": [
-      "Mark Mylod"
-    ],
-    "synopsis": "Q&A with editor Christopher Tellefsen, ACE on Sunday, December 14th",
-    "year": 2022
+    "year": "1925",
+    "rating": "3.5",
+    "events": [
+      {
+        "title": "The Salvation Hunters",
+        "directors": "Josef Von Sternberg",
+        "description": "Live piano accompaniment by Makia Matsamura on Sunday, December 14th",
+        "time_date": "Sunday December 14, 3:00pm"
+      }
+    ]
   },
   {
     "title": "The Exterminating Angel",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-EXTERMINATING-ANGEL_4.jpeg",
-    "directors": [
-      "Luis Buñuel"
-    ],
+    "directors": "['Luis Buñuel']",
     "synopsis": "Introduction by editor Christopher Tellefsen, ACE on Sunday, December 14th",
-    "year": 1962
+    "year": "1962",
+    "rating": "4.2",
+    "events": [
+      {
+        "title": "The Exterminating Angel",
+        "directors": "Luis Buñuel",
+        "description": "Introduction by editor Christopher Tellefsen, ACE on Sunday, December 14th",
+        "time_date": "Sunday December 14, 7:20pm"
+      }
+    ]
   }
 ]
