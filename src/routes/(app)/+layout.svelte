@@ -2,12 +2,16 @@
 	import Head from '$lib/components/furniture/Head.svelte';
 	import Masthead from '$lib/components/furniture/Masthead.svelte';
 	import Colophon from '$lib/components/furniture/Colophon.svelte';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
+	import { dev } from '$app/environment';
 
 	interface Props {
 		children?: import('svelte').Snippet;
 	}
 
 	let { children }: Props = $props();
+
+	injectAnalytics({ mode: dev ? 'development' : 'production' });
 </script>
 
 <Head />
