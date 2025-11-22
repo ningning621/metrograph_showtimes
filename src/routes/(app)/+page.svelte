@@ -16,8 +16,8 @@
 	}
 </script>
 
-<div class="content-well">
-	<header class="mb-8 w-full py-6">
+<div class="content-well py-6">
+	<header class="mb-8 w-full">
 		<h1 class="text-center text-xl font-bold">Metrograph Weekly</h1>
 	</header>
 
@@ -35,7 +35,7 @@
 				{#each films.sort((a, b) => b.rating - a.rating) as film}
 					<tr
 						class="cursor-pointer hover:bg-gray-100"
-						on:click={() => window.open(film.imageUrl, '_blank')}
+						on:click={() => window.open(film.letterboxd_url, '_blank')}
 					>
 						<td class=" pr-2">{film.event_time_date ? '*' : ''}</td>
 
