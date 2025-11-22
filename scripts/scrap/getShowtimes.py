@@ -111,13 +111,14 @@ def add_events_to_films():
     
     # Write to CSV with event fields as separate columns
     with open("./src/lib/data/films.csv", "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating", "event_description", "event_time_date"])
+        writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating", "letterboxd_url", "event_description", "event_time_date"])
         writer.writeheader()
         
         for film in films_with_events:
             # Ensure event fields exist (empty string if no event)
             film.setdefault("event_description", "")
             film.setdefault("event_time_date", "")
+            film.setdefault("letterboxd_url", "")
             writer.writerow(film)
     
     print("3️⃣ Finish writing events to file")
@@ -216,6 +217,7 @@ def parse_letterboxd():
 
         if (any(p in film_title.lower() for p in skip_phrases) or 'multiple dirs' in film['directors']):
             skipped_films.append(film)
+            print(f"→ Purposefully skipped {film_title}")
         else: 
             try:
                 driver.get("https://letterboxd.com/search/" + quote_plus(f"{film_title} {film['year']}")) 
@@ -230,6 +232,7 @@ def parse_letterboxd():
 
                 # Extract the film page URL
                 film_url = link_tag.get_attribute("href")
+                film["letterboxd_url"] = film_url
 
                 driver.get(film_url)
 
@@ -251,7 +254,7 @@ def parse_letterboxd():
     print(f"4️⃣ Finish parsing film info")
 
     with open("./scripts/scrap/data/parsed_films.csv", "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating"])
+        writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating", "letterboxd_url"])
         writer.writeheader()
         writer.writerows(done_films)
 
