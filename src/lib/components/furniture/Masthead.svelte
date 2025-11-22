@@ -29,7 +29,7 @@
 	>
 		<a href="/" rel="home">
 			<span class="sr-only">{site.title}</span>
-			<enhanced:img src="$lib/assets/logo.png" alt={site.title} class="w-16" />
+			<!-- <enhanced:img src="$lib/assets/logo.png" alt={site.title} class="w-16" /> -->
 		</a>
 
 		{#if isDesktop.current}
@@ -78,7 +78,7 @@
 				{#snippet title()}
 					<a href="/" rel="home">
 						<span class="sr-only">{site.title}</span>
-						<enhanced:img src="$lib/assets/logo.png" alt={site.title} class="w-16" />
+						<!-- <enhanced:img src="$lib/assets/logo.png" alt={site.title} class="w-16" /> -->
 					</a>
 				{/snippet}
 				{#snippet trigger()}
