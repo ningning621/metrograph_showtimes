@@ -87,6 +87,8 @@ def get_metrograph_events(isLocal: bool):
     return parsed_events
 
 def add_events_to_films():
+    print("0️⃣ Adding events to parsed films")
+
     # Read films from CSV and convert to list
     with open("./scripts/scrap/data/parsed_films.csv", "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -106,6 +108,8 @@ def add_events_to_films():
             films_by_title[event["title"]]["event_description"] = event["description"]
             films_by_title[event["title"]]["event_time_date"] = event["time_date"]
         
+    print("1️⃣ Successfully added events to parsed films")
+
     # Convert films_by_title back to list for output
     films_with_events = list(films_by_title.values())
     
@@ -121,7 +125,7 @@ def add_events_to_films():
             film.setdefault("letterboxd_url", "")
             writer.writerow(film)
     
-    print("3️⃣ Finish writing events to file")
+    print("2️⃣ Finish writing events to file")
 
 def get_metrograph_films(isLocal: bool):
     print("0️⃣ Starting film scraping work")
