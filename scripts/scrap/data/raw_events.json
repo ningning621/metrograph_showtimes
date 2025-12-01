@@ -100,5 +100,17 @@
     "directors": "Luis Buñuel",
     "description": "Introduction by editor Christopher Tellefsen, ACE on Sunday, December 14th",
     "time_date": "Sunday December 14, 7:20pm"
+  },
+  {
+    "title": "Whit Stillman Presents Metropolitan",
+    "directors": "Whit Stillman",
+    "description": "Q&A with director Whit Stillman on Friday, December 19th",
+    "time_date": "Friday December 19, 6:00pm"
+  },
+  {
+    "title": "Robert Longo Presents Johnny Mnemonic",
+    "directors": "Robert Longo",
+    "description": "Introduction by director Robert Longo on Friday, December 19th",
+    "time_date": "Friday December 19, 8:45pm"
   }
 ]
