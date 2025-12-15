@@ -1,114 +1,12 @@
 [
   {
-    "title": "Sirat",
-    "directors": "Oliver Laxe",
-    "description": "Q&A with director Oliver Laxe on Friday, December 5th",
-    "time_date": "Friday December 5, 6:00pm"
-  },
-  {
-    "title": "Fire Will Come",
-    "directors": "Oliver Laxe",
-    "description": "Introduction by director Oliver Laxe on Friday, December, 5th",
-    "time_date": "Friday December 5, 8:50pm"
-  },
-  {
-    "title": "Apart From You preceded by Flunky, Work Hard!",
-    "directors": "Mikio Naruse",
-    "description": "Live piano accompaniment by Makia Matsumura on Saturday, December 6th",
-    "time_date": "Saturday December 6, 2:15pm"
-  },
-  {
-    "title": "No Blood Relation",
-    "directors": "Mikio Naruse",
-    "description": "Live piano accompaniment by Makia Matsumura on Saturday, December 6th",
-    "time_date": "Saturday December 6, 4:10pm"
-  },
-  {
-    "title": "Filmmaker Magazine 25 New Faces: 2025 Part 1",
-    "directors": "Multiple Dirs",
-    "description": "Q&A with select filmmakers moderated by Filmmaker Editor-in-Chief Scott Macaulay on Saturday, December 6th",
-    "time_date": "Saturday December 6, 6:00pm"
-  },
-  {
-    "title": "Filmmaker Magazine 25 New Faces: 2025 Part 2",
-    "directors": "Multiple Dirs",
-    "description": "Q&A with select filmmakers moderated by Filmmaker Editor-in-Chief Scott Macaulay on Saturday, December 6th",
-    "time_date": "Saturday December 6, 8:30pm"
-  },
-  {
-    "title": "Every Night Dreams",
-    "directors": "Mikio Naruse",
-    "description": "Live piano accompaniment by Makia Matsumura on Sunday, December 7th",
-    "time_date": "Sunday December 7, 1:30pm"
-  },
-  {
-    "title": "Street Without End",
-    "directors": "Mikio Naruse",
-    "description": "Live piano accompaniment by Makia Matsumura on Sunday, December 7th",
-    "time_date": "Sunday December 7, 3:00pm"
-  },
-  {
-    "title": "Afterimages Across Borders: Award-Winning Shorts",
-    "directors": "Multiple Dirs",
-    "description": "Q&A with select filmmakers on Sunday, December 7th",
-    "time_date": "Sunday December 7, 5:10pm"
-  },
-  {
-    "title": "ACE Presents: Metropolitan",
-    "directors": "Whit Stillman",
-    "description": "Q&A with editor Christopher Tellefsen, ACE, moderated by film historian Bobbie O'Steen on Friday, December 12th",
-    "time_date": "Friday December 12, 6:50pm"
-  },
-  {
-    "title": "My Night at Maud's",
-    "directors": "Éric Rohmer",
-    "description": "Introduction by editor Christopher Tellefsen, ACE on Friday, December 12th",
-    "time_date": "Friday December 12, 9:30pm"
-  },
-  {
-    "title": "Tone Glow Presents Pandora and the Flying Dutchman",
-    "directors": "Albert Lewin",
-    "description": "Pre-screening musical performance by jazz vocalist Eliana Glass accompanied by Luke Bergman on pedal steel on Saturday, December 13th",
-    "time_date": "Saturday December 13, 5:15pm"
-  },
-  {
-    "title": "The Last Thing I Saw: Eight Hours of Terror",
-    "directors": "Seijun  Suzuki",
-    "description": "Live podcast recording hosted by Nicolas Rapold with film critic Mark Asch in conversation on Saturday, December 13th",
-    "time_date": "Saturday December 13, 8:15pm"
-  },
-  {
-    "title": "Lady Windermere's Fan",
-    "directors": "Ernst Lubitsch",
-    "description": "Live piano accompaniment by Makia Matsamura on Sunday, December 14th",
-    "time_date": "Sunday December 14, 12:30pm"
-  },
-  {
-    "title": "The Salvation Hunters",
-    "directors": "Josef Von Sternberg",
-    "description": "Live piano accompaniment by Makia Matsamura on Sunday, December 14th",
-    "time_date": "Sunday December 14, 3:00pm"
-  },
-  {
-    "title": "ACE Presents: The Menu",
-    "directors": "Mark Mylod",
-    "description": "Q&A with editor Christopher Tellefsen, ACE, moderated by film historian and educator Molly O'Steen on Sunday, December 14th",
-    "time_date": "Sunday December 14, 4:30pm"
-  },
-  {
-    "title": "The Exterminating Angel",
-    "directors": "Luis Buñuel",
-    "description": "Introduction by editor Christopher Tellefsen, ACE on Sunday, December 14th",
-    "time_date": "Sunday December 14, 7:20pm"
-  },
-  {
     "title": "Whit Stillman Presents Metropolitan",
     "directors": "Whit Stillman",
-    "description": "Q&A with director Whit Stillman on Friday, December 19th",
+    "description": "Q&A with director Whit Stillman moderated by critic Vadim Rizov on Friday, December 19th",
     "time_date": "Friday December 19, 6:00pm"
   },
   {
-    "title": "Robert Longo Presents Johnny Mnemonic",
+    "title": "Robert Longo Presents Johnny Mnemonic in B&W",
     "directors": "Robert Longo",
     "description": "Introduction by director Robert Longo on Friday, December 19th",
     "time_date": "Friday December 19, 8:45pm"
