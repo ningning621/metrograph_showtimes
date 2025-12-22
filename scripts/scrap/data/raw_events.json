@@ -10,5 +10,17 @@
     "directors": "Robert Longo",
     "description": "Introduction by director Robert Longo on Friday, December 19th",
     "time_date": "Friday December 19, 8:45pm"
+  },
+  {
+    "title": "Ugo Bienvenu Shorts Program",
+    "directors": "Multiple Dirs",
+    "description": "Introduction by producer/co-writer Félix de Givry on Friday, January 9th",
+    "time_date": "Friday January 9, 6:00pm"
+  },
+  {
+    "title": "Arco",
+    "directors": "Ugo Bienvenu",
+    "description": "Q&A with producer/co-writer Félix de Givry on Friday, January 9th",
+    "time_date": "Friday January 9, 7:30pm"
   }
 ]
