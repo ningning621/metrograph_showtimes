@@ -26,20 +26,31 @@ jobs:
           pip install -r scripts/scrap/requirements.txt
           pip install webdriver-manager
 
-      - name: Run script
+      - name: Pull raw html
         run: |
-          python -u scripts/scrap/getShowtimes.py
+          python -u scripts/scrap/getRawHtml.py
 
-      - name: Commit data files
+      - name: Commit raw html files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add scripts/scrap/data/raw_films.json
           git add scripts/scrap/data/raw_events.json
-          git add scripts/scrap/data/parsed_films.csv
-          git add scripts/scrap/data/skipped_films.csv
           git add scripts/scrap/data/metrograph.html
           git add scripts/scrap/data/metrograph_events.html
+          git commit -m "Update raw html files [skip ci]" || echo "No changes to commit"
+          git push
+
+      - name: Run script
+        run: |
+          python -u scripts/scrap/getShowtimes.py
+
+      - name: Commit parsed data files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/scrap/data/parsed_films.csv
+          git add scripts/scrap/data/skipped_films.csv
           git add src/lib/data/films.csv
-          git commit -m "Update Metrograph showtimes data [skip ci]" || echo "No changes to commit"
+          git commit -m "Update Metrograph film data [skip ci]" || echo "No changes to commit"
           git push
