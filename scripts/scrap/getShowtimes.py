@@ -199,6 +199,7 @@ def parse_letterboxd():
         service=Service(ChromeDriverManager().install()),
         options=options
     )
+    driver.set_page_load_timeout(60) # 60 seconds timeout
 
     skipped_films = []
     done_films = []
@@ -209,25 +210,73 @@ def parse_letterboxd():
         "best of nyc",
         "private event today",
         "preceded by",
-        "presents:",
+        "presents",
         "short film program",
         "shorts program",
         "commissary closed",
         "part 1",
-        "part 2"
+        "part 2",
+        "for tots",
+        "dcp"
     ]
 
     print(f"4️⃣ Start parsing film info: {len(parsed_films)} films")
 
-    for film in parsed_films:
+    # Track if this is the first save
+    first_save = True
+    last_saved_done_count = 0
+    last_saved_skipped_count = 0
+
+    # Helper function to save progress
+    def save_progress():
+        nonlocal first_save, last_saved_done_count, last_saved_skipped_count
+        
+        if first_save:
+            # First save: overwrite and write header
+            mode = "w"
+            write_header = True
+            first_save = False
+        else:
+            # Subsequent saves: append only new films
+            mode = "a"
+            write_header = False
+        
+        # Write only new done films
+        new_done_films = done_films[last_saved_done_count:]
+        if new_done_films or mode == "w":
+            with open("./scripts/scrap/data/parsed_films.csv", mode, newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating", "letterboxd_url"])
+                if write_header:
+                    writer.writeheader()
+                writer.writerows(new_done_films)
+        
+        # Write only new skipped films
+        new_skipped_films = skipped_films[last_saved_skipped_count:]
+        if new_skipped_films or mode == "w":
+            with open("./scripts/scrap/data/skipped_films.csv", mode, newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis", "letterboxd_url"], extrasaction='ignore')
+                if write_header:
+                    writer.writeheader()
+                writer.writerows(new_skipped_films)
+        
+        last_saved_done_count = len(done_films)
+        last_saved_skipped_count = len(skipped_films)
+        
+        print(f"💾 Progress saved: {len(done_films)} done, {len(skipped_films)} skipped")
+
+    # for each film, pull its letterboxd info and add to the film object
+    for idx, film in enumerate(parsed_films, 1):
         # print(film)
         film_title = re.sub(r"[^\w\s]", "", film["title"]) 
 
+        # check if the film needs to be skipped bc bad title or multiple directors or other reasons
         if (any(p in film_title.lower() for p in skip_phrases) or 'multiple dirs' in film['directors']):
             skipped_films.append(film)
             print(f"→ Purposefully skipped {film_title}")
         else: 
             try:
+                print(f"→ Start parsing {film_title}")
+                # pull data from letterboxd
                 driver.get("https://letterboxd.com/search/" + quote_plus(f"{film_title} {film['year']}")) 
 
                 wait = WebDriverWait(driver, 5)
@@ -257,21 +306,17 @@ def parse_letterboxd():
                 # print(e)
                 skipped_films.append(film)
                 print(f"→ Skipped {film_title}")
+        
+        # Save progress every 10 films
+        if idx % 10 == 0:
+            save_progress()
 
     driver.quit()
     print(f"4️⃣ Finish parsing film info")
 
-    with open("./scripts/scrap/data/parsed_films.csv", "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating", "letterboxd_url"])
-        writer.writeheader()
-        writer.writerows(done_films)
-
-    with open("./scripts/scrap/data/skipped_films.csv", "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis", "letterboxd_url"], extrasaction='ignore')
-        writer.writeheader()
-        writer.writerows(skipped_films)
-    
-    print(f"5️⃣ Wrote data to files")
+    # Final save
+    save_progress()
+    print(f"5️⃣ Final save complete - {len(done_films)} films parsed")
 
 get_metrograph_films(False)
 parse_letterboxd()
