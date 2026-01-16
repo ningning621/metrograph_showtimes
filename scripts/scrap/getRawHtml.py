@@ -5,13 +5,16 @@ import csv
 import re
 
 def get_metrograph_films(isLocal: bool):
-    print("0️⃣ Starting film scraping work")
+    
 
     if isLocal:
+        print("0️⃣ Pulling films from local file")
         # pull raw html from local file
         with open("./scripts/scrap/data/metrograph.html", "r", encoding="utf-8") as f:
             response = f.read()
     else:
+        print("0️⃣ Pulling films from Metrograph website, films page")
+
         # pull raw html with cache-busting headers
         headers = {
             'Cache-Control': 'no-cache, no-store, must-revalidate',
@@ -66,13 +69,15 @@ def get_metrograph_films(isLocal: bool):
     print("3️⃣ Finish writing html to file")
 
 def get_metrograph_events(isLocal: bool):
-    print("0️⃣ Opening metrograph events page")
-
+    
     if isLocal:
+        print("0️⃣ Opening local metrograph events html file")
         # pull raw html from local file
         with open("./scripts/scrap/data/metrograph_events.html", "r", encoding="utf-8") as f:
             response = f.read()
     else:
+        print("0️⃣ Pulling from Metrograph website, events page")
+
         # pull raw html with cache-busting headers
         headers = {
             'Cache-Control': 'no-cache, no-store, must-revalidate',
