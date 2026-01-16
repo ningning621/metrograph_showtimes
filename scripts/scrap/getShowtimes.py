@@ -162,12 +162,17 @@ def parse_letterboxd():
                 # Extract the film page URL
                 film_url = link_tag.get_attribute("href")
                 film["letterboxd_url"] = film_url
-                print(f"→ Found film URL: {film_url}")
+                print(f"→ Found film url: {film_url}")
+                
+                print(f"→ Loading film page...")
                 driver.get(film_url)
+                print(f"→ Film page loaded")
 
+                print(f"→ Waiting for rating element...")
                 rating = wait.until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "span.average-rating > a"))
                 )
+                print(f"→ Rating element found")
                 film["rating"] = rating.text
 
                 driver.implicitly_wait(5)
