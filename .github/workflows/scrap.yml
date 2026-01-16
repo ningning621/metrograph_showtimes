@@ -11,6 +11,7 @@ permissions:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    timeout-minutes: 90 # Cancel entire job after 90 minutes
 
     steps:
       - name: Checkout repo
@@ -27,6 +28,7 @@ jobs:
           pip install webdriver-manager
 
       - name: Pull raw html
+        timeout-minutes: 2 # Cancel this step after 5 minutes
         run: |
           python -u scripts/scrap/getRawHtml.py
 
@@ -41,9 +43,16 @@ jobs:
           git commit -m "Update raw html files [skip ci]" || echo "No changes to commit"
           git push
 
-      - name: Run script
-        run: |
-          python -u scripts/scrap/getShowtimes.py
+      - name: Wait 30 seconds
+        run: sleep 30
+
+      - name: Run letterboxd script with retry
+        timeout-minutes: 15 # Cancel this step after 15 minutes
+        uses: nick-invision/retry@v2
+        with:
+          timeout_minutes: 10 # Each attempt times out after 10 minutes
+          max_attempts: 3 # Retry up to 3 times
+          command: python -u scripts/scrap/getShowtimes.py
 
       - name: Commit parsed data files
         run: |
