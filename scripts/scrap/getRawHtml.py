@@ -12,8 +12,14 @@ def get_metrograph_films(isLocal: bool):
         with open("./scripts/scrap/data/metrograph.html", "r", encoding="utf-8") as f:
             response = f.read()
     else:
-        # pull raw html 
-        response = requests.get("https://metrograph.com/film/")
+        # pull raw html with cache-busting headers
+        headers = {
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache',
+            'Expires': '0',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+        }
+        response = requests.get("https://metrograph.com/film/", headers=headers)
         with open("./scripts/scrap/data/metrograph.html", "w", encoding="utf-8") as f:
             f.write(response.text)
         
@@ -67,8 +73,14 @@ def get_metrograph_events(isLocal: bool):
         with open("./scripts/scrap/data/metrograph_events.html", "r", encoding="utf-8") as f:
             response = f.read()
     else:
-        # pull raw html 
-        response = requests.get("https://metrograph.com/events/")
+        # pull raw html with cache-busting headers
+        headers = {
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache',
+            'Expires': '0',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+        }
+        response = requests.get("https://metrograph.com/events/", headers=headers)
         with open("./scripts/scrap/data/metrograph_events.html", "w", encoding="utf-8") as f:
             f.write(response.text)
         
