@@ -9,6 +9,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
+from selenium.common.exceptions import TimeoutException, WebDriverException
 from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import quote_plus
 
@@ -70,7 +71,7 @@ def parse_letterboxd():
         service=Service(ChromeDriverManager().install()),
         options=options
     )
-    driver.set_page_load_timeout(60) # 60 seconds timeout
+    driver.set_page_load_timeout(30)  # 30 second timeout for page loads - will throw TimeoutException if exceeded
 
     skipped_films = []
     done_films = []
@@ -161,7 +162,7 @@ def parse_letterboxd():
                 # Extract the film page URL
                 film_url = link_tag.get_attribute("href")
                 film["letterboxd_url"] = film_url
-
+                print(f"→ Found film URL: {film_url}")
                 driver.get(film_url)
 
                 rating = wait.until(
@@ -173,10 +174,15 @@ def parse_letterboxd():
                 done_films.append(film)
 
                 print(f"→ Successfully parsed {film_title}")
-            except Exception as e:
-                # print(e)
+            except TimeoutException as e:
                 skipped_films.append(film)
-                print(f"→ Skipped {film_title}")
+                print(f"→ Skipped {film_title} (timeout - page took too long to load)")
+            except WebDriverException as e:
+                skipped_films.append(film)
+                print(f"→ Skipped {film_title} (webdriver error)")
+            except Exception as e:
+                skipped_films.append(film)
+                print(f"→ Skipped {film_title} (error: {type(e).__name__})")
         
         # Save progress every 10 films
         if idx % 10 == 0:
