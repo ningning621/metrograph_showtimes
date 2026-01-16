@@ -1,77 +1,194 @@
 [
   {
-    "title": "Cloud Atlas",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/CLOUD-ATLAS_6-copy.jpg",
+    "title": "Fantasia",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/FANTASIA_7-copy.jpg",
     "directors": [
-      "Lilly  Wachowski",
-      "Lana  Wachowski",
-      "Tyler Tykwer"
+      "James Algar",
+      "Samuel Armstrong",
+      "Ford Beebe Jr."
     ],
-    "synopsis": "Bae Doona joins a formidable ensemble cast that includes Tom Hanks, Halle Berry, Jim Broadbent, and Hugh Grant, each taking on multiple roles, in the Wachowsky’s and Tykwer’s madly ambitious, epoch-spanning adaptation of David Mitchell’s 2004 novel…",
-    "year": 2012
+    "synopsis": "The Philadelphia Orchestra, following the hand of conductor Leopold Stokowski, performs selections from Bach, Tchaikovsky, Stravinsky, Beethoven, and other giants, each accompanied by animated vignettes—most famously the mischievous Mickey Mouse vehicle…",
+    "year": 1940
   },
   {
-    "title": "2046 [35mm]",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/2046_1.jpeg",
+    "title": "Linda Linda Linda",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/LINDA-LINDA-LINDA_6.jpeg",
     "directors": [
-      "Wong Kar-wai"
+      "Nobuhiro Yamashita"
     ],
-    "synopsis": "A sort-of sequel to Wong’s Days of Being Wild and In the Mood for Love, the ’60s-set 2046 revisits Tony Leung Chiu-wai’s Chow, now a suave science-fiction writer, to chronicle his various affairs with women (including Faye Wong, Zhang Ziyi, and Gong…",
-    "year": 2004
+    "synopsis": "With their last high school concert only days away, bandmates Kei, Kyoko, and Nozomi’s hopes of taking the stage appear to be dashed when their lead singer quits the group, leaving them to hastily recruit a Korean exchange student with a limited grasp…",
+    "year": 2005
   },
   {
-    "title": "The Farewell",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-FAREWELL_1.jpeg",
+    "title": "Eat Drink Man Woman",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/EAT-DRINK-MAN._4.jpg",
     "directors": [
-      "Lulu Wang"
+      "Ang Lee"
     ],
-    "synopsis": "Writer-director Wang draws from her own life experience in this funny, frank, and heartfelt diaspora drama, a Sundance sensation starring Crazy Rich Asians’s Awkwafina. Chinese American writer Billi, en route to a family reunion to Changchun, must…",
-    "year": 2019
+    "synopsis": "Co-written by James Schamus and Wang Hui-ling, Lee’s gently comic family fable about a semi-retired master chef and his three daughters, the director’s only film shot entirely in his native Taiwan, is arguably the best movie about how food can connect…",
+    "year": 1994
   },
   {
-    "title": "A Summer at Grandpa's",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/A-SUMMER-AT-GRANDPAS.jpg",
+    "title": "Freak Orlando",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/orlando2.jpeg",
     "directors": [
-      "Hou Hsiao-hsien"
+      "Ulrike Ottinger"
     ],
-    "synopsis": "Introduction by programmer Edo Choi on Sunday, December 21st",
+    "synopsis": "An outrageous, carnivalesque camp reading of Virginia Woolf’s Orlando, Ottinger’s crazed comedy follows its gender nonconforming hero/heroine through five wide-ranging adventures that span the history of the world: the Freak City department store,…",
+    "year": 1981
+  },
+  {
+    "title": "Sympathy for Mr. Vengeance",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/SYMPATHY-FOR-MR-VENGEANCE_3.jpg",
+    "directors": [
+      "Park Chan-wook"
+    ],
+    "synopsis": "Fired from his factory job, Ryu (Shin Ha-kyun), a gentle deaf-mute man desperately trying to scrape together funds for his sister’s kidney transplant, falls in with a plan, hatched by his anarchist activist girlfriend (Bae Doona), to kidnap the daughter…",
+    "year": 2002
+  },
+  {
+    "title": "Ticket of No Return",
+    "imageUrl": "https://metrograph.imgix.net/2022/11/ticket-of-no-return.jpg?fm=pjpg&ixlib=php-3.3.1",
+    "directors": [
+      "Ulrike Ottinger"
+    ],
+    "synopsis": "Introduction by Ulrike Ottinger on Saturday, October 4th",
+    "year": 1979
+  },
+  {
+    "title": "The Nightmare Before Christmas",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-NIGHTMARE-BEFORE-CHRISTMAS_6-copy.jpg",
+    "directors": [
+      "Tim Burton"
+    ],
+    "synopsis": "One fine day Jack Skellington, the Pumpkin King of Halloween Town, discovers a gateway leading to the snow-blanketed, jolly Christmastown, and decides to bring the holiday back to his ghost and ghoul subjects, a plan that quickly goes catastrophic.…",
+    "year": 1993
+  },
+  {
+    "title": "Gremlins",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/GREMLINS_5.jpeg",
+    "directors": [
+      "Tim Burton"
+    ],
+    "synopsis": "Crackpot inventor Randall Peltzer (Hoyt Axton) purchases a pet mogwai—that’s Cantonese for “devil,” by the way—from a Chinatown vendor as a Christmas gift for son Billy (Zach Galligan), but when Gizmo’s new owners fail to follow strict…",
     "year": 1984
   },
   {
-    "title": "The Big Parade",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-BIG-PARADE_6-copy.jpg",
+    "title": "Take Care of My Cat",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/TAKE-CARE-OF-MY-CAT_11.jpeg",
     "directors": [
-      "King Vidor"
+      "Jae-eun Jeong"
     ],
-    "synopsis": "Three young Americans—idle rich boy Jim (John Gilbert), construction worker Slim (Karl Dane), and barkeep Bull (Tom O’Brien)—set out for the battlefields of World War I with dreams of glory, only to discover a reality horrible beyond imagination, in…",
+    "synopsis": "The debut feature from Jeong, one of a handful of female directors to break into the South Korean film industry, focuses on five young women, recent high school graduates living in the industrial port city of Incheon and facing a precarious future…",
+    "year": 2001
+  },
+  {
+    "title": "Whit Stillman Presents Metropolitan",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/METROPOLITAN_5.jpeg",
+    "directors": [
+      "Whit Stillman"
+    ],
+    "synopsis": "Q&A with director Whit Stillman moderated by critic Vadim Rizov on Friday, December 19th",
+    "year": 1990
+  },
+  {
+    "title": "A Girl is a Gun",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/GirlisaGun_still_1.jpeg",
+    "directors": [
+      "Luc Moullet"
+    ],
+    "synopsis": "Jean-Pierre Léaud plays Billy the Kid, and things only get stranger from there in Moullet’s newly restored, slapstick Bouillabaisse Western, which follows Léaud’s loony Billy across the rugged terrain of the Hautes Alps, fleeing the law and hostile…",
+    "year": 1971
+  },
+  {
+    "title": "Robert Longo Presents Johnny Mnemonic in B&W",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/JOHNNY-MNEMONIC_WP_5_bw.jpg",
+    "directors": [
+      "Robert Longo"
+    ],
+    "synopsis": "Introduction by director Robert Longo on Friday, December 19th",
+    "year": 1995
+  },
+  {
+    "title": "Millennium Mambo",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/MILLENNIUM-MAMBO_2.jpg",
+    "directors": [
+      "Hou Hsiao-hsien"
+    ],
+    "synopsis": "A stylish and seductive submersion into the techno-scored neon nightlife of Taipei, Hou’s much-misunderstood marvel stars Shu Qi (The Assassin) as an aimless bar hostess drifting away from her blowhard boyfriend and towards Jack Kao’s suave, sensitive…",
+    "year": 2001
+  },
+  {
+    "title": "Point Break",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/POINT-BREAK_3-copy.jpg",
+    "directors": [
+      "Kathryn Bigelow"
+    ],
+    "synopsis": "Keanu Reeves stars as Johnny Utah, an FBI agent who goes undercover among the beach bums in order to investigate a hunch about surfers who are possibly moonlighting as bank robbers, in the film that cemented Reeves as a new, very California cool kind of…",
+    "year": 1991
+  },
+  {
+    "title": "Art Cinema for Tots: The Snowman",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/snowman_hero_image.jpeg",
+    "directors": [
+      "Multiple Dirs"
+    ],
+    "synopsis": "Born out of a commitment to the idea that it’s never too early to introduce kids to the pleasures of movies made outside of the commercial mainstream—and the suspicion that young audiences are often more open-minded and curious than their elders when…",
+    "year": 1982
+  },
+  {
+    "title": "The Leopard",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/06/THE-LEOPARD_3-copy.jpg",
+    "directors": [
+      "Luchino  Visconti"
+    ],
+    "synopsis": "Visconti, a committed communist with a taste for lavish luxury who also happened to be a titled Count of the Milanese aristocracy, depicts the overtaking of the class into which he was born by an ascendant bourgeoisie in his opulent adaptation—shot in…",
+    "year": 1963
+  },
+  {
+    "title": "The Shop Around the Corner",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-SHOP-AROUND-THE-CORNER_3.jpeg",
+    "directors": [
+      "Ernst Lubitsch"
+    ],
+    "synopsis": "Christmas is coming, and at Matuschek’s department store in Budapest—or, rather, a charming, snowbound Hollywood studio evocation of the city in its prewar splendor—the employees are bracing for the holiday rush. But that’s the least of the drama…",
+    "year": 1940
+  },
+  {
+    "title": "The Godfather Part II",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/Godfather-2.jpeg",
+    "directors": [
+      "Francis Ford  Coppola"
+    ],
+    "synopsis": "The rare sequel to, in the eyes of many viewers at least, equal or exceed its original, The Godfather Part II is in fact sequel and prequel in one package, weaving together the c.1958 story of the Corleones—now led by Al Pacino’s Michael out of a…",
+    "year": 1974
+  },
+  {
+    "title": "Strike",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/STRIKE_2-copy.jpg",
+    "directors": [
+      "Sergei Eisenstein"
+    ],
+    "synopsis": "Eisenstein’s Battleship Potemkin, released eight months after the premiere of Strike, his narrative debut, would go on to become the textbook representative of the ideological fervency and “anything goes” creative indulgence that made the cinema of…",
     "year": 1925
   },
   {
-    "title": "A Time to Live, a Time to Die",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/A-TIME-TO-LIVE-A-TIME-TO-DIE_7.jpeg",
+    "title": "Battleship Potemkin",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/BATTLESHIP-POTEMKIN_1.png",
     "directors": [
-      "Hou Hsiao-hsien"
+      "Sergei Eisenstein"
     ],
-    "synopsis": "Introduction by programmer Edo Choi on Sunday, December 21st",
-    "year": 1985
+    "synopsis": "An epic dramatization of the mutiny of the crew of the namesake vessel, a dreadnought in the Imperial Russian Navy’s Black Sea Fleet, whose uprising was one of many that marked the revolutionary year of 1905 in the troubled Tsardom; also the film that,…",
+    "year": 1925
   },
   {
-    "title": "Dust in the Wind",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/DUST-IN-THE-WIND.jpg",
+    "title": "McCabe & Mrs. Miller",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/MCCABE-MRS.-MILLER_3-copy.jpg",
     "directors": [
-      "Hou Hsiao-hsien"
+      "Robert Altman"
     ],
-    "synopsis": "Introduction by programmer Edo Choi on Sunday, December 21st",
-    "year": 1986
-  },
-  {
-    "title": "Happyend",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/HAPPYEND_2.jpg",
-    "directors": [
-      "Neo Sora"
-    ],
-    "synopsis": "Introduction by producer Albert Tholen and cinematographer Bill Kirstein on Tuesday, December 23rd",
-    "year": 2024
+    "synopsis": "Hailed by critic Pauline Kael as “a beautiful pipe dream of a movie,” Altman’s snowbound Western plays out in the ramshackle Washington frontier town of Presbyterian, where extravagantly fur-coated wandering gambler Warren Beatty decides to stick…",
+    "year": 1971
   },
   {
     "title": "Eyes Wide Shut",
@@ -83,13 +200,159 @@
     "year": 1999
   },
   {
-    "title": "Possession",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/11/FILM.00_31_13_18.Still012-1.jpg",
+    "title": "Snow White and the Seven Dwarfs",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/SNOW-WHITE-AND-THE-SEVEN-DWARFS_9-copy.jpg",
     "directors": [
-      "Andrzej  Żuławski"
+      "Multiple Dirs"
     ],
-    "synopsis": "Easily the most harrowing divorce drama ever made, Zuławski’s one-of-a-kind genre pastiche has spy Sam Neill returning to his Berlin home from a mission abroad to discover that wife Isabelle Adjani wants suddenly to split up. Launching an investigation…",
-    "year": 1981
+    "synopsis": "Walter Elias Disney had taken risks in his professional life before, some of them quite substantive, but never, before or after, would he put all his chips on the table in the way that he did with Snow White and the Seven Dwarfs. It would be the first…",
+    "year": 1937
+  },
+  {
+    "title": "The Muppet Christmas Carol",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-MUPPET-CHRISTMAS-CAROL_1.jpeg",
+    "directors": [
+      "Brian  Henson"
+    ],
+    "synopsis": "The first Muppet movie to appear after the early death of genius Jim Henson, and the most emotionally rich of them all, a revitalizing retelling of Charles Dickens’s classic tale with Michael Caine as a superb Scrooge, Kermit as Bob Cratchit, and a host…",
+    "year": 1992
+  },
+  {
+    "title": "Holiday Fleischer Cartoons",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/Fleischer-Poster_resized.jpeg",
+    "directors": [
+      "Multiple Dirs",
+      "Dave Fleischer",
+      "Max Fleischer"
+    ],
+    "synopsis": "Celebrate the holidays with Fleischer Studios, home of Betty Boop, Popeye, Bimbo, and a barbed, surrealist sense of humor. Featuring Modeling, in which Koko the Clown escapes Max Fleischer’s pen to run amok; Christmas Comes but Once a Year, in which…",
+    "year": 1933
+  },
+  {
+    "title": "A Summer at Grandpa's",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/A-SUMMER-AT-GRANDPAS.jpg",
+    "directors": [
+      "Hou Hsiao-hsien"
+    ],
+    "synopsis": "Frequently approximating the point-of-view of its young protagonists, two siblings sent to stay with their grandfather in lush rural Taiwan while their hospitalized mother recuperates from a lingering illness, the first film in Hou’s coming-of-age…",
+    "year": 1984
+  },
+  {
+    "title": "A Time to Live, a Time to Die",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/A-TIME-TO-LIVE-A-TIME-TO-DIE_7.jpeg",
+    "directors": [
+      "Hou Hsiao-hsien"
+    ],
+    "synopsis": "Arguably the film in which all the elements of Hou’s meticulously controlled, objectively distanced mature style identifiably coalesce, and his first collaboration with crucial cohort Lee, the deeply personal coming-of-age story A Time to Live, a Time…",
+    "year": 1985
+  },
+  {
+    "title": "Dust in the Wind",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/DUST-IN-THE-WIND.jpg",
+    "directors": [
+      "Hou Hsiao-hsien"
+    ],
+    "synopsis": "Young lovers Wan and Huen, fresh out of junior high school in the remote, mountainous mining town where they were raised, look forward to a bright future together in their new home of Taipei—only to face first the grim reality of urban life there, then…",
+    "year": 1986
+  },
+  {
+    "title": "Carol [DCP]",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/CAROL_9.jpeg",
+    "directors": [
+      "Todd Haynes"
+    ],
+    "synopsis": "A Metrograph holiday tradition, back by popular demand. It starts at Frankenberg’s department store, and an exchange of glances between Carol and the girl behind the counter (Cate Blanchett and Rooney Mara, both sublime), a look that tangles up…",
+    "year": 2015
+  },
+  {
+    "title": "An Affair to Remember",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/AN-AFFAIR-TO-REMEMBER_2.jpeg",
+    "directors": [
+      "Leo  McCarey"
+    ],
+    "synopsis": "Almost 20 years after his 1939 Love Affair, McCarey returned to the same story—that of a jaded fortune-hunting roué and unhappily engaged woman who meet on a transatlantic liner, are redeemed in love for one another, then separated by tragedy—which…",
+    "year": 1957
+  },
+  {
+    "title": "I Can't Sleep",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/I-CANT-SLEEP_1.jpeg",
+    "directors": [
+      "Claire Denis"
+    ],
+    "synopsis": "Loosely inspired by the exploits of the so-called “granny killers” Thierry Paulin and Jean-Thierry Mathurin who made headlines in the late ’80s with their savage slayings of some 21 elderly women in and around Paris’s 18th arrondissement,…",
+    "year": 1994
+  },
+  {
+    "title": "Blast of Silence",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/BLAST-OF-SILENCE_2-copy.jpg",
+    "directors": [
+      "Allen Baron"
+    ],
+    "synopsis": "A singularly downbeat home-for-the-holidays movie, Baron’s grungy independently produced noir concerns solitary tight-lipped hitman, Frank “Baby Boy” Bono (Baron himself), embarking on a Christmas week assignment for the Cleveland mob in his old…",
+    "year": 1961
+  },
+  {
+    "title": "2046 [35mm]",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/2046_1.jpeg",
+    "directors": [
+      "Wong Kar-wai"
+    ],
+    "synopsis": "A sort-of sequel to Wong’s Days of Being Wild and In the Mood for Love, the ’60s-set 2046 revisits Tony Leung Chiu-wai’s Chow, now a suave science-fiction writer, to chronicle his various affairs with women (including Faye Wong, Zhang Ziyi, and Gong…",
+    "year": 2004
+  },
+  {
+    "title": "Alphaville",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/ALPHAVILLE_1.jpeg",
+    "directors": [
+      "Jean-Luc Godard"
+    ],
+    "synopsis": "Eddie Constantine’s B-movie private dick Lemmy Caution finds himself on the toughest case of his career, on the trail of rogue scientist Professor von Braun, the inventor of Alpha 60, a sentient computer that keeps tabs on the citizenry of…",
+    "year": 1965
+  },
+  {
+    "title": "Fanny and Alexander (TV version)",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/FANNY-AND-ALEXANDER-TV_7.jpg",
+    "directors": [
+      "Ingmar Bergman"
+    ],
+    "synopsis": "Spend the Christmas Eve of 1907—and the aftermath of the sumptuous celebration—at the Ekdahl family home, as seen through the eyes of two of the massive clan’s smallest members, played by Pernilla Allwin and Bertil Guve, in Bergman’s intimate epic…",
+    "year": 1982
+  },
+  {
+    "title": "Tokyo Godfathers",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/TOKYO-GODFATHERS_1.jpeg",
+    "directors": [
+      "Satoshi Kon"
+    ],
+    "synopsis": "The late, great Kon’s penultimate feature takes place on Christmas Eve, when three homeless Tokyo residents discover, while rummaging through the garbage, an abandoned newborn baby. The ragtag, outcast trio—runaway girl Miyuki, trans woman Hana, and…",
+    "year": 2003
+  },
+  {
+    "title": "Happyend",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/08/HAPPYEND_2.jpg",
+    "directors": [
+      "Neo Sora"
+    ],
+    "synopsis": "In a near-future Tokyo, two rambunctious high school pals with graduation—and uncertain-at-best prospects—on the near horizon reckon with the fallout of a prank played on their principal and the daily looming threat of a catastrophic earthquake. The…",
+    "year": 2024
+  },
+  {
+    "title": "Carol [35mm]",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/CAROL_9.jpeg",
+    "directors": [
+      "Todd Haynes"
+    ],
+    "synopsis": "A Metrograph holiday tradition, back by popular demand. It starts at Frankenberg’s department store, and an exchange of glances between Carol and the girl behind the counter (Cate Blanchett and Rooney Mara, both sublime), a look that tangles up…",
+    "year": 2016
+  },
+  {
+    "title": "Videodrome",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/VIDEODROME_1-copy.jpg",
+    "directors": [
+      "David Cronenberg"
+    ],
+    "synopsis": "Long live the new flesh! As Toronto UHF television programmer and softcore smut aficionado James Woods (remarkably convincing playing a scumbag) scents the trail of an intercepted snuff film broadcast, he makes a nasty NSA new friend in the form of Debbie…",
+    "year": 1983
   },
   {
     "title": "The Wizard of Oz",
@@ -101,6 +364,24 @@
     "year": 1939
   },
   {
+    "title": "Amarcord [DCP]",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/03/AMARCORD_13_resized.jpg",
+    "directors": [
+      "Federico Fellini"
+    ],
+    "synopsis": "The first of Guerra’s three collaborations with Fellini, who he had been born only two months before and a few miles away from, is an affectionate, richly sensual film reminiscence of a year in the life of the bygone world of its director’s…",
+    "year": 1973
+  },
+  {
+    "title": "In the Mood for Love",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/IN-THE-MOOD-FOR-LOVE_8.jpeg",
+    "directors": [
+      "Wong Kar-wai"
+    ],
+    "synopsis": "Wong’s arthouse smash is the very simple tale of two people in early ’60s Hong Kong, Mr. Chow (Tony Leung Chiu-wai) and Mrs. Chen (Maggie Cheung), drawn to one another by the discovery that their spouses are getting together on the side. A little…",
+    "year": 2000
+  },
+  {
     "title": "The Gold Rush",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-GOLD-RUSH_2.jpeg",
     "directors": [
@@ -110,6 +391,71 @@
     "year": 1925
   },
   {
+    "title": "Platform",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/PLATFORM_2.jpeg",
+    "directors": [
+      "Jia Zhangke"
+    ],
+    "synopsis": "Jia’s intimate epic begins in and returns to the director’s hometown of Fenyang, Shanxi Province, where it picks up with a theatre troupe first encountered in the late ’70s, following them through changes in fashion over the course of a decade as…",
+    "year": 2000
+  },
+  {
+    "title": "Air Doll",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/AIR-DOLL_2.jpg",
+    "directors": [
+      "Hirokazu Kore-eda"
+    ],
+    "synopsis": "Adapted from a manga by Yoshiie Gōda, Kore-eda’s bittersweet modern-day fable of urban anomie and objectification—a little-seen outlier in the Japanese master’s filmography, featuring fleet mobile camerawork and a glossy pop art color palette…",
+    "year": 2009
+  },
+  {
+    "title": "Phantom Thread [35mm]",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/PHANTOM-THREAD_9.jpeg",
+    "directors": [
+      "Paul Thomas Anderson"
+    ],
+    "synopsis": "One of the key scenes in Anderson’s evocation of the world of haute couture in postwar England takes place at a riotously colorful New Year’s Eve ball, but the film itself qualifies for inclusion in a holiday series by virtue of having the quality of…",
+    "year": 2017
+  },
+  {
+    "title": "Cloud Atlas",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/CLOUD-ATLAS_6-copy.jpg",
+    "directors": [
+      "Lilly  Wachowski",
+      "Lana  Wachowski",
+      "Tyler Tykwer"
+    ],
+    "synopsis": "Bae Doona joins a formidable ensemble cast that includes Tom Hanks, Halle Berry, Jim Broadbent, and Hugh Grant, each taking on multiple roles, in the Wachowsky’s and Tykwer’s madly ambitious, epoch-spanning adaptation of David Mitchell’s 2004 novel…",
+    "year": 2012
+  },
+  {
+    "title": "The Farewell",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-FAREWELL_1.jpeg",
+    "directors": [
+      "Lulu Wang"
+    ],
+    "synopsis": "Writer-director Wang draws from her own life experience in this funny, frank, and heartfelt diaspora drama, a Sundance sensation starring Crazy Rich Asians’s Awkwafina. Chinese American writer Billi, en route to a family reunion to Changchun, must…",
+    "year": 2019
+  },
+  {
+    "title": "The Big Parade",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/THE-BIG-PARADE_6-copy.jpg",
+    "directors": [
+      "King Vidor"
+    ],
+    "synopsis": "Three young Americans—idle rich boy Jim (John Gilbert), construction worker Slim (Karl Dane), and barkeep Bull (Tom O’Brien)—set out for the battlefields of World War I with dreams of glory, only to discover a reality horrible beyond imagination, in…",
+    "year": 1925
+  },
+  {
+    "title": "Possession",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/11/FILM.00_31_13_18.Still012-1.jpg",
+    "directors": [
+      "Andrzej  Żuławski"
+    ],
+    "synopsis": "Easily the most harrowing divorce drama ever made, Zuławski’s one-of-a-kind genre pastiche has spy Sam Neill returning to his Berlin home from a mission abroad to discover that wife Isabelle Adjani wants suddenly to split up. Launching an investigation…",
+    "year": 1981
+  },
+  {
     "title": "Ikiru",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/IKIRU_4.jpeg",
     "directors": [
@@ -117,15 +463,6 @@
     ],
     "synopsis": "One of Kurosawa’s very greatest achievements, Ikiru shows the director at his most compassionate, affirming life through an explora­tion of death. Takashi Shimura brings a sublime pathos to his portrayal of an aging Tokyo bureaucrat who, after being…",
     "year": 1952
-  },
-  {
-    "title": "Alphaville",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/ALPHAVILLE_1.jpeg",
-    "directors": [
-      "Jean-Luc Godard"
-    ],
-    "synopsis": "Eddie Constantine’s B-movie private dick Lemmy Caution finds himself on the toughest case of his career, on the trail of rogue scientist Professor von Braun, the inventor of Alpha 60, a sentient computer that keeps tabs on the citizenry of…",
-    "year": 1965
   },
   {
     "title": "Distant Voices, Still Lives",
@@ -173,104 +510,12 @@
     "year": 2000
   },
   {
-    "title": "Millennium Mambo",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/MILLENNIUM-MAMBO_2.jpg",
-    "directors": [
-      "Hou Hsiao-hsien"
-    ],
-    "synopsis": "A stylish and seductive submersion into the techno-scored neon nightlife of Taipei, Hou’s much-misunderstood marvel stars Shu Qi (The Assassin) as an aimless bar hostess drifting away from her blowhard boyfriend and towards Jack Kao’s suave, sensitive…",
-    "year": 2001
-  },
-  {
-    "title": "In the Mood for Love",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/IN-THE-MOOD-FOR-LOVE_8.jpeg",
-    "directors": [
-      "Wong Kar-wai"
-    ],
-    "synopsis": "Wong’s arthouse smash is the very simple tale of two people in early ’60s Hong Kong, Mr. Chow (Tony Leung Chiu-wai) and Mrs. Chen (Maggie Cheung), drawn to one another by the discovery that their spouses are getting together on the side. A little…",
-    "year": 2000
-  },
-  {
     "title": "Fantastic Mr. Fox",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/FANTASTIC-MR.-FOX_1-copy.jpg",
     "directors": [
       "Wes Anderson"
     ],
     "synopsis": "",
-    "year": 2009
-  },
-  {
-    "title": "Snow White and the Seven Dwarfs",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/SNOW-WHITE-AND-THE-SEVEN-DWARFS_9-copy.jpg",
-    "directors": [
-      "Multiple Dirs"
-    ],
-    "synopsis": "Walter Elias Disney had taken risks in his professional life before, some of them quite substantive, but never, before or after, would he put all his chips on the table in the way that he did with Snow White and the Seven Dwarfs. It would be the first…",
-    "year": 1937
-  },
-  {
-    "title": "Amarcord [DCP]",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/03/AMARCORD_13_resized.jpg",
-    "directors": [
-      "Federico Fellini"
-    ],
-    "synopsis": "The first of Guerra’s three collaborations with Fellini, who he had been born only two months before and a few miles away from, is an affectionate, richly sensual film reminiscence of a year in the life of the bygone world of its director’s…",
-    "year": 1973
-  },
-  {
-    "title": "Carol [DCP]",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/CAROL_9.jpeg",
-    "directors": [
-      "Todd Haynes"
-    ],
-    "synopsis": "A Metrograph holiday tradition, back by popular demand. It starts at Frankenberg’s department store, and an exchange of glances between Carol and the girl behind the counter (Cate Blanchett and Rooney Mara, both sublime), a look that tangles up…",
-    "year": 2015
-  },
-  {
-    "title": "Phantom Thread [35mm]",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/PHANTOM-THREAD_9.jpeg",
-    "directors": [
-      "Paul Thomas Anderson"
-    ],
-    "synopsis": "One of the key scenes in Anderson’s evocation of the world of haute couture in postwar England takes place at a riotously colorful New Year’s Eve ball, but the film itself qualifies for inclusion in a holiday series by virtue of having the quality of…",
-    "year": 2017
-  },
-  {
-    "title": "Gremlins",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/GREMLINS_5.jpeg",
-    "directors": [
-      "Paul Thomas Anderson"
-    ],
-    "synopsis": "Crackpot inventor Randall Peltzer (Hoyt Axton) purchases a pet mogwai—that’s Cantonese for “devil,” by the way—from a Chinatown vendor as a Christmas gift for son Billy (Zach Galligan), but when Gizmo’s new owners fail to follow strict…",
-    "year": 1984
-  },
-  {
-    "title": "Point Break",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/POINT-BREAK_3-copy.jpg",
-    "directors": [
-      "Kathryn Bigelow"
-    ],
-    "synopsis": "Keanu Reeves stars as Johnny Utah, an FBI agent who goes undercover among the beach bums in order to investigate a hunch about surfers who are possibly moonlighting as bank robbers, in the film that cemented Reeves as a new, very California cool kind of…",
-    "year": 1991
-  },
-  {
-    "title": "Fantasia",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/FANTASIA_7-copy.jpg",
-    "directors": [
-      "James Algar",
-      "Samuel Armstrong",
-      "Ford Beebe Jr."
-    ],
-    "synopsis": "The Philadelphia Orchestra, following the hand of conductor Leopold Stokowski, performs selections from Bach, Tchaikovsky, Stravinsky, Beethoven, and other giants, each accompanied by animated vignettes—most famously the mischievous Mickey Mouse vehicle…",
-    "year": 1940
-  },
-  {
-    "title": "Air Doll",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/AIR-DOLL_2.jpg",
-    "directors": [
-      "Hirokazu Kore-eda"
-    ],
-    "synopsis": "Adapted from a manga by Yoshiie Gōda, Kore-eda’s bittersweet modern-day fable of urban anomie and objectification—a little-seen outlier in the Japanese master’s filmography, featuring fleet mobile camerawork and a glossy pop art color palette…",
     "year": 2009
   },
   {
@@ -290,15 +535,6 @@
     ],
     "synopsis": "A richly realized fable that begins when a bamboo cutter discovers a tiny girl inside of one of the shoots that he’s chopping, and decides to raise her as a princess—a decision that has very little to do with her down-to-earth nature. The final film…",
     "year": 2013
-  },
-  {
-    "title": "Platform",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/PLATFORM_2.jpeg",
-    "directors": [
-      "Jia Zhangke"
-    ],
-    "synopsis": "Jia’s intimate epic begins in and returns to the director’s hometown of Fenyang, Shanxi Province, where it picks up with a theatre troupe first encountered in the late ’70s, following them through changes in fashion over the course of a decade as…",
-    "year": 2000
   },
   {
     "title": "Solaris",
@@ -355,18 +591,7 @@
     "year": 1997
   },
   {
-    "title": "Holiday Fleischer Cartoons",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/Fleischer-Poster_resized.jpeg",
-    "directors": [
-      "Multiple Dirs",
-      "Dave Fleischer",
-      "Max Fleischer"
-    ],
-    "synopsis": "Celebrate the holidays with Fleischer Studios, home of Betty Boop, Popeye, Bimbo, and a barbed, surrealist sense of humor. Featuring Modeling, in which Koko the Clown escapes Max Fleischer’s pen to run amok; Christmas Comes but Once a Year, in which…",
-    "year": 1933
-  },
-  {
-    "title": "As I Was Moving Ahead Occasionally I Saw...",
+    "title": "As I Was Moving Ahead Occasionally I Saw Brief Gli",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/AS-I-WAS-MOVING-AHEAD._3.jpeg",
     "directors": [
       "Jonas Mekas"
@@ -443,7 +668,7 @@
     "directors": [
       "Multiple Dirs"
     ],
-    "synopsis": "Introduction by producer/co-director Félix de Givry on Friday, January 9th",
+    "synopsis": "Introduction by producer/co-writer Félix de Givry on Friday, January 9th",
     "year": 2025
   },
   {
@@ -481,24 +706,6 @@
     ],
     "synopsis": "The chance discovery of a severed human ear lying in a field inspires Kyle MacLachlan’s wholesome, all-American protagonist to try his hand at amateur sleuthing, and sets him off on a journey that will introduce him to bruised beauty Isabella Rossellini…",
     "year": 1986
-  },
-  {
-    "title": "Empire II",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/EMPIRE-II_1-copy.jpg",
-    "directors": [
-      "Amos Poe"
-    ],
-    "synopsis": "Shot over the course of a year from the window of its director’s Manhattan apartment, Empire II is Poe’s rejoinder, more than 40 years later, to Andy Warhol’s minimalist masterpiece of 1965, which offers an eight-hour static view of the Empire State…",
-    "year": 2007
-  },
-  {
-    "title": "Hamnet with Cinematographer Lukasz Zal",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/HAMNET_02_resized.jpg",
-    "directors": [
-      "Chloé Zhao"
-    ],
-    "synopsis": "Q&A with cinematographer Łukasz Żal on Saturday, January 10th",
-    "year": 2025
   },
   {
     "title": "The Foreigner",
@@ -544,133 +751,5 @@
     ],
     "synopsis": "Beloved star of 1940s and ’50s theatrical cartoon shorts and Harvey Comics funny books, the most amiable of poltergeists triumphantly returned to the big screen in 1995 to pal around with adolescent Christina Ricci and her recently widowed “ghost…",
     "year": 1995
-  },
-  {
-    "title": "Maborosi",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/MABOROSI_4-copy.jpg",
-    "directors": [
-      "Hirokazu Kore-eda"
-    ],
-    "synopsis": "An elegantly photographed, enormously poignant story of mourning and reawakening from master dramatist Kore-eda, already showing the extraordinary delicacy that defines his body of work in this, his feature filmmaking debut. Young mother Yumiko (Makiko…",
-    "year": 1995
-  },
-  {
-    "title": "Subway Riders",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/SUBWAY-RIDERS_1-copy.jpg",
-    "directors": [
-      "Amos Poe"
-    ],
-    "synopsis": "A woodwind-playing Pied Piper is terrorizing New York City, luring victims into abandoned corners of the city with the sound of his saxophone blowing before blowing them away. A grimy, mood-drenched memento from Fun City NYC—invested with pungent…",
-    "year": 1981
-  },
-  {
-    "title": "The Blank Generation preceded by Stiletto",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/THE-BLANK-GENERATION_1.jpeg",
-    "directors": [
-      "Amos Poe",
-      "Melvie Arslanian",
-      "Ivan Král"
-    ],
-    "synopsis": "Made in collaboration with Poe’s colleague at his New Line Cinema day job, Ivan Král of the Patti Smith Group, The Blank Generation is a one-of-a-kind document of NYC punk at ground zero, capturing early live performances by Smith, Television, Blondie,…",
-    "year": 1981
-  },
-  {
-    "title": "Smithereens",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/SMITHEREENS_1.jpeg",
-    "directors": [
-      "Susan Seidelman"
-    ],
-    "synopsis": "Wren wants to be famous. Or at least she wants to be recognized. She tours the Lower East Side in torn fishnets and a plastic houndstooth miniskirt, jumping turnstiles and wheat-pasting up her own “Missing” posters. Susan Berman plays her like the…",
-    "year": 1982
-  },
-  {
-    "title": "They Live",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/01/theylive_1280x720.png",
-    "directors": [
-      "John Carpenter"
-    ],
-    "synopsis": "“Rowdy” Roddy Piper, a homeless construction worker who’s blown into Los Angeles looking for work, stumbles across a secret stash of sunglasses that, when worn, reveal to him a hidden world—one in which ghoulish extraterrestrial overlords walk the…",
-    "year": 1988
-  },
-  {
-    "title": "Mary Poppins",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/MARY-POPPINS_2-copy.jpg",
-    "directors": [
-      "Robert Stevenson"
-    ],
-    "synopsis": "Disney brings the Edwardian England of P.L. Travers—an ever-present consultant on this film’s set—and her flying nanny to vividly colored life in a song-and-dance extravaganza beloved by generation after generation, starring Julie Andrews, in her…",
-    "year": 1964
-  },
-  {
-    "title": "When the Phone Rang",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/when-the-phone-rang.jpeg",
-    "directors": [
-      "Iva Radivojević"
-    ],
-    "synopsis": "Q&A with director Iva Radivojević on Saturday, January 17th",
-    "year": 2024
-  },
-  {
-    "title": "They Say the Moon Is Fuller Here",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/THEY-SAY-THE-MOON-IS-FULLER_2.jpeg",
-    "directors": [
-      "Clara Law"
-    ],
-    "synopsis": "Law’s shot-on-16mm graduate thesis film from London’s National Film and Television School would become the first entry in her transnational “emigration series,” with the director herself starring as Ling, a Hong Kong fine arts student in the UK…",
-    "year": 1985
-  },
-  {
-    "title": "Dreams of Dislocation: A Short Film Program",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/dreams-of-dislocation.jpeg",
-    "directors": [
-      "Multiple Dirs"
-    ],
-    "synopsis": "Post-screening discussion with filmmakers Iva Radivojević and Xiaolu Wang on Saturday, January 17th",
-    "year": 2020
-  },
-  {
-    "title": "Calendar",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/CALENDAR.jpg",
-    "directors": [
-      "Atom  Egoyan"
-    ],
-    "synopsis": "Introduction by filmmaker Iva Radivojević on Saturday, January 17th",
-    "year": 1993
-  },
-  {
-    "title": "Love & Pop",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/07/LOVE-AND-POP_2.jpeg",
-    "directors": [
-      "Hideaki Anno"
-    ],
-    "synopsis": "Neon Genesis Evangelion creator Anno’s live-action feature debut, based on a novel by Ryū Murakami, the stylistically exuberant Love & Pop centers on Tokyo schoolgirl Hiromi (Asumi Miwa) and her three friends, all of whom have begun earning extra…",
-    "year": 1998
-  },
-  {
-    "title": "Made in Hong Kong",
-    "imageUrl": "https://metrograph.imgix.net/2020/11/MadeinHK_3.jpg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Fruit Chan"
-    ],
-    "synopsis": "The first independent film released in post-Handover Hong Kong, Chan’s atmospheric shoestring-budget character study is a rough-and-ready piece of work shot on grainy leftover 35mm short ends in the city’s overcrowded subsidized housing projects. The…",
-    "year": 1997
-  },
-  {
-    "title": "Once Upon a Time in America",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/ONCE-UPON-A-TIME-IN-AMERICA_3-copy.jpg",
-    "directors": [
-      "Sergio Leone"
-    ],
-    "synopsis": "For his final and most grandiose epic, Leone, teaming with an in-his-prime Robert De Niro, left behind the Western to take on another quintessentially American genre, the gangster picture, producing a singularly haunted and haunting, epoch-hopping…",
-    "year": 2017
-  },
-  {
-    "title": "Ice",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/ICE.jpg",
-    "directors": [
-      "Robert Kramer"
-    ],
-    "synopsis": "“Coolly extrapolates twenty years into the American future to discover urban guerrillas in the streets and glass-and-marble buildings of New York, at war against a fascist regime. A microcosm of personalities, trends, and problems of today’s New Left…",
-    "year": 1970
   }
 ]
