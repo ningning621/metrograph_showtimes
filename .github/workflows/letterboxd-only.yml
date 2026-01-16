@@ -1,4 +1,4 @@
-name: Grab Metrograph films for the week
+name: Rerun Letterboxd scraping
 
 on:
   workflow_dispatch: # allow manual runs
