@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import json
 import csv
 import re
+import time
+import random
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -67,6 +69,21 @@ def parse_letterboxd():
     options.add_argument("--no-sandbox")             
     options.add_argument("--disable-dev-shm-usage")   
     options.add_argument("--blink-settings=imagesEnabled=false")
+    
+    # Block ads and trackers
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
+    
+    # Block ads via preferences
+    prefs = {
+        "profile.managed_default_content_settings.images": 2,  # Block images
+        "profile.managed_default_content_settings.javascript": 1,  # Allow JS but block some
+        "profile.default_content_setting_values.notifications": 2,  # Block notifications
+        "profile.managed_default_content_settings.stylesheets": 2,  # Block CSS (optional, can break layouts)
+    }
+    options.add_experimental_option("prefs", prefs)
+    
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
         options=options
@@ -151,7 +168,7 @@ def parse_letterboxd():
                 # pull data from letterboxd
                 driver.get("https://letterboxd.com/search/" + quote_plus(f"{film_title} {film['year']}")) 
 
-                wait = WebDriverWait(driver, 5)
+                wait = WebDriverWait(driver, 10)
                 
                 link_tag = wait.until(
                     EC.presence_of_element_located(
@@ -175,7 +192,6 @@ def parse_letterboxd():
                 print(f"→ Rating element found")
                 film["rating"] = rating.text
 
-                driver.implicitly_wait(5)
                 done_films.append(film)
 
                 print(f"→ Successfully parsed {film_title}")
@@ -188,6 +204,11 @@ def parse_letterboxd():
             except Exception as e:
                 skipped_films.append(film)
                 print(f"→ Skipped {film_title} (error: {type(e).__name__})")
+        
+        # Add random delay between requests to avoid rate limiting
+        delay = random.uniform(2, 5)
+        print(f"⏱️  Waiting {delay:.1f} seconds before next film...")
+        time.sleep(delay)
         
         # Save progress every 10 films
         if idx % 10 == 0:
