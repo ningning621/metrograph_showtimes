@@ -1,44 +1,26 @@
 [
   {
-    "title": "Whit Stillman Presents Metropolitan",
-    "directors": "Whit Stillman",
-    "description": "Q&A with director Whit Stillman moderated by critic Vadim Rizov on Friday, December 19th",
-    "time_date": "Friday December 19, 6:00pm"
+    "title": "ACE presents The Squid and the Whale",
+    "directors": "Noah  Baumbach",
+    "description": "Q&A with editor Tim \nStreeto, ACE, moderated by Joanna Naugle, ACE on Saturday, January 24th",
+    "time_date": "Saturday January 24, 6:30pm"
   },
   {
-    "title": "Robert Longo Presents Johnny Mnemonic in B&W",
-    "directors": "Robert Longo",
-    "description": "Introduction by director Robert Longo on Friday, December 19th",
-    "time_date": "Friday December 19, 8:45pm"
+    "title": "Ace in the Hole",
+    "directors": "Billy Wilder",
+    "description": "Introduction by writer A. S. Hamrah and a book signing following the screening on Saturday, January 31st",
+    "time_date": "Saturday January 31, 6:15pm"
   },
   {
-    "title": "A Summer at Grandpa's",
-    "directors": "Hou Hsiao-hsien",
-    "description": "Introduction by programmer Edo Choi on Sunday, December 21st",
-    "time_date": "Sunday December 21, 2:40pm"
+    "title": "Land of the Dead",
+    "directors": "",
+    "description": "Introduction by writer A. S. Hamrah on Saturday, January 31st",
+    "time_date": "Saturday January 31, 8:45pm"
   },
   {
-    "title": "A Time to Live, a Time to Die",
-    "directors": "Hou Hsiao-hsien",
-    "description": "Introduction by programmer Edo Choi on Sunday, December 21st",
-    "time_date": "Sunday December 21, 4:45pm"
-  },
-  {
-    "title": "Dust in the Wind",
-    "directors": "Hou Hsiao-hsien",
-    "description": "Introduction by programmer Edo Choi on Sunday, December 21st",
-    "time_date": "Sunday December 21, 7:30pm"
-  },
-  {
-    "title": "Ugo Bienvenu Shorts Program",
-    "directors": "Multiple Dirs",
-    "description": "Introduction by producer/co-director Félix de Givry on Friday, January 9th",
-    "time_date": "Friday January 9, 6:00pm"
-  },
-  {
-    "title": "Arco",
-    "directors": "Ugo Bienvenu",
-    "description": "Q&A with producer/co-writer Félix de Givry on Friday, January 9th",
-    "time_date": "Friday January 9, 7:30pm"
+    "title": "ACE Presents My Architect",
+    "directors": "Nathaniel Kahn",
+    "description": "Q&A with editor Sabine Krayenbühl moderated by film educator Joshua Handler on Friday, February 6th",
+    "time_date": "Friday February 6, 7:30pm"
   }
 ]
