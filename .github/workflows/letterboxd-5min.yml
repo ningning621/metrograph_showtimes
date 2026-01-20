@@ -26,10 +26,12 @@ jobs:
 
       - name: Run letterboxd script
         timeout-minutes: 5
+        continue-on-error: true # Continue workflow even if this step times out
         run: |
           python -u scripts/scrap/getShowtimes.py
 
       - name: Commit parsed data files
+        if: always() # Always run this step, even if previous step failed/timed out
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
