@@ -6,6 +6,7 @@ import re
 import time
 import random
 import shutil
+import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -56,6 +57,25 @@ def add_events_to_films():
             writer.writerow(film)
     
     print("2️⃣ Finish writing events to file")
+
+def save_screenshot(driver, film_title, prefix=""):
+    """
+    Save a screenshot of the current page.
+    
+    Args:
+        driver: Selenium WebDriver instance
+        film_title: Title of the film for the filename
+        prefix: Optional prefix for the filename (e.g., "ERROR_")
+    """
+    try:
+        screenshot_dir = "./scripts/scrap/data/screenshots"
+        os.makedirs(screenshot_dir, exist_ok=True)
+        safe_filename = "".join(c if c.isalnum() or c in (' ', '-', '_') else '_' for c in film_title)
+        screenshot_path = f"{screenshot_dir}/{prefix}{safe_filename[:50]}.png"
+        driver.save_screenshot(screenshot_path)
+        print(f"📸 Screenshot saved: {screenshot_path}")
+    except Exception as e:
+        print(f"⚠️  Could not save screenshot: {e}")
 
 def parse_letterboxd():
     with open("./scripts/scrap/data/raw_films.json", "r", encoding="utf-8") as f:
@@ -198,6 +218,9 @@ def parse_letterboxd():
                 print(f"→ Start parsing {film_title}")
                 # pull data from letterboxd
                 driver.get("https://letterboxd.com/search/" + quote_plus(f"{film_title} {film['year']}")) 
+                
+                # Save screenshot for debugging
+                save_screenshot(driver, film_title)
 
                 wait = WebDriverWait(driver, 60)  # 10 seconds to wait for elements to load
                 
@@ -227,12 +250,15 @@ def parse_letterboxd():
 
                 print(f"→ Successfully parsed {film_title}")
             except TimeoutException as e:
+                save_screenshot(driver, film_title, prefix="ERROR_")
                 skipped_films.append(film)
                 print(f"→ Skipped {film_title} (timeout - page took too long to load)")
             except WebDriverException as e:
+                save_screenshot(driver, film_title, prefix="ERROR_")
                 skipped_films.append(film)
                 print(f"→ Skipped {film_title} (webdriver error)")
             except Exception as e:
+                save_screenshot(driver, film_title, prefix="ERROR_")
                 skipped_films.append(film)
                 print(f"→ Skipped {film_title} (error: {type(e).__name__})")
         
