@@ -117,7 +117,7 @@ def parse_letterboxd():
         service=Service(ChromeDriverManager().install()),
         options=options
     )
-    driver.set_page_load_timeout(60)  # 60 second timeout for page loads - will throw TimeoutException if exceeded
+    driver.set_page_load_timeout(120)  # 120 second timeout for page loads - will throw TimeoutException if exceeded
 
     skipped_films = []
     done_films = []
@@ -199,7 +199,7 @@ def parse_letterboxd():
                 # pull data from letterboxd
                 driver.get("https://letterboxd.com/search/" + quote_plus(f"{film_title} {film['year']}")) 
 
-                wait = WebDriverWait(driver, 30)  # 30 seconds to wait for elements to load
+                wait = WebDriverWait(driver, 10)  # 10 seconds to wait for elements to load
                 
                 link_tag = wait.until(
                     EC.presence_of_element_located(
