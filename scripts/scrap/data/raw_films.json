@@ -1,23 +1,5 @@
 [
   {
-    "title": "Uptight",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/UPTIGHT_5-copy.jpg",
-    "directors": [
-      "Jules  Dassin"
-    ],
-    "synopsis": "Inspired by John Ford’s 1935 The Informer, the formerly Blacklisted and long-exiled Dassin’s trenchant Uptight shifts the scene from the Irish War of Independence to contemporary Cleveland, Ohio, in the conflagration that followed the assassination of…",
-    "year": 1968
-  },
-  {
-    "title": "Maborosi",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/MABOROSI_4-copy.jpg",
-    "directors": [
-      "Hirokazu Kore-eda"
-    ],
-    "synopsis": "An elegantly photographed, enormously poignant story of mourning and reawakening from master dramatist Kore-eda, already showing the extraordinary delicacy that defines his body of work in this, his feature filmmaking debut. Young mother Yumiko (Makiko…",
-    "year": 1995
-  },
-  {
     "title": "Subway Riders",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/SUBWAY-RIDERS_1-copy.jpg",
     "directors": [
@@ -225,6 +207,15 @@
     ],
     "synopsis": "Clashing with an archdemon boar, warrior Ashitaka is stricken with an empowering but ultimately fatal curse, and journeying into the unknown of the Great Forest in search of a cure, meets the fierce titular warrior woman, raised by wolf-gods. Miyazaki’s…",
     "year": 1997
+  },
+  {
+    "title": "Uptight",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/UPTIGHT_5-copy.jpg",
+    "directors": [
+      "Jules  Dassin"
+    ],
+    "synopsis": "Inspired by John Ford’s 1935 The Informer, the formerly Blacklisted and long-exiled Dassin’s trenchant Uptight shifts the scene from the Irish War of Independence to contemporary Cleveland, Ohio, in the conflagration that followed the assassination of…",
+    "year": 1968
   },
   {
     "title": "Angel's Egg",
