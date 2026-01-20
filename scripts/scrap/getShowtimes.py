@@ -199,7 +199,7 @@ def parse_letterboxd():
                 # pull data from letterboxd
                 driver.get("https://letterboxd.com/search/" + quote_plus(f"{film_title} {film['year']}")) 
 
-                wait = WebDriverWait(driver, 10)  # 10 seconds to wait for elements to load
+                wait = WebDriverWait(driver, 60)  # 10 seconds to wait for elements to load
                 
                 link_tag = wait.until(
                     EC.presence_of_element_located(

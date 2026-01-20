@@ -28,7 +28,7 @@ jobs:
           pip install webdriver-manager
 
       - name: Pull raw html
-        timeout-minutes: 2 # Cancel this step after 5 minutes
+        timeout-minutes: 2 # Cancel this step after 2 minutes
         run: |
           python -u scripts/scrap/getRawHtml.py
 
