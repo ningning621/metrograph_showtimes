@@ -5,6 +5,7 @@ import csv
 import re
 import time
 import random
+import shutil
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -60,6 +61,34 @@ def parse_letterboxd():
     with open("./scripts/scrap/data/raw_films.json", "r", encoding="utf-8") as f:
         parsed_films = json.load(f)
 
+    # Use separate progress tracking files that won't interfere with final output
+    # These files track progress during the current run only
+    already_processed = set()
+    try:
+        with open("./scripts/scrap/data/parsed_films_progress.csv", "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            already_processed = {row["title"] for row in reader}
+        print(f"📂 Found existing progress: {len(already_processed)} films already processed")
+    except FileNotFoundError:
+        print(f"📂 No existing progress found, starting fresh")
+    
+    try:
+        with open("./scripts/scrap/data/skipped_films_progress.csv", "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            already_skipped = {row["title"] for row in reader}
+            already_processed.update(already_skipped)
+        print(f"📂 Found {len(already_skipped)} previously skipped films")
+    except FileNotFoundError:
+        pass
+    
+    # Filter out already processed films
+    films_to_process = [film for film in parsed_films if film["title"] not in already_processed]
+    print(f"📊 Total films: {len(parsed_films)}, Already done: {len(already_processed)}, To process: {len(films_to_process)}")
+    
+    if len(films_to_process) == 0:
+        print("✅ All films already processed!")
+        return
+
     # set up selenium
     options = Options()
 
@@ -109,10 +138,10 @@ def parse_letterboxd():
         "dcp"
     ]
 
-    print(f"4️⃣ Start parsing film info: {len(parsed_films)} films")
+    print(f"4️⃣ Start parsing film info: {len(films_to_process)} films remaining")
 
-    # Track if this is the first save
-    first_save = True
+    # Track if this is the first save (if we're resuming, don't wipe the file)
+    first_save = len(already_processed) == 0
     last_saved_done_count = 0
     last_saved_skipped_count = 0
 
@@ -130,23 +159,25 @@ def parse_letterboxd():
             mode = "a"
             write_header = False
         
-        # Write only new done films
+        # Write only new done films to BOTH progress and final files
         new_done_films = done_films[last_saved_done_count:]
         if new_done_films or mode == "w":
-            with open("./scripts/scrap/data/parsed_films.csv", mode, newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating", "letterboxd_url"])
-                if write_header:
-                    writer.writeheader()
-                writer.writerows(new_done_films)
+            for filename in ["./scripts/scrap/data/parsed_films_progress.csv", "./scripts/scrap/data/parsed_films.csv"]:
+                with open(filename, mode, newline="", encoding="utf-8") as f:
+                    writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating", "letterboxd_url"])
+                    if write_header:
+                        writer.writeheader()
+                    writer.writerows(new_done_films)
         
-        # Write only new skipped films
+        # Write only new skipped films to BOTH progress and final files
         new_skipped_films = skipped_films[last_saved_skipped_count:]
         if new_skipped_films or mode == "w":
-            with open("./scripts/scrap/data/skipped_films.csv", mode, newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis", "letterboxd_url"], extrasaction='ignore')
-                if write_header:
-                    writer.writeheader()
-                writer.writerows(new_skipped_films)
+            for filename in ["./scripts/scrap/data/skipped_films_progress.csv", "./scripts/scrap/data/skipped_films.csv"]:
+                with open(filename, mode, newline="", encoding="utf-8") as f:
+                    writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis", "letterboxd_url"], extrasaction='ignore')
+                    if write_header:
+                        writer.writeheader()
+                    writer.writerows(new_skipped_films)
         
         last_saved_done_count = len(done_films)
         last_saved_skipped_count = len(skipped_films)
@@ -154,7 +185,7 @@ def parse_letterboxd():
         print(f"💾 Progress saved: {len(done_films)} done, {len(skipped_films)} skipped")
 
     # for each film, pull its letterboxd info and add to the film object
-    for idx, film in enumerate(parsed_films, 1):
+    for idx, film in enumerate(films_to_process, 1):
         # print(film)
         film_title = re.sub(r"[^\w\s]", "", film["title"]) 
 

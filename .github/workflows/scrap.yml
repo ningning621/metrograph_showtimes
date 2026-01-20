@@ -11,7 +11,7 @@ permissions:
 jobs:
   run-script:
     runs-on: ubuntu-latest
-    timeout-minutes: 90 # Cancel entire job after 90 minutes
+    timeout-minutes: 150 # Cancel entire job after 150 minutes
 
     steps:
       - name: Checkout repo
@@ -46,11 +46,16 @@ jobs:
       - name: Wait 30 seconds
         run: sleep 30
 
+      - name: Clear progress files from previous run
+        run: |
+          rm -f scripts/scrap/data/parsed_films_progress.csv
+          rm -f scripts/scrap/data/skipped_films_progress.csv
+
       - name: Run letterboxd script with retry
-        timeout-minutes: 15 # Cancel this step after 15 minutes
+        timeout-minutes: 270 # Cancel this step after 270 minutes
         uses: nick-invision/retry@v2
         with:
-          timeout_minutes: 10 # Each attempt times out after 10 minutes
+          timeout_minutes: 90 # Each attempt times out after 90 minutes
           max_attempts: 3 # Retry up to 3 times
           command: python -u scripts/scrap/getShowtimes.py
 
