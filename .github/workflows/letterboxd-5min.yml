@@ -1,0 +1,41 @@
+name: Rerun Letterboxd scraping - 5 min only
+
+on:
+  workflow_dispatch: # allow manual runs
+
+permissions:
+  contents: write
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r scripts/scrap/requirements.txt
+          pip install webdriver-manager
+
+      - name: Run letterboxd script
+        timeout-minutes: 5
+        run: |
+          python -u scripts/scrap/getShowtimes.py
+
+      - name: Commit parsed data files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/scrap/data/parsed_films.csv
+          git add scripts/scrap/data/skipped_films.csv
+          git add scripts/scrap/data/screenshots/*
+          git add src/lib/data/films.csv
+          git commit -m "Update Metrograph film data [skip ci]" || echo "No changes to commit"
+          git push
