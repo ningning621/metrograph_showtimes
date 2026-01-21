@@ -1,11 +1,9 @@
-import requests
 from bs4 import BeautifulSoup
 import json
 import csv
 import re
 import time
 import random
-import shutil
 import os
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
