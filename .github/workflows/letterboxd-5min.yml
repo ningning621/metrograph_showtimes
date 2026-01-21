@@ -1,4 +1,4 @@
-name: Rerun Letterboxd scraping - 5 min only
+name: Rerun Letterboxd scraping - 2 min only
 
 on:
   workflow_dispatch: # allow manual runs
@@ -27,7 +27,7 @@ jobs:
           pip install -r scripts/scrap/requirements.txt
 
       - name: Run letterboxd script
-        timeout-minutes: 5
+        timeout-minutes: 2
         continue-on-error: true # Continue workflow even if this step times out
         run: |
           python -u scripts/scrap/getShowtimes.py

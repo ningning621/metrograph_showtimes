@@ -5,8 +5,6 @@ import csv
 import re
 
 def get_metrograph_films(isLocal: bool):
-    
-
     if isLocal:
         print("0️⃣ Pulling films from local file")
         # pull raw html from local file
