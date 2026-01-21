@@ -18,11 +18,11 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
+          google-chrome --version
 
       - name: Install Python dependencies
         run: |
           pip install -r scripts/scrap/requirements.txt
-          pip install webdriver-manager
 
       - name: Run letterboxd script
         run: |

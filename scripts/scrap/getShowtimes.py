@@ -127,10 +127,17 @@ def parse_letterboxd():
     options.add_experimental_option("prefs", prefs)
     
     # Use undetected_chromedriver to bypass Cloudflare bot detection
-    driver = uc.Chrome(
-        options=options,
-        version_main=None  # Auto-detect Chrome version
-    )
+    try:
+        driver = uc.Chrome(
+            options=options,
+            use_subprocess=True,  # Better compatibility with GitHub Actions
+            version_main=None  # Auto-detect Chrome version
+        )
+    except Exception as e:
+        print(f"⚠️ Failed to initialize Chrome with version auto-detection: {e}")
+        print("🔄 Trying with explicit version detection...")
+        # Fallback: let undetected-chromedriver figure out the version without our help
+        driver = uc.Chrome(options=options, use_subprocess=True)
     driver.set_page_load_timeout(120)  # 120 second timeout for page loads - will throw TimeoutException if exceeded
 
     skipped_films = []
