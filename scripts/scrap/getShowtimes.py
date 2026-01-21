@@ -7,15 +7,17 @@ import time
 import random
 import shutil
 import os
-from selenium import webdriver
+import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import TimeoutException, WebDriverException
-from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import quote_plus
+
+def wait_for_delay(start_time=0, end_time=15):
+    delay = random.uniform(start_time, end_time) # add a random delay to avoid rate limiting
+    print(f"⏱️  Waiting {delay:.1f} seconds before next film...")
+    time.sleep(delay)
 
 def add_events_to_films():
     print("0️⃣ Adding events to parsed films")
@@ -109,33 +111,27 @@ def parse_letterboxd():
         print("✅ All films already processed!")
         return
 
-    # set up selenium
-    options = Options()
-
-    # note: comment this out on local
-    options.add_argument("--headless=new")   
+    # set up selenium with undetected_chromedriver
+    options = uc.ChromeOptions()
+    
+    # For local testing, comment out the headless line below
+    options.add_argument("--headless=new")  
 
     options.add_argument("--no-sandbox")             
     options.add_argument("--disable-dev-shm-usage")   
-    options.add_argument("--blink-settings=imagesEnabled=false")
+    options.add_argument("--disable-gpu")  # Required for headless on some systems
+    options.add_argument("--window-size=1920,1080")  # Set window size for headless
     
-    # Block ads and trackers
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option('useAutomationExtension', False)
-    
-    # Block ads via preferences
+    # Block notifications
     prefs = {
-        "profile.managed_default_content_settings.images": 2,  # Block images
-        "profile.managed_default_content_settings.javascript": 1,  # Allow JS but block some
-        "profile.default_content_setting_values.notifications": 2,  # Block notifications
-        "profile.managed_default_content_settings.stylesheets": 2,  # Block CSS (optional, can break layouts)
+        "profile.default_content_setting_values.notifications": 2,
     }
     options.add_experimental_option("prefs", prefs)
     
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
-        options=options
+    # Use undetected_chromedriver to bypass Cloudflare bot detection
+    driver = uc.Chrome(
+        options=options,
+        version_main=None  # Auto-detect Chrome version
     )
     driver.set_page_load_timeout(120)  # 120 second timeout for page loads - will throw TimeoutException if exceeded
 
@@ -222,8 +218,10 @@ def parse_letterboxd():
                 # Save screenshot for debugging
                 save_screenshot(driver, film_title)
 
-                wait = WebDriverWait(driver, 60)  # 10 seconds to wait for elements to load
+                wait = WebDriverWait(driver, 20)  # 20 seconds to wait for elements to load
                 
+                wait_for_delay()
+
                 link_tag = wait.until(
                     EC.presence_of_element_located(
                         (By.CSS_SELECTOR, "h2.headline-2 span.film-title-wrapper a")
@@ -263,9 +261,7 @@ def parse_letterboxd():
                 print(f"→ Skipped {film_title} (error: {type(e).__name__})")
         
         # Add random delay between requests to avoid rate limiting
-        delay = random.uniform(3, 7)  # Increased to 3-7 seconds for safer rate limiting
-        print(f"⏱️  Waiting {delay:.1f} seconds before next film...")
-        time.sleep(delay)
+        wait_for_delay(10,30)
         
         # Save progress every 10 films
         if idx % 10 == 0:
