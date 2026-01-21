@@ -210,8 +210,12 @@ def parse_letterboxd():
         # print(film)
         film_title = re.sub(r"[^\w\s]", "", film["title"]) 
 
+        # if director or title or year is empty, skip
+        if (film['directors'] == '' or film['title'] == '' or film['year'] == ''):
+            skipped_films.append(film)
+            print(f"→ Purposefully skipped {film_title} - missing film data")
         # check if the film needs to be skipped bc bad title or multiple directors or other reasons
-        if (any(p in film_title.lower() for p in skip_phrases) or 'multiple dirs' in film['directors']):
+        elif (any(p in film_title.lower() for p in skip_phrases) or 'multiple dirs' in film['directors']):
             skipped_films.append(film)
             print(f"→ Purposefully skipped {film_title}")
         else: 
