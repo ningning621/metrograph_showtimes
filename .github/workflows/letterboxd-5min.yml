@@ -37,10 +37,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add scripts/scrap/data/parsed_films.csv
-          git add scripts/scrap/data/skipped_films.csv
-          git add scripts/scrap/data/screenshots/*
-          git add scripts/scrap/data/page_html/*
-          git add src/lib/data/films.csv
+          git add scripts/scrap/data/parsed_films.csv || true
+          git add scripts/scrap/data/skipped_films.csv || true
+          git add scripts/scrap/data/screenshots/* || true
+          git add scripts/scrap/data/page_html/* || true
+          git add src/lib/data/films.csv || true
           git commit -m "Update Metrograph film data [skip ci]" || echo "No changes to commit"
           git push

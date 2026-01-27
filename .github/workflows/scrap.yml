@@ -38,10 +38,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add scripts/scrap/data/raw_films.json
-          git add scripts/scrap/data/raw_events.json
-          git add scripts/scrap/data/metrograph.html
-          git add scripts/scrap/data/metrograph_events.html
+          git add scripts/scrap/data/raw_films.json || true
+          git add scripts/scrap/data/raw_events.json || true
+          git add scripts/scrap/data/metrograph.html || true
+          git add scripts/scrap/data/metrograph_events.html || true
           git commit -m "Update raw html files [skip ci]" || echo "No changes to commit"
           git push
 
@@ -65,8 +65,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add scripts/scrap/data/parsed_films.csv
-          git add scripts/scrap/data/skipped_films.csv
-          git add src/lib/data/films.csv
+          git add scripts/scrap/data/parsed_films.csv || true
+          git add scripts/scrap/data/skipped_films.csv || true
+          git add src/lib/data/films.csv || true
           git commit -m "Update Metrograph film data [skip ci]" || echo "No changes to commit"
           git push
