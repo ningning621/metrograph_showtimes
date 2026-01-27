@@ -5,7 +5,7 @@ import re
 import time
 import random
 import os
-import undetected_chromedriver as uc
+from seleniumbase import Driver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -151,30 +151,18 @@ def parse_letterboxd():
         print("✅ All films already processed!")
         return
 
-    # set up selenium with undetected_chromedriver
-    options = uc.ChromeOptions()
-    
-    # For local testing, comment out the headless line below
-    options.add_argument("--headless=new")  
-
-    options.add_argument("--no-sandbox")             
-    options.add_argument("--disable-dev-shm-usage")   
-    options.add_argument("--disable-gpu")  # Required for headless on some systems
-    options.add_argument("--window-size=1920,1080")  # Set window size for headless
-    
-    # Block notifications
-    prefs = {
-        "profile.default_content_setting_values.notifications": 2,
-    }
-    options.add_experimental_option("prefs", prefs)
-    
-    # Use undetected_chromedriver to bypass Cloudflare bot detection
-    driver = uc.Chrome(
-        options=options,
-        use_subprocess=True,  # Better compatibility with GitHub Actions
-        version_main=None  # Auto-detect Chrome version
+    # set up selenium with SeleniumBase (undetectable mode)
+    # For local testing, set headless2=False to see the browser
+    driver = Driver(
+        browser="chrome",
+        uc=True,  # Undetected Chrome mode
+        headless2=False,  # Headless mode for GitHub Actions (set to False for local debugging)
+        incognito=True,
+        agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        do_not_track=True,
+        undetectable=True
     )
-    driver.set_page_load_timeout(120)  # 120 second timeout for page loads - will throw TimeoutException if exceeded
+    driver.set_page_load_timeout(120)  # 120 second timeout for page loads
 
     skipped_films = []
     done_films = []
