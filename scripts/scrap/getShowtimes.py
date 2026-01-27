@@ -12,6 +12,20 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException
 from urllib.parse import quote_plus
 
+def solve_challenge(driver, timeout=20):
+    try:
+        el = WebDriverWait(driver, timeout=timeout).until(
+            lambda d: d.find_element(By.ID, "challenge-stage")
+        )
+        el.click()
+        print(f"✅ Cloudflare challenge found and clicked")
+    except TimeoutException:
+        # No challenge found, continue normally
+        pass
+    except Exception as e:
+        print(f"⚠️  Could not solve challenge: {e}")
+        pass
+
 def wait_for_delay(start_time=0, end_time=15):
     delay = random.uniform(start_time, end_time) # add a random delay to avoid rate limiting
     print(f"⏱️  Waiting {delay:.1f} seconds before next film...")
@@ -237,13 +251,15 @@ def parse_letterboxd():
                 print(f"→ Start parsing {film_title}")
                 # pull data from letterboxd
                 driver.get("https://letterboxd.com/search/" + quote_plus(f"{film_title} {film['year']}")) 
-                
+
                 # Save screenshot for debugging
                 save_screenshot(driver, film_title)
 
                 wait = WebDriverWait(driver, 20)  # 20 seconds to wait for elements to load
                 
                 wait_for_delay()
+
+                solve_challenge(driver)
 
                 link_tag = wait.until(
                     EC.presence_of_element_located(
