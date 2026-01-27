@@ -12,19 +12,27 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException
 from urllib.parse import quote_plus
 
-def solve_challenge(driver, timeout=20):
+def solve_challenge(driver, timeout=30):
+    """
+    Wait for Cloudflare Turnstile challenge to auto-solve.
+    undetected-chromedriver should handle this automatically.
+    
+    Args:
+        driver: Selenium WebDriver instance
+        timeout: How long to wait for page to be ready (default 30 seconds)
+    """
     try:
-        el = WebDriverWait(driver, timeout=timeout).until(
-            lambda d: d.find_element(By.ID, "challenge-stage")
+        print(f"⏳ Waiting for Cloudflare challenge to resolve...")
+        # Wait for the challenge to complete and page to load
+        # Look for common Letterboxd page elements that indicate success
+        WebDriverWait(driver, timeout=timeout).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "h2.headline-2, body.not-found"))
         )
-        el.click()
-        print(f"✅ Cloudflare challenge found and clicked")
+        print(f"✅ Challenge resolved, page loaded")
     except TimeoutException:
-        # No challenge found, continue normally
-        pass
+        print(f"⚠️  Challenge did not resolve within {timeout} seconds")
     except Exception as e:
-        print(f"⚠️  Could not solve challenge: {e}")
-        pass
+        print(f"⚠️  Error waiting for challenge: {e}")
 
 def wait_for_delay(start_time=0, end_time=15):
     delay = random.uniform(start_time, end_time) # add a random delay to avoid rate limiting
