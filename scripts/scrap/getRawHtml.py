@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import json
 import csv
 import re
+import time
+from seleniumbase import Driver
 
 def get_metrograph_films(isLocal: bool):
     if isLocal:
@@ -72,25 +74,33 @@ def get_metrograph_events(isLocal: bool):
         print("0️⃣ Opening local metrograph events html file")
         # pull raw html from local file
         with open("./scripts/scrap/data/metrograph_events.html", "r", encoding="utf-8") as f:
-            response = f.read()
+            html_content = f.read()
     else:
-        print("0️⃣ Pulling from Metrograph website, events page")
+        print("0️⃣ Pulling from Metrograph website, events page (using Selenium)")
 
-        # pull raw html with cache-busting headers
-        headers = {
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache',
-            'Expires': '0',
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-        }
-        response = requests.get("https://metrograph.com/events/", headers=headers)
-        with open("./scripts/scrap/data/metrograph_events.html", "w", encoding="utf-8") as f:
-            f.write(response.text)
+        # Use Selenium to load the page so JavaScript can execute
+        driver = Driver(
+            browser="chrome",
+            uc=True,
+            headless2=False,  # Set to True for GitHub Actions
+            incognito=True,
+            undetectable=True
+        )
+        
+        try:
+            driver.get("https://metrograph.com/events/")
+            time.sleep(10)  # Wait for JavaScript to load dynamic content
+            html_content = driver.page_source
+            
+            with open("./scripts/scrap/data/metrograph_events.html", "w", encoding="utf-8") as f:
+                f.write(html_content)
+        finally:
+            driver.quit()
         
     print("1️⃣ Successfully pulled metrograph events html")
 
-    soup_response = response if isLocal else response.text
-    soup = BeautifulSoup(soup_response, "html.parser")
+    # Use BeautifulSoup to parse the HTML
+    soup = BeautifulSoup(html_content, "html.parser")
     events = soup.find_all("div", class_="homepage-in-theater-movie")
 
     parsed_events = []
