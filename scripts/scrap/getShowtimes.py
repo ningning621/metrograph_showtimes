@@ -14,17 +14,47 @@ from urllib.parse import quote_plus
 
 def solve_challenge(driver, timeout=30):
     """
-    Wait for Cloudflare Turnstile challenge to auto-solve.
-    undetected-chromedriver should handle this automatically.
+    Handle Cloudflare Turnstile challenge by clicking the checkbox if present.
     
     Args:
         driver: Selenium WebDriver instance
         timeout: How long to wait for page to be ready (default 30 seconds)
     """
     try:
-        print(f"⏳ Waiting for Cloudflare challenge to resolve...")
+        print(f"⏳ Checking for Cloudflare challenge...")
+        
+        # First check if we're already on the actual page (no challenge)
+        try:
+            element = driver.find_element(By.CSS_SELECTOR, "h2.headline-2, body.not-found")
+            print(f"✅ No challenge detected, page already loaded")
+            return
+        except:
+            pass
+        
+        # Try SeleniumBase's built-in method to click Turnstile checkbox
+        try:
+            print(f"🔄 Attempting to click Turnstile checkbox...")
+            driver.uc_gui_click_captcha()
+            print(f"✅ Clicked Turnstile checkbox")
+        except Exception as e:
+            print(f"⚠️  uc_gui_click_captcha failed: {e}")
+            # Fallback: try to find and click the checkbox in iframe manually
+            try:
+                iframes = driver.find_elements(By.TAG_NAME, "iframe")
+                for iframe in iframes:
+                    if "turnstile" in iframe.get_attribute("src").lower() or "challenge" in iframe.get_attribute("src").lower():
+                        driver.switch_to.frame(iframe)
+                        checkbox = driver.find_element(By.CSS_SELECTOR, "input[type='checkbox'], .checkbox")
+                        checkbox.click()
+                        driver.switch_to.default_content()
+                        print(f"✅ Clicked checkbox in iframe")
+                        break
+            except Exception as e2:
+                print(f"⚠️  Manual iframe click failed: {e2}")
+                driver.switch_to.default_content()
+        
         # Wait for the challenge to complete and page to load
-        # Look for common Letterboxd page elements that indicate success
+        print(f"⏳ Waiting for page to load after challenge...")
         WebDriverWait(driver, timeout=timeout).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "h2.headline-2, body.not-found"))
         )
