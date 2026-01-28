@@ -11,7 +11,7 @@ permissions:
 jobs:
   run-script:
     runs-on: ubuntu-latest
-    timeout-minutes: 300 # Cancel entire job after 300 minutes (5 hours)
+    timeout-minutes: 400 # Cancel entire job after 400 minutes (6.66 hours)
 
     steps:
       - name: Checkout repo
@@ -53,8 +53,8 @@ jobs:
           rm -f scripts/scrap/data/parsed_films_progress.csv
           rm -f scripts/scrap/data/skipped_films_progress.csv
 
-      - name: Run letterboxd script with retry
-        timeout-minutes: 270 # Cancel this step after 270 minutes
+      - name: Run letterboxd script
+        timeout-minutes: 360 # Cancel this step after 6 hours
         continue-on-error: true # Continue workflow even if this step times out
         run: |
           python -u scripts/scrap/getShowtimes.py

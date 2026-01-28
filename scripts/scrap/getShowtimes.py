@@ -31,30 +31,53 @@ def solve_challenge(driver, timeout=30):
         except:
             pass
         
-        # Try SeleniumBase's built-in method to click Turnstile checkbox
+        # Check if there's a Turnstile challenge on the page
+        page_source = driver.page_source.lower()
+        if "verify you are human" not in page_source and "turnstile" not in page_source:
+            print(f"ℹ️  No Turnstile challenge detected in page source, waiting for content...")
+            WebDriverWait(driver, timeout=timeout).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "h2.headline-2, body.not-found"))
+            )
+            print(f"✅ Page loaded")
+            return
+        
+        print(f"🔄 Turnstile challenge detected, attempting to solve...")
+        
+        # Method 1: Try SeleniumBase's built-in method
         try:
-            print(f"🔄 Attempting to click Turnstile checkbox...")
             driver.uc_gui_click_captcha()
-            print(f"✅ Clicked Turnstile checkbox")
+            print(f"✅ uc_gui_click_captcha succeeded")
         except Exception as e:
             print(f"⚠️  uc_gui_click_captcha failed: {e}")
-            # Fallback: try to find and click the checkbox in iframe manually
+            
+            # Method 2: Try to click using uc_click on the iframe
             try:
-                iframes = driver.find_elements(By.TAG_NAME, "iframe")
-                for iframe in iframes:
-                    if "turnstile" in iframe.get_attribute("src").lower() or "challenge" in iframe.get_attribute("src").lower():
-                        driver.switch_to.frame(iframe)
-                        checkbox = driver.find_element(By.CSS_SELECTOR, "input[type='checkbox'], .checkbox")
-                        checkbox.click()
-                        driver.switch_to.default_content()
-                        print(f"✅ Clicked checkbox in iframe")
-                        break
+                print(f"🔄 Trying uc_click on Turnstile iframe...")
+                driver.uc_click("iframe[src*='turnstile'], iframe[src*='challenge']", timeout=5)
+                print(f"✅ uc_click on iframe succeeded")
             except Exception as e2:
-                print(f"⚠️  Manual iframe click failed: {e2}")
-                driver.switch_to.default_content()
+                print(f"⚠️  uc_click failed: {e2}")
+                
+                # Method 3: Manual iframe interaction
+                try:
+                    print(f"🔄 Trying manual iframe click...")
+                    iframes = driver.find_elements(By.TAG_NAME, "iframe")
+                    for iframe in iframes:
+                        src = iframe.get_attribute("src") or ""
+                        if "turnstile" in src.lower() or "challenge" in src.lower():
+                            driver.switch_to.frame(iframe)
+                            time.sleep(1)
+                            checkbox = driver.find_element(By.CSS_SELECTOR, "input[type='checkbox'], .checkbox, body")
+                            driver.execute_script("arguments[0].click();", checkbox)
+                            driver.switch_to.default_content()
+                            print(f"✅ Manual iframe click succeeded")
+                            break
+                except Exception as e3:
+                    print(f"⚠️  Manual iframe click failed: {e3}")
+                    driver.switch_to.default_content()
         
         # Wait for the challenge to complete and page to load
-        print(f"⏳ Waiting for page to load after challenge...")
+        print(f"⏳ Waiting for page to load after challenge attempt...")
         WebDriverWait(driver, timeout=timeout).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "h2.headline-2, body.not-found"))
         )
