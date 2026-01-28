@@ -64,6 +64,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
           git add scripts/scrap/data/parsed_films.csv || true
           git add scripts/scrap/data/skipped_films.csv || true
           git add scripts/scrap/data/parsed_films_progress.csv || true

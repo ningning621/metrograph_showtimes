@@ -272,6 +272,9 @@ def parse_letterboxd():
                 driver.get(film_url)
                 print(f"→ Film page loaded")
 
+                wait_for_delay()
+                solve_challenge(driver)
+
                 print(f"→ Waiting for rating element...")
                 rating = wait.until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "span.average-rating > a"))

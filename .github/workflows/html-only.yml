@@ -31,9 +31,11 @@ jobs:
           python -u scripts/scrap/getRawHtml.py
 
       - name: Commit raw html files
+        if: always() # Run this step even if previous steps fail or timeout
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
           git add scripts/scrap/data/raw_films.json || true
           git add scripts/scrap/data/raw_events.json || true
           git add scripts/scrap/data/metrograph.html || true
