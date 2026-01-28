@@ -182,11 +182,14 @@ def parse_letterboxd():
         return
 
     # set up selenium with SeleniumBase (undetectable mode)
-    # For local testing, set headless2=False to see the browser
+    # Use headless mode on GitHub Actions (CI environment), visible browser locally
+    is_ci = os.environ.get('CI', 'false').lower() == 'true' or os.environ.get('GITHUB_ACTIONS', 'false').lower() == 'true'
+    print(f"🖥️  Running in {'CI/headless' if is_ci else 'local/visible'} mode")
+    
     driver = Driver(
         browser="chrome",
         uc=True,  # Undetected Chrome mode
-        headless2=False,  # Headless mode for GitHub Actions (set to False for local debugging)
+        headless2=is_ci,  # Headless on CI, visible locally for debugging
         incognito=True,
         agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         do_not_track=True,
