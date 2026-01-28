@@ -52,6 +52,8 @@ jobs:
         run: |
           rm -f scripts/scrap/data/parsed_films_progress.csv
           rm -f scripts/scrap/data/skipped_films_progress.csv
+          rm -f scripts/scrap/data/screenshots/*
+          rm -f scripts/scrap/data/page_html/*
 
       - name: Run letterboxd script
         timeout-minutes: 360 # Cancel this step after 6 hours
