@@ -172,6 +172,71 @@ def save_page_html(driver, film_title, prefix=""):
     except Exception as e:
         print(f"⚠️  Could not save page HTML: {e}")
 
+def save_progress(done_films, skipped_films, state):
+    """Save progress to CSV files.
+    
+    Args:
+        done_films: List of successfully parsed films
+        skipped_films: List of skipped films
+        state: Dict with 'first_save', 'last_saved_done_count', 'last_saved_skipped_count'
+    """
+    if state['first_save']:
+        # First save: overwrite and write header
+        mode = "w"
+        write_header = True
+        state['first_save'] = False
+    else:
+        # Subsequent saves: append only new films
+        mode = "a"
+        write_header = False
+    
+    # Write only new done films to BOTH progress and final files
+    new_done_films = done_films[state['last_saved_done_count']:]
+    if new_done_films or mode == "w":
+        for filename in ["./scripts/scrap/data/parsed_films_progress.csv", "./scripts/scrap/data/parsed_films.csv"]:
+            with open(filename, mode, newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating", "letterboxd_url"])
+                if write_header:
+                    writer.writeheader()
+                writer.writerows(new_done_films)
+    
+    # Write only new skipped films to BOTH progress and final files
+    new_skipped_films = skipped_films[state['last_saved_skipped_count']:]
+    if new_skipped_films or mode == "w":
+        for filename in ["./scripts/scrap/data/skipped_films_progress.csv", "./scripts/scrap/data/skipped_films.csv"]:
+            with open(filename, mode, newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis", "letterboxd_url"], extrasaction='ignore')
+                if write_header:
+                    writer.writeheader()
+                writer.writerows(new_skipped_films)
+    
+    state['last_saved_done_count'] = len(done_films)
+    state['last_saved_skipped_count'] = len(skipped_films)
+    
+    print(f"💾 Progress saved: {len(done_films)} done, {len(skipped_films)} skipped")
+
+def create_driver(is_ci=None):
+    """Create a new SeleniumBase driver instance.
+    
+    Args:
+        is_ci: Whether running in CI environment. If None, auto-detects.
+    """
+    if is_ci is None:
+        is_ci = os.environ.get('CI', 'false').lower() == 'true' or os.environ.get('GITHUB_ACTIONS', 'false').lower() == 'true'
+    
+    print(f"🚀 Starting new browser instance...")
+    new_driver = Driver(
+        browser="chrome",
+        uc=True,  # Undetected Chrome mode
+        headless2=is_ci,  # Headless on CI, visible locally for debugging
+        incognito=True,
+        agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        do_not_track=True,
+        undetectable=True
+    )
+    new_driver.set_page_load_timeout(120)  # 120 second timeout for page loads
+    return new_driver
+
 def parse_letterboxd():
     with open("./scripts/scrap/data/raw_films.json", "r", encoding="utf-8") as f:
         parsed_films = json.load(f)
@@ -204,21 +269,13 @@ def parse_letterboxd():
         print("✅ All films already processed!")
         return
 
-    # set up selenium with SeleniumBase (undetectable mode)
     # Use headless mode on GitHub Actions (CI environment), visible browser locally
     is_ci = os.environ.get('CI', 'false').lower() == 'true' or os.environ.get('GITHUB_ACTIONS', 'false').lower() == 'true'
     print(f"🖥️  Running in {'CI/headless' if is_ci else 'local/visible'} mode")
     
-    driver = Driver(
-        browser="chrome",
-        uc=True,  # Undetected Chrome mode
-        headless2=is_ci,  # Headless on CI, visible locally for debugging
-        incognito=True,
-        agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        do_not_track=True,
-        undetectable=True
-    )
-    driver.set_page_load_timeout(120)  # 120 second timeout for page loads
+    driver = create_driver(is_ci)
+    films_since_restart = 0
+    RESTART_EVERY = 50  # Restart browser every 50 films to prevent memory issues
 
     skipped_films = []
     done_films = []
@@ -241,49 +298,12 @@ def parse_letterboxd():
 
     print(f"4️⃣ Start parsing film info: {len(films_to_process)} films remaining")
 
-    # Track if this is the first save (if we're resuming, don't wipe the file)
-    first_save = len(already_processed) == 0
-    last_saved_done_count = 0
-    last_saved_skipped_count = 0
-
-    # Helper function to save progress
-    def save_progress():
-        nonlocal first_save, last_saved_done_count, last_saved_skipped_count
-        
-        if first_save:
-            # First save: overwrite and write header
-            mode = "w"
-            write_header = True
-            first_save = False
-        else:
-            # Subsequent saves: append only new films
-            mode = "a"
-            write_header = False
-        
-        # Write only new done films to BOTH progress and final files
-        new_done_films = done_films[last_saved_done_count:]
-        if new_done_films or mode == "w":
-            for filename in ["./scripts/scrap/data/parsed_films_progress.csv", "./scripts/scrap/data/parsed_films.csv"]:
-                with open(filename, mode, newline="", encoding="utf-8") as f:
-                    writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "synopsis", "year", "rating", "letterboxd_url"])
-                    if write_header:
-                        writer.writeheader()
-                    writer.writerows(new_done_films)
-        
-        # Write only new skipped films to BOTH progress and final files
-        new_skipped_films = skipped_films[last_saved_skipped_count:]
-        if new_skipped_films or mode == "w":
-            for filename in ["./scripts/scrap/data/skipped_films_progress.csv", "./scripts/scrap/data/skipped_films.csv"]:
-                with open(filename, mode, newline="", encoding="utf-8") as f:
-                    writer = csv.DictWriter(f, fieldnames=["title", "imageUrl", "directors", "year", "synopsis", "letterboxd_url"], extrasaction='ignore')
-                    if write_header:
-                        writer.writeheader()
-                    writer.writerows(new_skipped_films)
-        
-        last_saved_done_count = len(done_films)
-        last_saved_skipped_count = len(skipped_films)
-        
-        print(f"💾 Progress saved: {len(done_films)} done, {len(skipped_films)} skipped")
+    # Track save state (using dict so it can be modified by save_progress function)
+    save_state = {
+        'first_save': len(already_processed) == 0,
+        'last_saved_done_count': 0,
+        'last_saved_skipped_count': 0
+    }
 
     # for each film, pull its letterboxd info and add to the film object
     for idx, film in enumerate(films_to_process, 1):
@@ -362,13 +382,26 @@ def parse_letterboxd():
         
         # Save progress every 10 films
         if idx % 10 == 0:
-            save_progress()
+            save_progress(done_films, skipped_films, save_state)
+        
+        # Restart browser every RESTART_EVERY films to prevent memory issues
+        films_since_restart += 1
+        if films_since_restart >= RESTART_EVERY and idx < len(films_to_process):
+            print(f"🔄 Restarting browser after {films_since_restart} films to free memory...")
+            save_progress(done_films, skipped_films, save_state)  # Save before restart
+            try:
+                driver.quit()
+            except Exception as e:
+                print(f"⚠️  Error quitting driver: {e}")
+            driver = create_driver(is_ci)
+            films_since_restart = 0
+            print(f"✅ Browser restarted successfully")
 
     driver.quit()
     print(f"4️⃣ Finish parsing film info")
 
     # Final save
-    save_progress()
+    save_progress(done_films, skipped_films, save_state)
     print(f"5️⃣ Final save complete - {len(done_films)} films parsed")
 
 parse_letterboxd()
