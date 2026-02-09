@@ -27,6 +27,8 @@ jobs:
           pip install -r scripts/scrap/requirements.txt
 
       - name: Run letterboxd script
+        timeout-minutes: 360 # Cancel this step after 6 hours
+        continue-on-error: true # Continue workflow even if this step times out
         run: |
           python -u scripts/scrap/getShowtimes.py
 
@@ -35,7 +37,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
           git add scripts/scrap/data/parsed_films.csv || true
           git add scripts/scrap/data/skipped_films.csv || true
           git add scripts/scrap/data/parsed_films_progress.csv || true
@@ -44,4 +45,5 @@ jobs:
           git add scripts/scrap/data/page_html/* || true
           git add src/lib/data/films.csv || true
           git commit -m "Update Metrograph film data [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin main || true
           git push
