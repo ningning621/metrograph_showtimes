@@ -1,23 +1,5 @@
 [
   {
-    "title": "The Stranger and the Fog",
-    "directors": "Bahram Beyzaie",
-    "description": "Introduction by Cinema Tehran founder Arya Ghavamian on Sunday, February 8th",
-    "time_date": "Sunday February 8, 4:50pm"
-  },
-  {
-    "title": "ACE Presents My Architect",
-    "directors": "Nathaniel Kahn",
-    "description": "Q&A with editor Sabine Krayenbühl moderated by film educator Joshua Handler on Friday, February 6th",
-    "time_date": "Friday February 6, 7:30pm"
-  },
-  {
-    "title": "The Ballad of Tara",
-    "directors": "Bahram Beyzaie",
-    "description": "Introduction by programmer Edo Choi on Sunday, February 8th",
-    "time_date": "Sunday February 8, 8:00pm"
-  },
-  {
     "title": "Bashu, the Little Stranger",
     "directors": "Bahram Beyzaie",
     "description": "Introduction by Cinema Tehran founder Arya Ghavamian on Sunday, February 15th",
@@ -26,7 +8,7 @@
   {
     "title": "Can She Bake a Cherry Pie?",
     "directors": "Henry Jaglom",
-    "description": "Q&A with filmmaker and Henry's daughter Sabrina Jaglom moderated by filmmaker Taylor A. Purdee on Friday, February 20th",
+    "description": "Henry's daughter Sabrina Jaglom, Vinegar Syndrome's Justin LaLiberty, and Hope Run High's Taylor A. Purdee in person February 20-22.",
     "time_date": "Friday February 20, 6:00pm"
   },
   {
