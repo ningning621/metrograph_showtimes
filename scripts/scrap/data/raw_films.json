@@ -1,41 +1,5 @@
 [
   {
-    "title": "Peeping Tom",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/PEEPING-TOM_1.jpeg",
-    "directors": [
-      "Michael Powell"
-    ],
-    "synopsis": "It’s not hard to understand why Peeping Tom was, in its day, so reviled as to devastatingly damage Powell’s reputation in the United Kingdom; it’s a nasty movie about the inherent nastiness of movies, a scathing indictment of leering, bloodthirsty…",
-    "year": 1960
-  },
-  {
-    "title": "Perfect Blue",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/Perfect-Blue.jpg",
-    "directors": [
-      "Satoshi Kon"
-    ],
-    "synopsis": "Rising J-pop star Mima quits singing to pursue a career as an actress and model—but her fans aren’t ready to see her go. When she takes on a recurring role in a popular television detective show, her handlers and collaborators suddenly start turning…",
-    "year": 1997
-  },
-  {
-    "title": "Paris, Texas",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/PARIS-TEXAS_9.jpeg",
-    "directors": [
-      "Wim Wenders"
-    ],
-    "synopsis": "Wiry and weathered Harry Dean Stanton had long been a cult character actor in Hollywood when Wenders had the vision to put him at the center of a movie: a modern retelling of The Searchers on the highways of the Southwest, with Harry Dean as the…",
-    "year": 1984
-  },
-  {
-    "title": "Army of Shadows",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/ARMY-OF-SHADOWS_8_resized.jpg",
-    "directors": [
-      "Jean-Pierre  Melville"
-    ],
-    "synopsis": "Melville, himself a veteran of the French Resistance, brings a laserlike precision of vision to his somber, entirely absorbing adaptation of fellow former insurgent Joseph Kessel’s 1943 book of the same name, describing the cloak-and-dagger activities…",
-    "year": 1969
-  },
-  {
     "title": "Memoria",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/MEMORIA_8-copy.jpg",
     "directors": [
@@ -162,6 +126,15 @@
     ],
     "synopsis": "We first encounter starlet Gabriella Murge (Isa Miranda) at the height of her fame and in the trough of despair; in the aftermath of her attempted suicide, a series of fragmentary flashbacks (and flashbacks within flashbacks) show us the primrose path…",
     "year": 1934
+  },
+  {
+    "title": "Perfect Blue",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/Perfect-Blue.jpg",
+    "directors": [
+      "Satoshi Kon"
+    ],
+    "synopsis": "Rising J-pop star Mima quits singing to pursue a career as an actress and model—but her fans aren’t ready to see her go. When she takes on a recurring role in a popular television detective show, her handlers and collaborators suddenly start turning…",
+    "year": 1997
   },
   {
     "title": "The Company's in Love",
@@ -402,6 +375,15 @@
     "year": 1991
   },
   {
+    "title": "Peeping Tom",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/PEEPING-TOM_1.jpeg",
+    "directors": [
+      "Michael Powell"
+    ],
+    "synopsis": "It’s not hard to understand why Peeping Tom was, in its day, so reviled as to devastatingly damage Powell’s reputation in the United Kingdom; it’s a nasty movie about the inherent nastiness of movies, a scathing indictment of leering, bloodthirsty…",
+    "year": 1960
+  },
+  {
     "title": "Stranger on Horseback",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/STRANGER-ON-HORSEBACK_1.jpeg",
     "directors": [
@@ -456,15 +438,6 @@
     "year": 2025
   },
   {
-    "title": "Water Lilies",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/WATER-LILIES_5.jpg",
-    "directors": [
-      "Céline  Sciamma"
-    ],
-    "synopsis": "Winner of the coveted Prix Louis-Delluc for Best First Feature, Sciamma’s exquisitely stylized debut takes place largely inside an indoor swimming pool complex in the Paris suburbs, observing the interlocking relationships of a trio of 15-year-old…",
-    "year": 2007
-  },
-  {
     "title": "Last Year at Marienbad",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2024/09/LAST-YEAR-AT-MARIENBAD_11_resized.jpg",
     "directors": [
@@ -501,6 +474,15 @@
     "year": 1979
   },
   {
+    "title": "Water Lilies",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/WATER-LILIES_5.jpg",
+    "directors": [
+      "Céline  Sciamma"
+    ],
+    "synopsis": "Winner of the coveted Prix Louis-Delluc for Best First Feature, Sciamma’s exquisitely stylized debut takes place largely inside an indoor swimming pool complex in the Paris suburbs, observing the interlocking relationships of a trio of 15-year-old…",
+    "year": 2007
+  },
+  {
     "title": "Stromboli",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/STROMBOLI_5.jpeg",
     "directors": [
@@ -517,6 +499,15 @@
     ],
     "synopsis": "A member of a leftist group committed to the downfall of the Franco regime, exiled middle-aged Spanish dissident Yves Montand, first encountered during one of his regular clandestine border crossings en route to his adopted home in Paris, finds himself…",
     "year": 1966
+  },
+  {
+    "title": "Army of Shadows",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/ARMY-OF-SHADOWS_8_resized.jpg",
+    "directors": [
+      "Jean-Pierre  Melville"
+    ],
+    "synopsis": "Melville, himself a veteran of the French Resistance, brings a laserlike precision of vision to his somber, entirely absorbing adaptation of fellow former insurgent Joseph Kessel’s 1943 book of the same name, describing the cloak-and-dagger activities…",
+    "year": 1969
   },
   {
     "title": "Safe",
@@ -554,6 +545,15 @@
     ],
     "synopsis": "Introduction by programmer Edo Choi on Sunday, February 1st",
     "year": 1972
+  },
+  {
+    "title": "Paris, Texas",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/PARIS-TEXAS_9.jpeg",
+    "directors": [
+      "Wim Wenders"
+    ],
+    "synopsis": "Wiry and weathered Harry Dean Stanton had long been a cult character actor in Hollywood when Wenders had the vision to put him at the center of a movie: a modern retelling of The Searchers on the highways of the Southwest, with Harry Dean as the…",
+    "year": 1984
   },
   {
     "title": "The Wind Will Carry Us",
@@ -624,7 +624,7 @@
     "directors": [
       "Anocha Suwichakornpong"
     ],
-    "synopsis": "Q&A with director Anocha Suwichakornpong on Saturday, February 21st",
+    "synopsis": "Director Anocha Suwichakornpong in conversation with Katie Kirkland, writer and PhD candidate in Film Studies/Comparative Literature at Yale University, on Saturday, 2/21",
     "year": 2021
   },
   {
@@ -660,7 +660,7 @@
     "directors": [
       "Anocha Suwichakornpong"
     ],
-    "synopsis": "Q&A with director Anocha Suwichakornpong on Sunday, February 22nd",
+    "synopsis": "Q&A with director Anocha Suwichakornpong moderated by curator of Video and Film at e-flux Lukas Brašiškis on Sunday, February 22nd",
     "year": 2016
   },
   {
