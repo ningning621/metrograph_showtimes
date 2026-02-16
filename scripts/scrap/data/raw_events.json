@@ -1,11 +1,5 @@
 [
   {
-    "title": "Bashu, the Little Stranger",
-    "directors": "Bahram Beyzaie",
-    "description": "Introduction by Cinema Tehran founder Arya Ghavamian on Sunday, February 15th",
-    "time_date": "Sunday February 15, 5:00pm"
-  },
-  {
     "title": "Can She Bake a Cherry Pie?",
     "directors": "Henry Jaglom",
     "description": "Henry's daughter Sabrina Jaglom, Vinegar Syndrome's Justin LaLiberty, and Hope Run High's Taylor A. Purdee in person February 20-22.",
@@ -14,7 +8,7 @@
   {
     "title": "Come Here preceded by Graceland",
     "directors": "Anocha Suwichakornpong",
-    "description": "Director Anocha Suwichakornpong in conversation with Katie Kirkland, writer and PhD candidate in Film Studies/Comparative Literature at Yale University, on Saturday, 2/21",
+    "description": "Director Anocha Suwichakornpong in conversation with Katie Kirkland, Assistant Professor of Cinema at Binghamton University, on Saturday, 2/21",
     "time_date": "Saturday February 21, 4:15pm"
   },
   {
@@ -46,5 +40,35 @@
     "directors": "Anocha Suwichakornpong",
     "description": "Introduction and Q&A with director Anocha Suwichakornpong on Sunday, March 1st",
     "time_date": "Sunday March 1, 4:45pm"
+  },
+  {
+    "title": "Demonlover",
+    "directors": "Olivier  Assayas",
+    "description": "Q&A with director Olivier Assayas moderated by filmmaker Kent Jones on Friday, March 6th",
+    "time_date": "Friday March 6, 6:00pm"
+  },
+  {
+    "title": "The Taking of Power by Louis XIV",
+    "directors": "Roberto Rossellini",
+    "description": "Introduction by Olivier Assayas on Friday, March 6th",
+    "time_date": "Friday March 6, 9:00pm"
+  },
+  {
+    "title": "I Want to Talk About Duras",
+    "directors": "Claire Simon",
+    "description": "Q&A with director Claire Simon moderated by filmmaker Kirsten Johnson on Sunday, March 8th",
+    "time_date": "Sunday March 8, 7:00pm"
+  },
+  {
+    "title": "Public Housing",
+    "directors": "Frederick Wiseman",
+    "description": "Introduction by Claire Simon on Sunday, March 8th",
+    "time_date": "Sunday March 8, 7:30pm"
+  },
+  {
+    "title": "The Competition",
+    "directors": "Claire Simon",
+    "description": "Introduction by director Claire Simon on Sunday, March 8th",
+    "time_date": "Sunday March 8, 9:30pm"
   }
 ]
