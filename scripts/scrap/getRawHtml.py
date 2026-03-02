@@ -6,6 +6,20 @@ import re
 import time
 from seleniumbase import Driver
 
+
+def _cache_busted_url(base_url: str) -> str:
+    return f"{base_url}?_ts={int(time.time())}"
+
+
+def _log_freshness_headers(prefix: str, headers):
+    print(
+        f"{prefix} headers -> "
+        f"Date: {headers.get('Date')}, "
+        f"Last-Modified: {headers.get('Last-Modified')}, "
+        f"ETag: {headers.get('ETag')}, "
+        f"Cache-Control: {headers.get('Cache-Control')}"
+    )
+
 def get_metrograph_films(isLocal: bool):
     if isLocal:
         print("0️⃣ Pulling films from local file")
@@ -22,7 +36,10 @@ def get_metrograph_films(isLocal: bool):
             'Expires': '0',
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         }
-        response = requests.get("https://metrograph.com/film/", headers=headers)
+        film_url = _cache_busted_url("https://metrograph.com/film/")
+        response = requests.get(film_url, headers=headers, timeout=30)
+        response.raise_for_status()
+        _log_freshness_headers("Film page", response.headers)
         with open("./scripts/scrap/data/metrograph.html", "w", encoding="utf-8") as f:
             f.write(response.text)
         
@@ -77,6 +94,21 @@ def get_metrograph_events(isLocal: bool):
             html_content = f.read()
     else:
         print("0️⃣ Pulling from Metrograph website, events page (using Selenium)")
+        events_url = _cache_busted_url("https://metrograph.com/events/")
+
+        # Log origin freshness headers before browser fetch for observability.
+        events_headers_response = requests.get(
+            events_url,
+            headers={
+                "Cache-Control": "no-cache, no-store, must-revalidate",
+                "Pragma": "no-cache",
+                "Expires": "0",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+            },
+            timeout=30,
+        )
+        events_headers_response.raise_for_status()
+        _log_freshness_headers("Events page", events_headers_response.headers)
 
         # Use Selenium to load the page so JavaScript can execute
         driver = Driver(
@@ -88,7 +120,13 @@ def get_metrograph_events(isLocal: bool):
         )
         
         try:
-            driver.get("https://metrograph.com/events/")
+            try:
+                driver.execute_cdp_cmd("Network.enable", {})
+                driver.execute_cdp_cmd("Network.setCacheDisabled", {"cacheDisabled": True})
+            except Exception as e:
+                print(f"⚠️ Could not disable Chrome cache via CDP: {e}")
+
+            driver.get(events_url)
             time.sleep(10)  # Wait for JavaScript to load dynamic content
             html_content = driver.page_source
             
