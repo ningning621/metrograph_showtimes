@@ -1,5 +1,32 @@
 [
   {
+    "title": "Caché",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/CACHE_1-copy.jpg",
+    "directors": [
+      "Michael Haneke"
+    ],
+    "synopsis": "Juliette Binoche and Daniel Auteuil play a married Parisian couple living in the lap of bourgeois comfort in Haneke’s slow-burn psychodrama—and this being a Haneke film, that comfort doesn’t last for long. Their coddled existence is soon disturbed…",
+    "year": 2005
+  },
+  {
+    "title": "Le Plaisir",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/LE-PLAISIR_1.jpeg",
+    "directors": [
+      "Max Ophuls"
+    ],
+    "synopsis": "Ophuls’s penultimate film, much admired by Stanley Kubrick, is a triptych in which each section is drawn from a Guy de Maupassant story (the “author,” voiced by Jean Servais, narrates), with its longer, altogether more ebullient central section,…",
+    "year": 1952
+  },
+  {
+    "title": "The Stranger and the Fog",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/StrangerFog_image_02.jpeg",
+    "directors": [
+      "Bahram Beyzaie"
+    ],
+    "synopsis": "Introduction by Cinema Tehran founder Arya Ghavamian on Sunday, February 8th",
+    "year": 1974
+  },
+  {
     "title": "Comrades: Almost a Love Story",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/COMRADES_-ALMOST-A-LOVE-STORY_1-copy.jpg",
     "directors": [
@@ -18,51 +45,6 @@
     "year": 2004
   },
   {
-    "title": "A New Love in Tokyo",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/A-NEW-LOVE-IN-TOKYO_4-copy.jpg",
-    "directors": [
-      "Banmei Takahashi"
-    ],
-    "synopsis": "Billed in some territories as a sequel to the 1992 hit Pink Film Tokyo Decadence, Takahashi’s film is in many ways the tonal opposite of Ryū Murakami’s downbeat depiction of the travails of sex work: a charming, judgement-free workplace comedy that…",
-    "year": 1994
-  },
-  {
-    "title": "Can She Bake a Cherry Pie?",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/CAN-SHE-BAKE-A-CHERRY-PIE__1.jpeg",
-    "directors": [
-      "Henry Jaglom"
-    ],
-    "synopsis": "Henry's daughter Sabrina Jaglom, Vinegar Syndrome's Justin LaLiberty, and Hope Run High's Taylor A. Purdee in person February 20-22.",
-    "year": 1983
-  },
-  {
-    "title": "Safe",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/SAFE_4.jpeg",
-    "directors": [
-      "Todd Haynes"
-    ],
-    "synopsis": "Julianne Moore, her brittle, finely-calibrated, and ultimately heart-rending performance in perfect sync with the eerie formal precision of Haynes’s filmmaking, plays a model homemaker in suburban Los Angeles who, convinced that she is being slowly…",
-    "year": 1995
-  },
-  {
-    "title": "Caché",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/CACHE_1-copy.jpg",
-    "directors": [
-      "Michael Haneke"
-    ],
-    "synopsis": "Juliette Binoche and Daniel Auteuil play a married Parisian couple living in the lap of bourgeois comfort in Haneke’s slow-burn psychodrama—and this being a Haneke film, that comfort doesn’t last for long. Their coddled existence is soon disturbed…",
-    "year": 2005
-  },
-  {
-    "title": "Breakfast at Tiffany's",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/BREAKFAST-AT-TIFFANYS_5-copy.jpg",
-    "directors": [
-      "Blake Edwards"
-    ],
-    "synopsis": "Audrey Hepburn charms in her signature role as Holly Golightly, the happily single heroine of Truman Capote’s novella, who exerts a tractor-beam pull on smitten writer George Peppard, the kept man of Patricia Neal, dressed to the height of Manhattanite…",
-    "year": 1961
-  },
-  {
     "title": "Punch-Drunk Love",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2025/06/PUNCH-DRUNK-LOVE_2-copy.jpg",
     "directors": [
@@ -72,39 +54,12 @@
     "year": 2002
   },
   {
-    "title": "Members Only: Frankenstein with Jacob Elordi",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/476_PF_20240829_52436_R.jpg",
+    "title": "El Sur",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/EL-SUR_3.jpeg",
     "directors": [
-      "Guillermo  del Toro"
+      "Victor Erice"
     ],
-    "synopsis": "Q&A with actor Jacob Elordi moderated by filmmaker Celine Song on Tuesday, February 24th",
-    "year": 2025
-  },
-  {
-    "title": "Perfect Blue",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/Perfect-Blue.jpg",
-    "directors": [
-      "Satoshi Kon"
-    ],
-    "synopsis": "Rising J-pop star Mima quits singing to pursue a career as an actress and model—but her fans aren’t ready to see her go. When she takes on a recurring role in a popular television detective show, her handlers and collaborators suddenly start turning…",
-    "year": 1997
-  },
-  {
-    "title": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
-    "imageUrl": "https://metrograph.imgix.net/2022/05/privateevent.jpg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Satoshi Kon"
-    ],
-    "synopsis": "Please check back soon for updated showtimes!",
-    "year": 2025
-  },
-  {
-    "title": "Nostalghia",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/02/NOSTALGHIA_4.jpeg",
-    "directors": [
-      "Andrei Tarkovsky"
-    ],
-    "synopsis": "Tarkovsky’s penultimate film, and his first shot outside the USSR, channels the filmmaker’s own sense of displacement into the story of a homesick Russian poet (Oleg Yankovsky)—in Italy to do research on 18th-century Russian expatriate composer…",
+    "synopsis": "Ten years after his The Spirit of the Beehive, Erice emerged with another elegiac, exquisitely composed, and sublimely serene evocation of childhood memory, a film every bit the equal of his vaunted debut. The child in El Sur—routinely ranked among the…",
     "year": 1983
   },
   {
@@ -117,15 +72,6 @@
     "year": 1999
   },
   {
-    "title": "In the Mood for Love",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/IN-THE-MOOD-FOR-LOVE_8.jpeg",
-    "directors": [
-      "Wong Kar-wai"
-    ],
-    "synopsis": "Wong’s arthouse smash is the very simple tale of two people in early ’60s Hong Kong, Mr. Chow (Tony Leung Chiu-wai) and Mrs. Chen (Maggie Cheung), drawn to one another by the discovery that their spouses are getting together on the side. A little…",
-    "year": 2000
-  },
-  {
     "title": "The Silence",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2024/07/THE-SILENCE_1.jpg",
     "directors": [
@@ -133,105 +79,6 @@
     ],
     "synopsis": "The third film in Bergman’s Faith Trilogy stars Ingrid Thulin and Gunnel Lindblom as Ester and Anna, two estranged sisters, one prim, the other a voluptuary, who, along with Ester’s young son Johan, take rooms in an otherwise vacant hotel in an…",
     "year": 1963
-  },
-  {
-    "title": "Jollof Films presents Xalé: The Childhood Wounds",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/Jollof.jpg",
-    "directors": [
-      "Moussa Sene Absa"
-    ],
-    "synopsis": "Q&A with Jollof Films on Friday, February 27th",
-    "year": 2022
-  },
-  {
-    "title": "The Holy Girl",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/THE-HOLY-GIRL_3.jpeg",
-    "directors": [
-      "Lucrecia  Martel"
-    ],
-    "synopsis": "Martel’s second feature is a sullen, sensuous study in monomania and blighted love set in motion when Amalia (María Alche), an introverted, devout parochial school student, finds herself on the receiving end of an act of frottage in a crowd,…",
-    "year": 2004
-  },
-  {
-    "title": "Klute",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/KLUTE_4-copy.jpg",
-    "directors": [
-      "Alan J. Pakula"
-    ],
-    "synopsis": "Jane Fonda is, of course, supremely excellent in the role that won her an Oscar, that of tough-minded high-class New York call girl Bree Daniels—who aspires to a career in modeling—but she gets invaluable assistance from Donald Sutherland, playing the…",
-    "year": 1971
-  },
-  {
-    "title": "A Real Young Girl",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/RealYoungGirl_image_05.jpeg",
-    "directors": [
-      "Catherine Breillat"
-    ],
-    "synopsis": "Completed in 1976 but not given a theatrical release until 2000, Breillat’s censor-infuriating, no-punches-pulled feature debut, an adaptation of her own fourth novel, Le Soupirail, that ranks among the most daring depictions of budding sexuality ever…",
-    "year": 1976
-  },
-  {
-    "title": "La ronde",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/LA-RONDE_1.jpeg",
-    "directors": [
-      "Max Ophuls"
-    ],
-    "synopsis": "Based on a play by Arthur Schnitzler, as had been Ophuls’s 1933 Liebelei, La Ronde, set in turn-of-the-last-century Vienna, is a baton-passing narrative consisting of 10 individual vignettes in which pairs of lovers—among their ranks Simone Signoret,…",
-    "year": 1950
-  },
-  {
-    "title": "Saturday Afternoon Cartoons: Cats, Rats & Co.",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/Steamboat-Willie.jpeg",
-    "directors": [
-      "Multiple Dirs"
-    ],
-    "synopsis": "Introduction and Q&A with curator Tommy José Stathes on Saturday, February 28th",
-    "year": 1950
-  },
-  {
-    "title": "Le Plaisir",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/LE-PLAISIR_1.jpeg",
-    "directors": [
-      "Max Ophuls"
-    ],
-    "synopsis": "Ophuls’s penultimate film, much admired by Stanley Kubrick, is a triptych in which each section is drawn from a Guy de Maupassant story (the “author,” voiced by Jean Servais, narrates), with its longer, altogether more ebullient central section,…",
-    "year": 1952
-  },
-  {
-    "title": "Carlos",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/CARLOS_1.jpeg",
-    "directors": [
-      "Olivier  Assayas"
-    ],
-    "synopsis": "The life of Venezuelan terrorist Ilich Ramírez Sánchez, code name “Carlos,” is dramatized in Assayas’s sprawling, richly detailed, and quite frequently thrilling biopic, which picks up with its title character, embodied by a superb Edgar Ramirez,…",
-    "year": 2010
-  },
-  {
-    "title": "Hero",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/HERO_3-copy.jpg",
-    "directors": [
-      "Yimou Zhang"
-    ],
-    "synopsis": "A sumptuous Warring States-era wuxia boasting an ingeniously constructed and endlessly surprising cloak-and-dagger plot enacted by a cast for the ages, featuring Tony Leung, Maggie Cheung, and Donnie Yen as a trio of assassins targeting the king of Qin…",
-    "year": 2002
-  },
-  {
-    "title": "Inside the Yellow Cocoon Shell",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/INSIDE-THE-YELLOW-COCOON-SHELL_5.jpeg",
-    "directors": [
-      "Phạm  Thiên Ân"
-    ],
-    "synopsis": "Winner of the prestigious Caméra d’Or for best first feature at this year’s Cannes Film Festival, Pham’s accomplished debut centers on a thirtysomething Vietnamese man (Lê Phong Vũ) who returns from Saigon to his rural hometown in the wake of a…",
-    "year": 2023
-  },
-  {
-    "title": "The Lovers on the Bridge",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/LoversOnBridge_image_01.jpeg",
-    "directors": [
-      "Leos Carax"
-    ],
-    "synopsis": "L’amour fou has rarely burned brighter on the screen than it does in Carax’s fabulous, florid, frantic folly, in which a hard-drinking street performer (Denis Lavant) and a homeless artist who’s losing her sight and her will to live along with it…",
-    "year": 1991
   },
   {
     "title": "The Earrings of Madame de...",
@@ -243,23 +90,49 @@
     "year": 1953
   },
   {
-    "title": "Liberté, la nuit",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/LIBERTE-LA-NUIT_2.jpeg",
+    "title": "Cure",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/CURE_2.jpeg",
     "directors": [
-      "Philippe Garrel"
+      "Kiyoshi  Kurosawa"
     ],
-    "synopsis": "Garrel’s tribute to his parents and the supporters of the Front de libération nationale (FLN) in their struggle for Algerian liberation takes place in a Paris keenly attuned to news of the bloody conflict overseas, featuring the director’s father,…",
-    "year": 1984
+    "synopsis": "Kurosawa’s international breakthrough rode a tide of late ’90s J-horror mania, but was immediately recognizable as the work of a formidable formalist whose thematic and philosophical concerns went deeper than jump scares. Detective Kenichi Takabe…",
+    "year": 1997
   },
   {
-    "title": "Krabi 2562 preceded by The Ambassadors",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/Krabi_2562_1.79.1.jpeg",
+    "title": "Re-Wind",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/Re-Wind-9.jpeg",
     "directors": [
-      "Anocha Suwichakornpong",
-      "Ben Rivers"
+      "Hisayasu Satō"
     ],
-    "synopsis": "Q&A with director Anocha Suwichakornpong moderated by Metrograph Director of Programming Inge de Leeuw on Saturday, February 28th",
-    "year": 2018
+    "synopsis": "One of the “Four Heavenly Kings of Pink” who turned the Japanese pinku eiga softcore industry into a seething hotbed of formal experimentation and taboo-busting transgression, Satō was arguably the most stylistically extreme and altogether unhinged…",
+    "year": 1977
+  },
+  {
+    "title": "The Lovers on the Bridge",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/LoversOnBridge_image_01.jpeg",
+    "directors": [
+      "Leos Carax"
+    ],
+    "synopsis": "L’amour fou has rarely burned brighter on the screen than it does in Carax’s fabulous, florid, frantic folly, in which a hard-drinking street performer (Denis Lavant) and a homeless artist who’s losing her sight and her will to live along with it…",
+    "year": 1991
+  },
+  {
+    "title": "The Reckless Moment",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/THE-RECKLESS-MOMENT_4-copy.jpg",
+    "directors": [
+      "Max Ophuls"
+    ],
+    "synopsis": "When Joan Bennett’s comfortable-but-deathly-bored California housewife takes it on herself to cover up a crime committed by her daughter, she finds herself involuntarily involved with James Mason’s unscrupulous Irish-born criminal—but then unwelcome…",
+    "year": 1949
+  },
+  {
+    "title": "Harmonica",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/Harmonica-c-Dreamlab-7.jpeg",
+    "directors": [
+      "Amir Naderi"
+    ],
+    "synopsis": "The eponymous instrument becomes a tool for manipulation in Naderi’s tale of innocence and exploitation, an allegory for the carrot-on-a-stick manipulation of the Third World by colonial powers. Gifted a rare harmonica imported from Japan, a well-to-do…",
+    "year": 1973
   },
   {
     "title": "Lola Montès",
@@ -271,22 +144,76 @@
     "year": 1955
   },
   {
-    "title": "Mundane History",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/MUNDANE-HISTORY_4-copy.jpg",
+    "title": "The Search",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/THE-SEARCH.jpg",
     "directors": [
-      "Anocha Suwichakornpong"
+      "Amir Naderi"
     ],
-    "synopsis": "Introduction and Q&A with director Anocha Suwichakornpong moderated by writer Sam Ishii-Gonzales on Sunday, March 1st",
-    "year": 2009
+    "synopsis": "On September 8, 1978, referred to thereafter by Iranians as “Black Friday,” the forces of Shah Mohammad Reza Pahlavi opened fire on protesters in Tehran’s Jaleh Square, leaving behind a toll of dead still disputed today. The following year, the…",
+    "year": 1980
   },
   {
-    "title": "The Heroic Trio",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/THE-HEROIC-TRIO_2.jpeg",
+    "title": "Klute",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/KLUTE_4-copy.jpg",
     "directors": [
-      "Johnnie To"
+      "Alan J. Pakula"
     ],
-    "synopsis": "To’s girl power banger The Heroic Trio brings together wire-flying wuxia and John Woo-esque gun-fu into a heady cocktail of aerial acrobatics that comes close to a live-action cartoon. (It’s also the movie that Jean-Pierre Léaud waves around a…",
-    "year": 1993
+    "synopsis": "Jane Fonda is, of course, supremely excellent in the role that won her an Oscar, that of tough-minded high-class New York call girl Bree Daniels—who aspires to a career in modeling—but she gets invaluable assistance from Donald Sutherland, playing the…",
+    "year": 1971
+  },
+  {
+    "title": "Can She Bake a Cherry Pie?",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/CAN-SHE-BAKE-A-CHERRY-PIE__1.jpeg",
+    "directors": [
+      "Henry Jaglom"
+    ],
+    "synopsis": "Henry's daughter Sabrina Jaglom, Vinegar Syndrome's Justin LaLiberty, and Hope Run High's Taylor A. Purdee in person February 20-22.",
+    "year": 1983
+  },
+  {
+    "title": "In the Mood for Love",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/IN-THE-MOOD-FOR-LOVE_8.jpeg",
+    "directors": [
+      "Wong Kar-wai"
+    ],
+    "synopsis": "Wong’s arthouse smash is the very simple tale of two people in early ’60s Hong Kong, Mr. Chow (Tony Leung Chiu-wai) and Mrs. Chen (Maggie Cheung), drawn to one another by the discovery that their spouses are getting together on the side. A little…",
+    "year": 2000
+  },
+  {
+    "title": "The Runner",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/THE-RUNNER_2.jpeg",
+    "directors": [
+      "Amir Naderi"
+    ],
+    "synopsis": "Drawing on Naderi’s own memories of his hardscrabble youth, The Runner stars the marvelously spontaneous Madjid Niroumand as Amiro, an orphaned boy fending for himself on the streets of the port city of Abadan who, while facing a future that to all…",
+    "year": 1984
+  },
+  {
+    "title": "Inside the Yellow Cocoon Shell",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/INSIDE-THE-YELLOW-COCOON-SHELL_5.jpeg",
+    "directors": [
+      "Phạm  Thiên Ân"
+    ],
+    "synopsis": "Winner of the prestigious Caméra d’Or for best first feature at this year’s Cannes Film Festival, Pham’s accomplished debut centers on a thirtysomething Vietnamese man (Lê Phong Vũ) who returns from Saigon to his rural hometown in the wake of a…",
+    "year": 2023
+  },
+  {
+    "title": "Perfect Blue",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/Perfect-Blue.jpg",
+    "directors": [
+      "Satoshi Kon"
+    ],
+    "synopsis": "Rising J-pop star Mima quits singing to pursue a career as an actress and model—but her fans aren’t ready to see her go. When she takes on a recurring role in a popular television detective show, her handlers and collaborators suddenly start turning…",
+    "year": 1997
+  },
+  {
+    "title": "A New Love in Tokyo",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/A-NEW-LOVE-IN-TOKYO_4-copy.jpg",
+    "directors": [
+      "Banmei Takahashi"
+    ],
+    "synopsis": "Billed in some territories as a sequel to the 1992 hit Pink Film Tokyo Decadence, Takahashi’s film is in many ways the tonal opposite of Ryū Murakami’s downbeat depiction of the travails of sex work: a charming, judgement-free workplace comedy that…",
+    "year": 1994
   },
   {
     "title": "Sunset Boulevard",
@@ -425,6 +352,15 @@
     "year": 2019
   },
   {
+    "title": "Nostalghia",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/02/NOSTALGHIA_4.jpeg",
+    "directors": [
+      "Andrei Tarkovsky"
+    ],
+    "synopsis": "Tarkovsky’s penultimate film, and his first shot outside the USSR, channels the filmmaker’s own sense of displacement into the story of a homesick Russian poet (Oleg Yankovsky)—in Italy to do research on 18th-century Russian expatriate composer…",
+    "year": 1983
+  },
+  {
     "title": "I Want to Talk About Duras",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/I-WANT-TO-TALK-ABOUT-DURAS_2.jpg",
     "directors": [
@@ -452,6 +388,105 @@
     "year": 2016
   },
   {
+    "title": "Paris, Texas",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/12/PARIS-TEXAS_9.jpeg",
+    "directors": [
+      "Wim Wenders"
+    ],
+    "synopsis": "Wiry and weathered Harry Dean Stanton had long been a cult character actor in Hollywood when Wenders had the vision to put him at the center of a movie: a modern retelling of The Searchers on the highways of the Southwest, with Harry Dean as the…",
+    "year": 1984
+  },
+  {
+    "title": "By The Time It Gets Dark",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/DKN_02.jpeg",
+    "directors": [
+      "Anocha Suwichakornpong"
+    ],
+    "synopsis": "Q&A with director Anocha Suwichakornpong moderated by curator of Video and Film at e-flux Lukas Brašiškis on Sunday, February 22nd",
+    "year": 2016
+  },
+  {
+    "title": "The Holy Girl",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/THE-HOLY-GIRL_3.jpeg",
+    "directors": [
+      "Lucrecia  Martel"
+    ],
+    "synopsis": "Martel’s second feature is a sullen, sensuous study in monomania and blighted love set in motion when Amalia (María Alche), an introverted, devout parochial school student, finds herself on the receiving end of an act of frottage in a crowd,…",
+    "year": 2004
+  },
+  {
+    "title": "Irma Vep",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/IRMA-VEP.jpeg",
+    "directors": [
+      "Olivier  Assayas"
+    ],
+    "synopsis": "Maggie Cheung in the role she was literally born to play: Maggie Cheung. The Hong Kong actress is imported to star in a remake of Louis Feuillade’s 1915 serial Les Vampires directed by a New Wave has-been (Jean-Pierre Léaud), but then finds herself…",
+    "year": 1996
+  },
+  {
+    "title": "Distant",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/Distant_4.jpeg",
+    "directors": [
+      "Nuri Bilge Ceylan"
+    ],
+    "synopsis": "Winner of the Grand Prix at the 56th Cannes Film Festival, where its two leads, Muzaffer Özdemir and Mehmet Emin Toprak, also shared an acting prize (the latter had been tragically killed in a 2002 car accident), Ceylan’s international breakout is a…",
+    "year": 2002
+  },
+  {
+    "title": "Memoria",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/MEMORIA_8-copy.jpg",
+    "directors": [
+      "Apichatpong Weerasethakul"
+    ],
+    "synopsis": "Few filmmakers have so closely tied their work to one region as Apichatpong has to the rural northeast of his native Thailand, but in Memoria, the writer-director plunges into new territory, filming in Colombia’s city streets and mountain-top villages…",
+    "year": 2021
+  },
+  {
+    "title": "A Real Young Girl",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/RealYoungGirl_image_05.jpeg",
+    "directors": [
+      "Catherine Breillat"
+    ],
+    "synopsis": "Completed in 1976 but not given a theatrical release until 2000, Breillat’s censor-infuriating, no-punches-pulled feature debut, an adaptation of her own fourth novel, Le Soupirail, that ranks among the most daring depictions of budding sexuality ever…",
+    "year": 1976
+  },
+  {
+    "title": "La ronde",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/LA-RONDE_1.jpeg",
+    "directors": [
+      "Max Ophuls"
+    ],
+    "synopsis": "Based on a play by Arthur Schnitzler, as had been Ophuls’s 1933 Liebelei, La Ronde, set in turn-of-the-last-century Vienna, is a baton-passing narrative consisting of 10 individual vignettes in which pairs of lovers—among their ranks Simone Signoret,…",
+    "year": 1950
+  },
+  {
+    "title": "Mala Noche",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/07/MALA-NOCHE_3.jpeg",
+    "directors": [
+      "Gus Van Sant"
+    ],
+    "synopsis": "Inspired by Frank Ripploh’s Taxi zum Klo, Van Sant’s smudgy black-and-white debut, planted firmly on the cracked concrete of the filmmaker’s hometown of Portland, Oregon, prophesied and broke ground for the ’90s New Queer Cinema, while also…",
+    "year": 1986
+  },
+  {
+    "title": "The Heroic Trio",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/THE-HEROIC-TRIO_2.jpeg",
+    "directors": [
+      "Johnnie To"
+    ],
+    "synopsis": "To’s girl power banger The Heroic Trio brings together wire-flying wuxia and John Woo-esque gun-fu into a heady cocktail of aerial acrobatics that comes close to a live-action cartoon. (It’s also the movie that Jean-Pierre Léaud waves around a…",
+    "year": 1993
+  },
+  {
+    "title": "Angel's Egg",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/ANGELS-EGG_1.jpeg",
+    "directors": [
+      "Mamoru  Oshii"
+    ],
+    "synopsis": "Made in collaboration with storied illustrator Yoshitaka Amano (Final Fantasy), Oshii’s lyrical animated allegory, rich in Biblical allusions and parsimonious in spoken dialogue, follows a young girl traveling through the ruins of a post-apocalyptic…",
+    "year": 1985
+  },
+  {
     "title": "Ed Wood",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/ED-WOOD_3.webp",
     "directors": [
@@ -462,7 +497,7 @@
   },
   {
     "title": "Queen of Katwe",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/QUEEN-OF-KATWE_2.webp",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/QUEEN-OF-KATWE_1-copy.jpg",
     "directors": [
       "Mira Nair"
     ],
@@ -484,12 +519,12 @@
     "directors": [
       "Boris Barnet"
     ],
-    "synopsis": "Live piano accompaniment by Makia Matsumura on Friday, March 13th",
+    "synopsis": "Live piano accompaniment by Makia Matsumura on Friday, March 13th – One screening only!",
     "year": 1927
   },
   {
     "title": "Camille Claudel 1915",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/CAMILLE-CLAUDEL-1915_1_resized.jpg",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/CAMILLE-CLAUDEL-1915_1_resized-1.jpg",
     "directors": [
       "Bruno  Dumont"
     ],
@@ -507,11 +542,11 @@
   },
   {
     "title": "The House on Trubnaya",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/THE-HOUSE-ON-TRABNAYA_wp_3-1.jpg",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/THE-HOUSE-ON-TRABNAYA_wp_3-2.jpg",
     "directors": [
       "Boris Barnet"
     ],
-    "synopsis": "Live piano accompaniment by Makia Matsumura on Friday, March 13th",
+    "synopsis": "Live piano accompaniment by Makia Matsumura on Friday, March 13th  – One screening only!",
     "year": 1927
   },
   {
@@ -525,7 +560,7 @@
   },
   {
     "title": "Miss Mend",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/MISS-MEND_HD-04_resized.jpg",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/MISS-MEND_HD-04_resized-1.jpg",
     "directors": [
       "Boris Barnet"
     ],
@@ -534,7 +569,7 @@
   },
   {
     "title": "Kill Bill: Vol. 1",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/KILL-BILL-VOL.-1_3.png",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/KILL-BILL-VOL.-1_6.jpeg",
     "directors": [
       "Quentin Tarantino"
     ],
@@ -543,7 +578,7 @@
   },
   {
     "title": "Kill Bill: Vol. 2",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/KILL-BILL-VOL.-2_1.jpg",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/KILL-BILL-VOL.-2_1-1.jpg",
     "directors": [
       "Quentin Tarantino"
     ],
@@ -648,8 +683,19 @@
       "Norman T.  Ferguson",
       "T. Hee"
     ],
-    "synopsis": "35mm print courtesy of Library of Congress",
+    "synopsis": "35mm IB-Technicolor print courtesy of Library of Congress",
     "year": 1940
+  },
+  {
+    "title": "Future of Documentary: Secret Screening & Panel",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/Metrograph_Mar-2026_Series-Art_Murray-Center-at-Ten-1.jpg",
+    "directors": [
+      "Wilfred Jackson",
+      "Norman T.  Ferguson",
+      "T. Hee"
+    ],
+    "synopsis": "Post-screening panel moderated by True/False interim artistic director Yance Ford and featuring filmmaker Sergei Loznitsa and others to be announced on Saturday, March 21",
+    "year": 2026
   },
   {
     "title": "The Player",
@@ -659,6 +705,15 @@
     ],
     "synopsis": "Opening with a bravura studio lot crane shot that’s the first of its several references to Orson Welles’s Touch of Evil, The Player is a poison pen letter to Hollywood from Altman—like Welles, a perennial outsider—in which executive Tim Robbins…",
     "year": 1992
+  },
+  {
+    "title": "Maidan",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/MAIDAN_11.jpg",
+    "directors": [
+      "Sergei Loznitsa"
+    ],
+    "synopsis": "Introduction by director Sergei Loznitsa on Saturday, March 21st",
+    "year": 2014
   },
   {
     "title": "Outskirts",
@@ -680,11 +735,11 @@
   },
   {
     "title": "By the Bluest of Seas",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/By-the-Bluest-of-Seas.jpeg",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/BY-THE-BLUEST-OF-THE-SEAS-1600x900-1.jpg",
     "directors": [
       "Boris Barnet"
     ],
-    "synopsis": "Introduction by Metrograph Programmer Edo Choi and The Theater of the Matters on Saturday, March 21st",
+    "synopsis": "Introduction by Metrograph Programmer Edo Choi and The Theater of the Matters on Saturday, March 21st – One screening only!",
     "year": 1936
   },
   {
@@ -695,6 +750,15 @@
     ],
     "synopsis": "A murky, miasmic, continent-hopping nightmare that’s a vehicle for longtime Lynch muse Laura Dern, playing Nikki Grace, a Hollywood starlet who’s sent into a spiraling identity crisis. Lynch acts as his own cinematographer on Inland Empire, his last…",
     "year": 2006
+  },
+  {
+    "title": "The Invasion preceded by Paleontology Lesson",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/THE-INVASION_4-copy.jpg",
+    "directors": [
+      "Sergei Loznitsa"
+    ],
+    "synopsis": "Q&A with director Sergei Loznitsa on Sunday, March 22nd",
+    "year": 2024
   },
   {
     "title": "Let the Sunshine In",

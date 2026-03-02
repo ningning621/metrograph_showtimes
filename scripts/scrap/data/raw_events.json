@@ -1,47 +1,5 @@
 [
   {
-    "title": "Can She Bake a Cherry Pie?",
-    "directors": "Henry Jaglom",
-    "description": "Henry's daughter Sabrina Jaglom, Vinegar Syndrome's Justin LaLiberty, and Hope Run High's Taylor A. Purdee in person February 20-22.",
-    "time_date": "Friday February 20, 6:00pm"
-  },
-  {
-    "title": "Come Here preceded by Graceland",
-    "directors": "Anocha Suwichakornpong",
-    "description": "Director Anocha Suwichakornpong in conversation with Katie Kirkland, Assistant Professor of Cinema at Binghamton University, on Saturday, 2/21",
-    "time_date": "Saturday February 21, 4:15pm"
-  },
-  {
-    "title": "By The Time It Gets Dark",
-    "directors": "Anocha Suwichakornpong",
-    "description": "Q&A with director Anocha Suwichakornpong moderated by curator of Video and Film at e-flux Lukas Brašiškis on Sunday, February 22nd",
-    "time_date": "Sunday February 22, 3:00pm"
-  },
-  {
-    "title": "Jollof Films presents Xalé: The Childhood Wounds",
-    "directors": "Moussa Sene Absa",
-    "description": "Q&A with Jollof Films on Friday, February 27th",
-    "time_date": "Friday February 27, 7:25pm"
-  },
-  {
-    "title": "Saturday Afternoon Cartoons: Cats, Rats & Co.",
-    "directors": "Multiple Dirs",
-    "description": "Introduction and Q&A with curator Tommy José Stathes on Saturday, February 28th",
-    "time_date": "Saturday February 28, 12:30pm"
-  },
-  {
-    "title": "Krabi 2562 preceded by The Ambassadors",
-    "directors": "Anocha Suwichakornpong, Ben Rivers",
-    "description": "Q&A with director Anocha Suwichakornpong moderated by Metrograph Director of Programming Inge de Leeuw on Saturday, February 28th",
-    "time_date": "Sunday March 1, 2:00pm"
-  },
-  {
-    "title": "Mundane History",
-    "directors": "Anocha Suwichakornpong",
-    "description": "Introduction and Q&A with director Anocha Suwichakornpong moderated by writer Sam Ishii-Gonzales on Sunday, March 1st",
-    "time_date": "Sunday March 1, 4:45pm"
-  },
-  {
     "title": "Demonlover",
     "directors": "Olivier  Assayas",
     "description": "Q&A with director Olivier Assayas moderated by filmmaker Kent Jones on Friday, March 6th",
@@ -57,7 +15,7 @@
     "title": "I Want to Talk About Duras",
     "directors": "Claire Simon",
     "description": "Q&A with director Claire Simon moderated by filmmaker Kirsten Johnson on Sunday, March 8th",
-    "time_date": "Sunday March 8, 7:00pm"
+    "time_date": "Sunday March 8, 7:15pm"
   },
   {
     "title": "Public Housing",
@@ -69,6 +27,54 @@
     "title": "The Competition",
     "directors": "Claire Simon",
     "description": "Introduction by director Claire Simon on Sunday, March 8th",
-    "time_date": "Sunday March 8, 9:30pm"
+    "time_date": "Sunday March 8, 9:40pm"
+  },
+  {
+    "title": "The Girl With the Hatbox",
+    "directors": "Boris Barnet",
+    "description": "Live piano accompaniment by Makia Matsumura on Friday, March 13th – One screening only!",
+    "time_date": "Friday March 13, 6:30pm"
+  },
+  {
+    "title": "The House on Trubnaya",
+    "directors": "Boris Barnet",
+    "description": "Live piano accompaniment by Makia Matsumura on Friday, March 13th  – One screening only!",
+    "time_date": "Friday March 13, 8:40pm"
+  },
+  {
+    "title": "Future of Documentary: Secret Screening & Panel",
+    "directors": "",
+    "description": "Post-screening panel moderated by True/False interim artistic director Yance Ford and featuring filmmaker Sergei Loznitsa and others to be announced on Saturday, March 21",
+    "time_date": "Saturday March 21, 1:00pm"
+  },
+  {
+    "title": "Maidan",
+    "directors": "Sergei Loznitsa",
+    "description": "Introduction by director Sergei Loznitsa on Saturday, March 21st",
+    "time_date": "Saturday March 21, 4:00pm"
+  },
+  {
+    "title": "Outskirts",
+    "directors": "Boris Barnet",
+    "description": "Introduction by Metrograph Programmer Edo Choi and The Theater of the Matters on Saturday, March 21st",
+    "time_date": "Saturday March 21, 6:40pm"
+  },
+  {
+    "title": "By the Bluest of Seas",
+    "directors": "Boris Barnet",
+    "description": "Introduction by Metrograph Programmer Edo Choi and The Theater of the Matters on Saturday, March 21st – One screening only!",
+    "time_date": "Saturday March 21, 8:45pm"
+  },
+  {
+    "title": "The Invasion preceded by Paleontology Lesson",
+    "directors": "Sergei Loznitsa",
+    "description": "Q&A with director Sergei Loznitsa on Sunday, March 22nd",
+    "time_date": "Sunday March 22, 2:30pm"
+  },
+  {
+    "title": "Let the Sunshine In",
+    "directors": "Claire Denis",
+    "description": "Introduction by actor Juliette Binoche on Sunday, March 22nd",
+    "time_date": "Sunday March 22, 9:30pm"
   }
 ]
