@@ -76,5 +76,29 @@
     "directors": "Claire Denis",
     "description": "Introduction by actor Juliette Binoche on Sunday, March 22nd",
     "time_date": "Sunday March 22, 9:30pm"
+  },
+  {
+    "title": "The Old Jockey",
+    "directors": "Boris Barnet",
+    "description": "Introduction by programmer Edo Choi on Saturday, March 28th",
+    "time_date": "Saturday March 28, 3:15pm"
+  },
+  {
+    "title": "ACE Presents Cool Hand Luke",
+    "directors": "Stuart  Rosenberg",
+    "description": "Post-screening discussion with film historians Bobbie and Molly O'Steen on Saturday, March 28th",
+    "time_date": "Saturday March 28, 7:30pm"
+  },
+  {
+    "title": "Secret Agent",
+    "directors": "Boris Barnet",
+    "description": "Introduction by programmer Edo Choi on Sunday, March 29th",
+    "time_date": "Sunday March 29, 1:25pm"
+  },
+  {
+    "title": "Once Upon a Night preceded by A Priceless Head",
+    "directors": "Boris Barnet",
+    "description": "Introduction by The Theater of the Matters and Programmer Edo Choi on Sunday, March 29th",
+    "time_date": "Sunday March 29, 3:15pm"
   }
 ]
