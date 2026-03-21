@@ -1,44 +1,14 @@
 [
   {
-    "title": "Demonlover",
-    "directors": "Olivier  Assayas",
-    "description": "Q&A with director Olivier Assayas moderated by filmmaker Kent Jones on Friday, March 6th",
-    "time_date": "Friday March 6, 6:00pm"
-  },
-  {
-    "title": "The Taking of Power by Louis XIV",
-    "directors": "Roberto Rossellini",
-    "description": "Introduction by Olivier Assayas on Friday, March 6th",
-    "time_date": "Friday March 6, 9:00pm"
-  },
-  {
-    "title": "I Want to Talk About Duras",
-    "directors": "Claire Simon",
-    "description": "Q&A with director Claire Simon moderated by filmmaker Kirsten Johnson on Sunday, March 8th",
-    "time_date": "Sunday March 8, 7:15pm"
-  },
-  {
-    "title": "Public Housing",
-    "directors": "Frederick Wiseman",
-    "description": "Introduction by Claire Simon on Sunday, March 8th",
-    "time_date": "Sunday March 8, 7:30pm"
-  },
-  {
-    "title": "The Competition",
-    "directors": "Claire Simon",
-    "description": "Introduction by director Claire Simon on Sunday, March 8th",
-    "time_date": "Sunday March 8, 9:40pm"
-  },
-  {
     "title": "The Girl With the Hatbox",
     "directors": "Boris Barnet",
-    "description": "Live piano accompaniment by Makia Matsumura on Friday, March 13th – One screening only!",
+    "description": "Introduction by George Eastman Museum Senior Curator, Peter Bagrov. Live piano accompaniment by Makia Matsumura on Friday, March 13th – One screening only!",
     "time_date": "Friday March 13, 6:30pm"
   },
   {
     "title": "The House on Trubnaya",
     "directors": "Boris Barnet",
-    "description": "Live piano accompaniment by Makia Matsumura on Friday, March 13th  – One screening only!",
+    "description": "Introduction by George Eastman Museum Senior Curator, Peter Bagrov. Live piano accompaniment by Makia Matsumura on Friday, March 13th  – One screening only!",
     "time_date": "Friday March 13, 8:40pm"
   },
   {
@@ -76,5 +46,41 @@
     "directors": "Claire Denis",
     "description": "Introduction by actor Juliette Binoche on Sunday, March 22nd",
     "time_date": "Sunday March 22, 9:30pm"
+  },
+  {
+    "title": "The Old Jockey",
+    "directors": "Boris Barnet",
+    "description": "Introduction by programmer Edo Choi on Saturday, March 28th",
+    "time_date": "Saturday March 28, 3:15pm"
+  },
+  {
+    "title": "ACE Presents Cool Hand Luke",
+    "directors": "Stuart  Rosenberg",
+    "description": "Post-screening discussion with film historians Bobbie and Molly O'Steen on Saturday, March 28th",
+    "time_date": "Saturday March 28, 7:30pm"
+  },
+  {
+    "title": "Secret Agent",
+    "directors": "Boris Barnet",
+    "description": "Introduction by programmer Edo Choi on Sunday, March 29th",
+    "time_date": "Sunday March 29, 1:25pm"
+  },
+  {
+    "title": "Once Upon a Night preceded by A Priceless Head",
+    "directors": "Boris Barnet",
+    "description": "Introduction by The Theater of the Matters and Programmer Edo Choi on Sunday, March 29th",
+    "time_date": "Sunday March 29, 3:15pm"
+  },
+  {
+    "title": "Bountiful Summer",
+    "directors": "Boris Barnet",
+    "description": "Introduction by The Theater of the Matters on Saturday, April 4th",
+    "time_date": "Saturday April 4, 4:30pm"
+  },
+  {
+    "title": "The Wrestler and the Clown",
+    "directors": "Boris Barnet",
+    "description": "Introduction by The Theater of the Matters on Saturday, April 4th",
+    "time_date": "Saturday April 4, 6:30pm"
   }
 ]
