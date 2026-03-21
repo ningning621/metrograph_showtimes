@@ -1,5 +1,6 @@
 <script lang="ts">
-	import md from '$lib/utils/md';
+	import { onMount } from 'svelte';
+	import { gsap } from 'gsap';
 	import films from '$lib/data/films.csv';
 	import meta from '$lib/data/meta.json';
 
@@ -13,7 +14,29 @@
 			})()
 		: '';
 
-	console.log(films);
+	onMount(() => {
+		const tl = gsap.timeline();
+
+		tl.from('[data-header-item]', {
+			opacity: 0,
+			y: 8,
+			duration: 0.5,
+			ease: 'power2.out',
+			stagger: 0.12
+		})
+			.from('[showAfterHeader]', { opacity: 0, y: 6, duration: 0.35, ease: 'power2.out' }, '-=0.05')
+			.from(
+				'[data-table-row]',
+				{
+					opacity: 0,
+					y: 6,
+					duration: 0.35,
+					ease: 'power2.out',
+					stagger: 0.04
+				},
+				'<'
+			);
+	});
 
 	// Helper function to parse directors string and join with comma
 	function parseDirectors(directorsStr: string): string {
@@ -27,16 +50,28 @@
 	}
 </script>
 
-<div class="px-6 py-6 md:px-12">
+<div class="w-full px-6 py-6 md:w-[62%] md:px-12">
 	<header class="mb-8 flex w-full flex-col gap-2">
-		<h1 class="font-display text-2xl font-bold tracking-[90%] uppercase md:tracking-[100%]">
+		<h1
+			data-header-item
+			class="font-display text-2xl font-bold tracking-[90%] uppercase md:tracking-[100%]"
+		>
 			Metrograph Weekly
 		</h1>
-		<p class="font-sans text-xs font-light uppercase">Last Updated {lastUpdated}</p>
+		<div class="flex flex-col gap-px">
+			<p data-header-item class="text-sm">
+				The weekly film schedule at
+				<a class="underline" href="https://metrograph.com" target="_blank"> Metrograph </a> (in NY),
+				ranked by Letterboxd rating. Click on a film to view its details on Letterboxd.
+			</p>
+			<p data-header-item class="font-sans text-xs font-light uppercase">
+				Last Updated {lastUpdated}
+			</p>
+		</div>
 	</header>
 
 	<section class="relative flex flex-row gap-2">
-		<table class="table">
+		<table showAfterHeader class="table">
 			<thead>
 				<tr class="font-display text-xs">
 					<th class="px-2 pb-4 font-normal"></th>
@@ -49,6 +84,7 @@
 			<tbody>
 				{#each films.sort((a, b) => b.rating - a.rating) as film}
 					<tr
+						data-table-row
 						class="border-border/50 text-light hover:bg-cobalt/25 cursor-pointer border-b text-sm transition-colors duration-150"
 						on:click={() => window.open(film.letterboxd_url, '_blank')}
 					>
@@ -74,6 +110,7 @@
 			</tbody>
 		</table>
 		<p
+			showAfterHeader
 			class="font-display self-start pt-11 text-xs font-normal whitespace-nowrap uppercase"
 			style="writing-mode: vertical-rl;"
 		>
