@@ -1,23 +1,5 @@
 [
   {
-    "title": "The Girl With the Hatbox",
-    "directors": "Boris Barnet",
-    "description": "Introduction by George Eastman Museum Senior Curator, Peter Bagrov. Live piano accompaniment by Makia Matsumura on Friday, March 13th – One screening only!",
-    "time_date": "Friday March 13, 6:30pm"
-  },
-  {
-    "title": "The House on Trubnaya",
-    "directors": "Boris Barnet",
-    "description": "Introduction by George Eastman Museum Senior Curator, Peter Bagrov. Live piano accompaniment by Makia Matsumura on Friday, March 13th  – One screening only!",
-    "time_date": "Friday March 13, 8:40pm"
-  },
-  {
-    "title": "Future of Documentary: Secret Screening & Panel",
-    "directors": "",
-    "description": "Post-screening panel moderated by True/False interim artistic director Yance Ford and featuring filmmaker Sergei Loznitsa and others to be announced on Saturday, March 21",
-    "time_date": "Saturday March 21, 1:00pm"
-  },
-  {
     "title": "Maidan",
     "directors": "Sergei Loznitsa",
     "description": "Introduction by director Sergei Loznitsa on Saturday, March 21st",
@@ -32,14 +14,20 @@
   {
     "title": "By the Bluest of Seas",
     "directors": "Boris Barnet",
-    "description": "Introduction by Metrograph Programmer Edo Choi and The Theater of the Matters on Saturday, March 21st – One screening only!",
+    "description": "Introduction by The Theater of the Matters, film programmer Hannah Yang, and Metrograph Programmer Edo Choi on Saturday, March 21st – One screening only!",
     "time_date": "Saturday March 21, 8:45pm"
   },
   {
     "title": "The Invasion preceded by Paleontology Lesson",
     "directors": "Sergei Loznitsa",
-    "description": "Q&A with director Sergei Loznitsa on Sunday, March 22nd",
+    "description": "Q&A with director Sergei Loznitsa moderated by Mikhail Iampolski, Professor of Comparative Literature and Russian and Slavic Studies at NYU, \non Sunday, March 22nd",
     "time_date": "Sunday March 22, 2:30pm"
+  },
+  {
+    "title": "Members Only: In-I In Motion",
+    "directors": "Juliette Binoche",
+    "description": "Introduction and Q&A with director Juliette Binoche, moderated by filmmaker and choreographer Sarah Friedland, on Sunday, March 22nd",
+    "time_date": "Sunday March 22, 6:15pm"
   },
   {
     "title": "Let the Sunshine In",
@@ -50,7 +38,7 @@
   {
     "title": "The Old Jockey",
     "directors": "Boris Barnet",
-    "description": "Introduction by programmer Edo Choi on Saturday, March 28th",
+    "description": "",
     "time_date": "Saturday March 28, 3:15pm"
   },
   {
@@ -68,19 +56,121 @@
   {
     "title": "Once Upon a Night preceded by A Priceless Head",
     "directors": "Boris Barnet",
-    "description": "Introduction by The Theater of the Matters and Programmer Edo Choi on Sunday, March 29th",
+    "description": "Introduction by The Theater of the Matters and Programmer Edo Choi on Sunday, March 29th – One screening only!",
     "time_date": "Sunday March 29, 3:15pm"
+  },
+  {
+    "title": "Sambizanga",
+    "directors": "Sarah Maldoror",
+    "description": "Introduction by writer and artist Yasmine Seale on Saturday, April 11th",
+    "time_date": "Saturday April 11, 1:50pm"
   },
   {
     "title": "Bountiful Summer",
     "directors": "Boris Barnet",
-    "description": "Introduction by The Theater of the Matters on Saturday, April 4th",
+    "description": "Introduction by The Theater of the Matters on Saturday, April 4th – One screening only!",
     "time_date": "Saturday April 4, 4:30pm"
   },
   {
     "title": "The Wrestler and the Clown",
     "directors": "Boris Barnet",
-    "description": "Introduction by The Theater of the Matters on Saturday, April 4th",
+    "description": "Introduction by The Theater of the Matters and programmer Edo Choi on Saturday, April 4th",
     "time_date": "Saturday April 4, 6:30pm"
+  },
+  {
+    "title": "Fiume o morte!",
+    "directors": "Igor Bezinović",
+    "description": "Q&A and introductions with director Igor Bezinović on Friday, April 10th and Saturday, April 11th",
+    "time_date": "Friday April 10, 7:45pm"
+  },
+  {
+    "title": "Alyonka",
+    "directors": "Boris Barnet",
+    "description": "Introduction by The Theater of the Matters and programmer Edo Choi on Saturday, April 11th – One screening only!",
+    "time_date": "Saturday April 11, 12:00pm"
+  },
+  {
+    "title": "Black Girl",
+    "directors": "Ousmane Sembène",
+    "description": "Introduction by Historian and Columbia University Professor Thomas Dodman on Saturday, April 11th",
+    "time_date": "Saturday April 11, 12:15pm"
+  },
+  {
+    "title": "ASC Presents Eve's Bayou",
+    "directors": "Kasi  Lemmons",
+    "description": "Q&A with cinematographer Amy Vincent, ASC, on Saturday, April 11th",
+    "time_date": "Saturday April 11, 5:00pm"
+  },
+  {
+    "title": "ASC Presents Hustle & Flow",
+    "directors": "Craig Brewer",
+    "description": "Q&A with cinematographer Amy Vincent, ASC, on Saturday, April 11th",
+    "time_date": "Saturday April 11, 7:45pm"
+  },
+  {
+    "title": "Dekalog: Episodes 1-4",
+    "directors": "Krzysztof  Kieślowski",
+    "description": "Introduction by Annette Insdorf, Columbia University Film Professor and author of “Double Lives, Second Chances: The Cinema of Krzysztof Kieślowski\" on Sunday, April 12th",
+    "time_date": "Sunday April 12, 1:10pm"
+  },
+  {
+    "title": "The Double Life of Veronique",
+    "directors": "Krzysztof  Kieślowski",
+    "description": "Introduction by Richard Peña, Professor Emeritus, Columbia University, and Director Emeritus, NYFF, on Saturday, April 17th",
+    "time_date": "Saturday April 18, 7:50pm"
+  },
+  {
+    "title": "ACE Presents Billy Madison",
+    "directors": "Tamra Davis",
+    "description": "Q&A with editor Jeffrey Wolf, ACE, on Friday, April 17th",
+    "time_date": "Friday April 17, 6:30pm"
+  },
+  {
+    "title": "Tahar Cheriaa: Under the Shadow of the Baobab",
+    "directors": "Mohamed Challouf",
+    "description": "Q&A with Director and Film Curator Mohamed Challouf moderated by Alia Ayman, writer curator and co-founder of Zawya on Friday, April 17th",
+    "time_date": "Friday April 17, 6:45pm"
+  },
+  {
+    "title": "Jollof Films presents: Touki Bouki",
+    "directors": "Djibril Diop  Mambéty",
+    "description": "Extended introduction by filmmaker and curator Mohamed Challouf and  Jollof Films' pan-African cinema club on Friday, April 17th",
+    "time_date": "Friday April 17, 9:00pm"
+  },
+  {
+    "title": "Muna moto",
+    "directors": "Dikongué- Pipa",
+    "description": "Introduction by filmmaker Director and Film Curator Mohamed Challouf on Saturday, April 18th",
+    "time_date": "Saturday April 18, 4:30pm"
+  },
+  {
+    "title": "Daria Kashcheeva Shorts Program",
+    "directors": "Daria Kashcheeva",
+    "description": "Q&A with filmmaker Daria Kascheeva on Saturday, April 18th",
+    "time_date": "Saturday April 18, 6:30pm"
+  },
+  {
+    "title": "The Pied Piper & The Vanished World of Gloves",
+    "directors": "Jiří Barta",
+    "description": "Introduction by filmmaker Daria Kascheeva on Saturday, April 18th",
+    "time_date": "Saturday April 18, 8:30pm"
+  },
+  {
+    "title": "Naked Came the Stranger",
+    "directors": "Radley Metzger",
+    "description": "Introduction by Rob King on Saturday, April 18th",
+    "time_date": "Saturday April 18, 10:15pm"
+  },
+  {
+    "title": "Documentary Shorts by Krzysztof Kieslowski",
+    "directors": "Krzysztof  Kieślowski",
+    "description": "",
+    "time_date": "Sunday April 19, 12:15pm"
+  },
+  {
+    "title": "No End",
+    "directors": "Krzysztof  Kieślowski",
+    "description": "Introduction by Rafał Syska, film historian, Professor at Jagiellonian University in Kraków, museum curator and former Director of the National Centre for Film Culture in",
+    "time_date": "Sunday April 19, 2:15pm"
   }
 ]
