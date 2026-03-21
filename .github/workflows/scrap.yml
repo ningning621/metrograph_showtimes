@@ -75,6 +75,7 @@ jobs:
           git add -A scripts/scrap/data/screenshots/ || true
           git add -A scripts/scrap/data/page_html/ || true
           git add src/lib/data/films.csv || true
+          git add src/lib/data/meta.json || true
           git commit -m "Update Metrograph film data [skip ci]" || echo "No changes to commit"
           git pull --rebase origin main || true
           git push
