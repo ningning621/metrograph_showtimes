@@ -127,6 +127,6 @@
 
 {#if tooltip}
 	<Floating>
-		<p class="text-xs">See the film on Letterboxd</p>
+		<p class="text-xs">See film details on Letterboxd</p>
 	</Floating>
 {/if}
