@@ -39,15 +39,14 @@
 			);
 	});
 
-	// Helper function to parse directors string and join with comma
 	const parseDirectors = (directorsStr: string) => {
-		try {
-			// Parse the Python list string format like "['Name1', 'Name2']"
-			const parsed = JSON.parse(directorsStr.replace(/'/g, '"'));
-			return Array.isArray(parsed) ? parsed.join(', ') : directorsStr;
-		} catch {
-			return directorsStr;
+		if (!directorsStr) return '';
+		// Match either "double-quoted" or 'single-quoted' names, handling apostrophes inside names
+		const matches = [...directorsStr.matchAll(/"([^"]+)"|'([^']+)'/g)];
+		if (matches.length > 0) {
+			return matches.map((m) => m[1] ?? m[2]).join(', ');
 		}
+		return directorsStr;
 	};
 
 	let tooltip = $state(null);
