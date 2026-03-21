@@ -4,11 +4,9 @@
 # fontAwesome: 030560e164
 # typekit: id
 googleFonts:
-  - family: Inter
+  - family: Lexend Zetta
     weights:
-      - 400
-      - 500
-      - 700
+      - 300
     # italics:
     # -
 

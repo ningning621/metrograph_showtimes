@@ -56,7 +56,8 @@ def get_metrograph_films(isLocal: bool):
     # parse raw information into list of films
     for film in films:
         # print(film)
-        title = film.find("h3", class_="movie_title").get_text(strip=True)
+        raw_title = film.find("h3", class_="movie_title")
+        title = raw_title.get_text(strip=True) if raw_title else ""
 
         raw_director = film.find("h5", string=lambda t: t and "Director" in t)
 
@@ -70,10 +71,15 @@ def get_metrograph_films(isLocal: bool):
         if raw_director:
             director_text = raw_director.get_text(strip=True).replace("Director:", "").strip()
             directors = [name.strip() for name in director_text.split(",")]
+        else:
+            directors = []
 
         # TODO switch synopsis with MORE... text and track Q&As
-        synopsis = film.find("p", class_="synopsis").get_text(strip=True)
-        imageUrl = film.find("img").attrs["src"]
+        raw_synopsis = film.find("p", class_="synopsis")
+        synopsis = raw_synopsis.get_text(strip=True) if raw_synopsis else ""
+
+        raw_img = film.find("img")
+        imageUrl = raw_img.attrs.get("src", "") if raw_img else ""
 
         parsed_films.append({"title": title, "imageUrl": imageUrl, "directors": directors, "synopsis": synopsis, "year": year })
     
