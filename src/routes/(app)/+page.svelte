@@ -3,6 +3,7 @@
 	import { gsap } from 'gsap';
 	import films from '$lib/data/films.csv';
 	import meta from '$lib/data/meta.json';
+	import Floating from '$lib/components/interactivity/Floating.svelte';
 
 	const lastUpdated = meta.lastUpdated
 		? (() => {
@@ -39,7 +40,7 @@
 	});
 
 	// Helper function to parse directors string and join with comma
-	function parseDirectors(directorsStr: string): string {
+	const parseDirectors = (directorsStr: string) => {
 		try {
 			// Parse the Python list string format like "['Name1', 'Name2']"
 			const parsed = JSON.parse(directorsStr.replace(/'/g, '"'));
@@ -47,11 +48,15 @@
 		} catch {
 			return directorsStr;
 		}
-	}
+	};
+
+	let tooltip = $state(null);
 </script>
 
-<div class="w-full px-6 py-6 md:w-[62%] md:px-12">
-	<header class="mb-8 flex w-full flex-col gap-2">
+<svelte:window onscroll={() => (tooltip = null)} />
+
+<div class="text-dark-cobalt w-full px-6 py-6 md:w-[62%] md:px-12">
+	<header class=" mb-8 flex w-full flex-col gap-2">
 		<h1
 			data-header-item
 			class="font-display text-2xl font-bold tracking-[90%] uppercase md:tracking-[100%]"
@@ -62,7 +67,7 @@
 			<p data-header-item class="text-sm">
 				The weekly film schedule at
 				<a class="underline" href="https://metrograph.com" target="_blank"> Metrograph </a> (in NY),
-				ranked by Letterboxd rating. Click on a film to view its details on Letterboxd.
+				ranked by Letterboxd rating.
 			</p>
 			<p data-header-item class="font-sans text-xs font-light uppercase">
 				Last Updated {lastUpdated}
@@ -85,8 +90,10 @@
 				{#each films.sort((a, b) => b.rating - a.rating) as film}
 					<tr
 						data-table-row
-						class="border-border/50 text-light hover:bg-cobalt/25 cursor-pointer border-b text-sm transition-colors duration-150"
-						on:click={() => window.open(film.letterboxd_url, '_blank')}
+						class="border-border/50 text-light hover:bg-cobalt cursor-pointer border-b text-sm transition-colors duration-150 hover:text-white"
+						onclick={() => window.open(film.letterboxd_url, '_blank')}
+						onmouseenter={() => (tooltip = film)}
+						onmouseleave={() => (tooltip = null)}
 					>
 						<td class="px-2 py-2 text-center align-top">{film.event_time_date ? '🗓️' : ''}</td>
 						<td class="py-2 pr-2 align-top">
@@ -118,3 +125,9 @@
 		</p>
 	</section>
 </div>
+
+{#if tooltip}
+	<Floating>
+		<p class="text-xs">See the film on Letterboxd</p>
+	</Floating>
+{/if}

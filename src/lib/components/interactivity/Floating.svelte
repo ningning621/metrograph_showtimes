@@ -69,7 +69,7 @@
 
 		computePosition(virtualEl, floating, {
 			placement: 'right-start',
-			middleware: [offset(5), flip(), shift()],
+			middleware: [offset(10), flip(), shift()],
 			strategy: 'fixed'
 		}).then(({ x, y, placement }) => {
 			maxWidth = Math.min(
@@ -89,7 +89,7 @@
 />
 
 <div
-	class="font-regular border-primary bg-primary pointer-events-none fixed z-40 flex w-auto min-w-[225px] flex-col gap-2 rounded-lg border px-3 py-2 text-left text-base opacity-0 shadow-md {classes}"
+	class="font-regular border-cobalt pointer-events-none fixed z-40 flex w-fit flex-col gap-2 rounded-xs border bg-white px-2 py-1 text-left font-sans text-base opacity-0 shadow-md {classes}"
 	style:max-width="{maxWidth}px"
 	bind:this={floating}
 >
