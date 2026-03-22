@@ -8,6 +8,7 @@ and combines the data with event information.
 import json
 import csv
 import re
+from datetime import datetime
 from urllib.parse import quote_plus
 
 from selenium.webdriver.common.by import By
@@ -87,6 +88,9 @@ def add_events_to_films():
             film.setdefault("event_time_date", "")
             film.setdefault("letterboxd_url", "")
             writer.writerow(film)
+
+    with open("./src/lib/data/meta.json", "w", encoding="utf-8") as f:
+        json.dump({"lastUpdated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}, f)
     
     print("2️⃣ Finish writing events to file")
 

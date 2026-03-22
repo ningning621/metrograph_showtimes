@@ -7,6 +7,13 @@ googleFonts:
   - family: Lexend Zetta
     weights:
       - 300
+      - 400
+      - 500
+      - 600
+      - 700
+  - family: Fira Code
+    weights:
+      - 300
     # italics:
     # -
 
@@ -15,8 +22,8 @@ siteName: Metrograph Weekly
 tag: Metrograph Weekly
 title: Metrograph Weekly
 description: Explore Metrograph NYC's current film schedule with Letterboxd ratings to discover the best movies playing this month at the iconic Lower East Side cinema.
-date_created: 1969-12-31
-date_modified: 1969-12-31
+date_created: 2026-03-21
+date_modified: 2026-03-21
 url: https://metrograph.lesleyhuang.com
 publisher:
   name: Lesley Huang
@@ -38,5 +45,5 @@ image:
     width: 1012
     height: 506
 colors:
-  background: '#ffffff'
-  theme: '#ffffff'
+  background: '#F3F3F3'
+  theme: '#F3F3F3'
