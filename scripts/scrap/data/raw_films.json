@@ -1,23 +1,5 @@
 [
   {
-    "title": "El Sur",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/EL-SUR_3.jpeg",
-    "directors": [
-      "Victor Erice"
-    ],
-    "synopsis": "Ten years after his The Spirit of the Beehive, Erice emerged with another elegiac, exquisitely composed, and sublimely serene evocation of childhood memory, a film every bit the equal of his vaunted debut. The child in El Sur—routinely ranked among the…",
-    "year": 1983
-  },
-  {
-    "title": "Stalker",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/STALKER_6.jpeg",
-    "directors": [
-      "Andrei Tarkovsky"
-    ],
-    "synopsis": "Tarkovsky’s stunning, haunted sepia-toned sci-fi masterpiece follows a scientist and a writer who, living in a broken-down totalitarian dystopia, recruit the help of a “Stalker”—a kind of post-apocalyptic Sherpa—to guide them on a voyage of…",
-    "year": 1979
-  },
-  {
     "title": "Allegro Non Troppo",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/ALLEGRO-NON-TROPPO_2_resized.jpg",
     "directors": [
@@ -27,369 +9,13 @@
     "year": 1976
   },
   {
-    "title": "Sunset Boulevard",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/SUNSET-BOULEVARD_10.jpg",
+    "title": "Point Blank",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/POINT-BLANK_3-copy.jpg",
     "directors": [
-      "Billy Wilder"
+      "John  Boorman"
     ],
-    "synopsis": "Utterly transfixing from the opening moments, in which Midwestern journalist-cum-skint-screenwriter Joe Gillis (William Holden) begins to posthumously narrate his sob story while floating face-down in a swimming pool in the Hollywood Hills, Wilder’s…",
-    "year": 1950
-  },
-  {
-    "title": "The Wind Will Carry Us",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/THE-WIND-WILL-CARRY-US_1.jpeg",
-    "directors": [
-      "Abbas Kiarostami"
-    ],
-    "synopsis": "Angling to film the funeral of a 100-year-old woman whose death is believed to be immediately imminent, a small film crew from Tehran pose as a group of treasure hunters to descend on their unwitting subject’s village in rural Iranian Kurdistan in…",
-    "year": 1999
-  },
-  {
-    "title": "Battle Royale",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/BATTLE-ROYALE_6-copy.jpg",
-    "directors": [
-      "Kenji  Fukasaku"
-    ],
-    "synopsis": "A cult classic par excellence and a late career smash for director Fukasaku, a veteran of the Japanese genre cinema trenches of the 1960s and ’70s who drew on his own memories of WWII-era carnage to craft a movie speaking to a distinctly…",
-    "year": 2000
-  },
-  {
-    "title": "Irma Vep",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/IRMA-VEP.jpeg",
-    "directors": [
-      "Olivier  Assayas"
-    ],
-    "synopsis": "Maggie Cheung in the role she was literally born to play: Maggie Cheung. The Hong Kong actress is imported to star in a remake of Louis Feuillade’s 1915 serial Les Vampires directed by a New Wave has-been (Jean-Pierre Léaud), but then finds herself…",
-    "year": 1996
-  },
-  {
-    "title": "Code Unknown",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/CODE-UNKNOWN_3.jpg",
-    "directors": [
-      "Michael Haneke"
-    ],
-    "synopsis": "Ripples of ambient unease and creeping terror run through the intersecting vignettes that comprise Haneke’s French-language debut, a study in simmering rage, racial resentment, quotidian depredation, and failures of communication observed in coolly…",
-    "year": 2000
-  },
-  {
-    "title": "In the Mood for Love",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/IN-THE-MOOD-FOR-LOVE_8.jpeg",
-    "directors": [
-      "Wong Kar-wai"
-    ],
-    "synopsis": "Wong’s arthouse smash is the very simple tale of two people in early ’60s Hong Kong, Mr. Chow (Tony Leung Chiu-wai) and Mrs. Chen (Maggie Cheung), drawn to one another by the discovery that their spouses are getting together on the side. A little…",
-    "year": 2000
-  },
-  {
-    "title": "Inland Empire",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2023/08/inland-empire.jpg",
-    "directors": [
-      "David Lynch"
-    ],
-    "synopsis": "A murky, miasmic, continent-hopping nightmare that’s a vehicle for longtime Lynch muse Laura Dern, playing Nikki Grace, a Hollywood starlet who’s sent into a spiraling identity crisis. Lynch acts as his own cinematographer on Inland Empire, his last…",
-    "year": 2006
-  },
-  {
-    "title": "Once Upon a Time in Hollywood",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/ONCE-UPON-A-TIME-IN-HOLLYWOOD.jpg",
-    "directors": [
-      "Quentin Tarantino"
-    ],
-    "synopsis": "Tarantino’s last film to date is, among other things, a charmingly ambling hangout movie and an object lesson in the very real existence of “star power” and what it can do when harnessed by a director who understands how to use it: you will be…",
-    "year": 2019
-  },
-  {
-    "title": "The Lovers on the Bridge",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/01/LoversOnBridge_image_01.jpeg",
-    "directors": [
-      "Leos Carax"
-    ],
-    "synopsis": "L’amour fou has rarely burned brighter on the screen than it does in Carax’s fabulous, florid, frantic folly, in which a hard-drinking street performer (Denis Lavant) and a homeless artist who’s losing her sight and her will to live along with it…",
-    "year": 1991
-  },
-  {
-    "title": "Sukiyaki Western Django",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/SUKIYAKI-WESTERN-DJANGO_2-copy.jpg",
-    "directors": [
-      "Takashi  Miike"
-    ],
-    "synopsis": "Having already tried his hand at just about every other genre known to man, often cramming more than one into a single picture, Miike earned his horse opera spurs with the outrageous, gore-spackled Sukiyaki Western Django, performed in English, or a…",
-    "year": 2007
-  },
-  {
-    "title": "The Unbearable Lightness of Being",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/09/THE-UNBEARABLE-LIGHTNESS-OF-BEING_44.jpeg",
-    "directors": [
-      "Philip Kaufman"
-    ],
-    "synopsis": "Evoking the air of eager optimism that accompanied the Prague Spring thaw of 1968 and the air of disillusion and distrust that followed the Soviet crackdown in summer of the same year, Kaufman’s adaptation of Milan Kundera’s beloved novel, among other…",
-    "year": 1988
-  },
-  {
-    "title": "Inherent Vice",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/INHERENT-VICE_1-copy.jpg",
-    "directors": [
-      "Paul Thomas Anderson"
-    ],
-    "synopsis": "In which “Doc” Sportello (Joaquin Phoenix), a stoner private detective based in the Los Angeles-area beach ’burg of Gordita Beach, gets sucked into a conspiracy that’s more than mere pot paranoia after a visit from ex-old lady Katherine Waterston.…",
-    "year": 2014
-  },
-  {
-    "title": "Cool Hand Luke",
-    "imageUrl": "https://metrograph.imgix.net/2023/11/cool-hand-luke.jpeg?fm=pjpg&ixlib=php-3.3.1",
-    "directors": [
-      "Stuart  Rosenberg"
-    ],
-    "synopsis": "The story of Luke Jackson (Paul Newman), an inmate at a tough-as-nails Southern jail who gains the respect of his fellows on the chain gang thanks to his unflappable demeanor and refusal to bow to the authority of warden Strother Martin, struck a chord…",
+    "synopsis": "Somebody owes Lee Marvin money, and until they pay up, heads are going to get kicked in. Boorman’s crisp, brutal, and possibly metaphysical adaptation of one of Donald Westlake’s Parker novels utilizes a bevy of innovative and ingenious editing and…",
     "year": 1967
-  },
-  {
-    "title": "Clouds of Sils Maria",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/07/CLOUDS-OF-SILS-MARIA_5-copy.jpg",
-    "directors": [
-      "Olivier  Assayas"
-    ],
-    "synopsis": "Juliette Binoche and Kristen Stewart come together in perfect disharmony as a fiftysomething French actress and her twentysomething American personal assistant, cooped up together at a house in the Swiss Alps while La Binoche rehearses a return to the…",
-    "year": 2014
-  },
-  {
-    "title": "Cowboy Bebop: The Movie",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/COWBOY-BEBOP_-THE-MOVIE_1-copy.jpg",
-    "directors": [
-      "Yoshiyuki Takei",
-      "Shin'ichirô Watanabe"
-    ],
-    "synopsis": "When a terrorist wreaks havoc on the capital metropolis of a populated and terraformed Mars, it’s up to the bounty hunters of the spaceship Bebop to stop this mysterious foe, a quest that draws back the curtain on a conspiracy to unleash a…",
-    "year": 2001
-  },
-  {
-    "title": "Dead Man",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/DEAD-MAN.jpeg",
-    "directors": [
-      "Jim Jarmusch"
-    ],
-    "synopsis": "Müller’s crisp, surreally lucid black-and-white photography and Neil Young’s beautifully damaged electric guitar score are but two of the standout elements that make up Jarmusch’s sui generis, visionary Western, in which timid accountant William…",
-    "year": 1995
-  },
-  {
-    "title": "Fantasia",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/FANTASIA_7-copy.jpg",
-    "directors": [
-      "James Algar",
-      "Samuel Armstrong",
-      "Ford Beebe Jr."
-    ],
-    "synopsis": "The Philadelphia Orchestra, following the hand of conductor Leopold Stokowski, performs selections from Bach, Tchaikovsky, Stravinsky, Beethoven, and other giants, each accompanied by animated vignettes—most famously the mischievous Mickey Mouse vehicle…",
-    "year": 1940
-  },
-  {
-    "title": "Nostalghia",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/02/NOSTALGHIA_4.jpeg",
-    "directors": [
-      "Andrei Tarkovsky"
-    ],
-    "synopsis": "Tarkovsky’s penultimate film, and his first shot outside the USSR, channels the filmmaker’s own sense of displacement into the story of a homesick Russian poet (Oleg Yankovsky)—in Italy to do research on 18th-century Russian expatriate composer…",
-    "year": 1983
-  },
-  {
-    "title": "No Other Choice",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/NO-OTHER-CHOICE.jpg",
-    "directors": [
-      "Park Chan-wook"
-    ],
-    "synopsis": "Westlake’s 1997 novel The Ax—the story of a middle-aged middle manager who, after becoming a casualty of downsizing, embarks on a particularly violent job hunt—finds an ideal interpreter in Park, no stranger to generous gore, who relocates the…",
-    "year": 2025
-  },
-  {
-    "title": "The Player",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/THE-PLAYER_1.jpeg",
-    "directors": [
-      "Robert Altman"
-    ],
-    "synopsis": "Opening with a bravura studio lot crane shot that’s the first of its several references to Orson Welles’s Touch of Evil, The Player is a poison pen letter to Hollywood from Altman—like Welles, a perennial outsider—in which executive Tim Robbins…",
-    "year": 1992
-  },
-  {
-    "title": "Red Sorghum",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/RED-SORGHUM_2.webp",
-    "directors": [
-      "Yimou Zhang"
-    ],
-    "synopsis": "Gong Li’s acting debut was also the first feature from director and Li’s longtime-collaborator-to-be Zhang, a film that established both filmmaker and star as leading figures of Chinese Fifth Generation cinema when it took home the Golden Bear from…",
-    "year": 1987
-  },
-  {
-    "title": "Ju Dou",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/JU-DOU-HERO.jpg",
-    "directors": [
-      "Yimou Zhang"
-    ],
-    "synopsis": "Gong Li commandingly inhabits the title role, that of a beautiful country girl sold into a potentially calamitous marriage with the notoriously sadistic owner of a silk-dyeing mill (Li Wei) in 1920s rural China, in Zhang’s erotically charged,…",
-    "year": 1990
-  },
-  {
-    "title": "Mauvais Sang",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/MAUVAIS-SANG_3.jpeg",
-    "directors": [
-      "Leos Carax"
-    ],
-    "synopsis": "A genre-bending explosion of pure cinematic effervescence pairing Binoche and Denis Lavant, both at the beginnings of storied careers. Binoche plays the gamine mistress of a superannuated Paris gangster (Michel Piccoli), while Lavant stars as a street…",
-    "year": 1986
-  },
-  {
-    "title": "Zodiac",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/ZODIAC_5-copy.jpg",
-    "directors": [
-      "David Fincher"
-    ],
-    "synopsis": "Described by one viewer, quoted in Nathan Lee’s legendary Village Voice rave, as like “[being] stuck in a filing cabinet for three hours,” Fincher’s obsessively detailed period procedural recounts the facts of the still-unsolved Zodiac killings…",
-    "year": 2007
-  },
-  {
-    "title": "Miami Vice",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/06/MIAMI-VICE_6-copy.jpg",
-    "directors": [
-      "Michael Mann"
-    ],
-    "synopsis": "Mann’s big-screen adaptation of the hit ’80s television series—famously pitched as “MTV Cops”—on which he was executive producer updates the show’s unbuttoned Miami Chic for the mid-aughts, replete with a massive opening needle drop of a…",
-    "year": 2006
-  },
-  {
-    "title": "Sambizanga",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/01/SAMBIZANGA_1.jpg",
-    "directors": [
-      "Sarah Maldoror"
-    ],
-    "synopsis": "Introduction by writer and artist Yasmine Seale on Saturday, April 11th",
-    "year": 1972
-  },
-  {
-    "title": "Three Colors: Blue",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/05/THREE-COLORS_-BLUE_5.jpeg",
-    "directors": [
-      "Krzysztof  Kieślowski"
-    ],
-    "synopsis": "The first entry in Kieślowski’s “Three Colors” trilogy—his final artistic statement before his early death and one of three great success stories of ’90s arthouse cinema—is a film as somber as its name implies, a cool, cobalt-shaded study in…",
-    "year": 1993
-  },
-  {
-    "title": "The Outfit",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/10/THE-OUTFIT_1.jpg",
-    "directors": [
-      "John Flynn"
-    ],
-    "synopsis": "The late, lamented Robert Duvall turns in a performance of marvelously pared-down simplicity and intense focus in the film that Westlake considered the finest adaptation of one of the “Parker” novels he wrote under the pseudonym Richard Stark. Parker…",
-    "year": 1973
-  },
-  {
-    "title": "Three Colors: White",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/05/THREE-COLORS_-WHITE_4_small.jpg",
-    "directors": [
-      "Krzysztof  Kieślowski"
-    ],
-    "synopsis": "Literally and figuratively the lightest of Kieslowski’s “Three Colors” trilogy, White stars Zbigniew Zamachowski as a Polish immigrant in Paris who hires a fellow expatriate to smuggle him back home to his native Warsaw after French wife Julie Delpy…",
-    "year": 1994
-  },
-  {
-    "title": "Possession",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/11/FILM.00_31_13_18.Still012-1.jpg",
-    "directors": [
-      "Andrzej  Żuławski"
-    ],
-    "synopsis": "Easily the most harrowing divorce drama ever made, Zuławski’s one-of-a-kind genre pastiche has spy Sam Neill returning to his Berlin home from a mission abroad to discover that wife Isabelle Adjani wants suddenly to split up. Launching an investigation…",
-    "year": 1981
-  },
-  {
-    "title": "The Matrix",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/05/THE-MATRIX_6-copy.jpg",
-    "directors": [
-      "Lilly  Wachowski",
-      "Lana  Wachowski"
-    ],
-    "synopsis": "Keanu Reeves’s cubicle drone/hacker Neo gets a rude awakening, discovering that the real world he knows is a shared hallucination and that humankind are being harvested for bioelectricity by their machine overlords. A watershed movie, not only for the…",
-    "year": 1999
-  },
-  {
-    "title": "Nausicaä of the Valley of the Wind",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/NAUSICAA-OF-THE-VALLEY-OF-THE-WIND_4.jpeg",
-    "directors": [
-      "Hayao  Miyazaki"
-    ],
-    "synopsis": "Miyazaki’s jaw-dropping second feature is a film of astonishing imagination and imagistic grandeur, a fantasia that lays its scene years after a devastating global war, in the Valley of the Wind, a seaside kingdom spared from the touch of a creeping,…",
-    "year": 1984
-  },
-  {
-    "title": "Monty Python and the Holy Grail",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/montypython_holygrail01.png",
-    "directors": [
-      "Terry Gilliam",
-      "Terry Jones"
-    ],
-    "synopsis": "Dedicated skewerers of every aspect of English society, in this, their irresistibly quotable medieval farce, the Pythons aimed their satirical lance at nothing less than the foundational myths of Albion, following Graham Chapman’s King Arthur and his…",
-    "year": 1975
-  },
-  {
-    "title": "Shanghai Triad",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/05/SHANGHAI-TRIAD_1.jpeg",
-    "directors": [
-      "Yimou Zhang"
-    ],
-    "synopsis": "Country kid Shuisheng (Wang Xiao Xiao) arrives in bustling c. 1930 Shanghai with the address of a relative, Tang (Li Baotian), provided by his uncle… but what uncle doesn’t know is that Tang is a high-ranking member of the Triad gangs, introducing…",
-    "year": 1995
-  },
-  {
-    "title": "The Seventh Seal",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/THE-SEVENTH-SEAL_5_resize.jpg",
-    "directors": [
-      "Ingmar Bergman"
-    ],
-    "synopsis": "The subject of homage by Scott Walker, Last Action Hero (1993), Woody Allen, and countless other artists and artworks, Bergman’s film—with its indelible image of weary knight Max von Sydow seated for a match of chess with Death himself—is the…",
-    "year": 1957
-  },
-  {
-    "title": "Bountiful Summer",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/BOUNTIFUL-SUMMER_kg_3.jpg",
-    "directors": [
-      "Boris Barnet"
-    ],
-    "synopsis": "Introduction by The Theater of the Matters on Saturday, April 4th – One screening only!",
-    "year": 1950
-  },
-  {
-    "title": "The Wrestler and the Clown",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/THE-WRESTLER-AND-THE-CLOWN_kg_6.jpg",
-    "directors": [
-      "Boris Barnet"
-    ],
-    "synopsis": "Introduction by The Theater of the Matters and programmer Edo Choi on Saturday, April 4th -- One screening only!",
-    "year": 1957
-  },
-  {
-    "title": "Three Colors: Red",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/THREE-COLORS_-RED_1.jpeg",
-    "directors": [
-      "Krzysztof  Kieślowski"
-    ],
-    "synopsis": "The final installment in Kieślowki’s trilogy and indeed his final feature, a magisterial exploration of the operations of chance and fate that earned Kieślowski an Academy Award nomination for Best Director, stars the luminous Irène Jacob as a…",
-    "year": 1994
-  },
-  {
-    "title": "Millennium Mambo",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/MILLENNIUM-MAMBO_2.jpg",
-    "directors": [
-      "Hou Hsiao-hsien"
-    ],
-    "synopsis": "A stylish and seductive submersion into the techno-scored neon nightlife of Taipei, Hou’s much-misunderstood marvel stars Shu Qi (The Assassin) as an aimless bar hostess drifting away from her blowhard boyfriend and towards Jack Kao’s suave, sensitive…",
-    "year": 2001
-  },
-  {
-    "title": "The Holy Mountain",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/THE-HOLY-MOUNTAIN_7.jpg",
-    "directors": [
-      "Alejandro Jodorowsky"
-    ],
-    "synopsis": "Jodorowsky’s follow-up to his mother of all midnight movies, El Topo, is even wilder and more extravagantly imaginative that its predecessor, a surreal, sacrilegious allegory in which the writer-director stars as a mysterious figure called “The…",
-    "year": 1973
   },
   {
     "title": "Invention for Destruction",
@@ -401,60 +27,6 @@
     "year": 1958
   },
   {
-    "title": "The Darjeeling Limited",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/DARJEELING-LIMITED.jpg",
-    "directors": [
-      "Wes Anderson"
-    ],
-    "synopsis": "Still in mourning—some more obviously than others—a year after their father’s funeral, three estranged brothers (Owen Wilson, Adrien Brody, and Jason Schwartzman, also one of the film’s screenwriters) set off on a “spiritual journey” across…",
-    "year": 2007
-  },
-  {
-    "title": "Czechoslovak Animation: A Shorts Program",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/INSPIRATION_1.jpeg",
-    "directors": [
-      "Multiple Dirs"
-    ],
-    "synopsis": "A program of short works from some of the finest creative minds in Czechoslovak animation. Includes Karel Zeman’s Inspiration, a dialogue-free film featuring glass figurines of characters drawn from commedia dell’arte; Jan Švankmajer’s Dimensions…",
-    "year": 1949
-  },
-  {
-    "title": "The Gospel According to St. Matthew",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/02/THE-GOSPEL-ACCORDING-TO-ST.-MATTHEW_WP_2.jpeg",
-    "directors": [
-      "Pier Paolo Pasolini"
-    ],
-    "synopsis": "Shooting the story of Christ with non-actors against the rugged landscapes of southern Italy, in a style simultaneously suggesting Quattrocento painting and contemporary cinéma vérité, Pasolini stripped the Gospel down to its core, in the process…",
-    "year": 1964
-  },
-  {
-    "title": "The Red Turtle",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/05/THE-RED-TURTLE_4-copy.jpg",
-    "directors": [
-      "Michaël  Dudok de Wit"
-    ],
-    "synopsis": "The first external co-production by Studio Ghibli, Academy Award-winning minimalist animator Dudok de Wit’s dialogue-free first feature applies ravishing visuals to the deceptively simple story of a man stranded alone on a desert island whose attempts…",
-    "year": 2016
-  },
-  {
-    "title": "Chronicle of the Years of Fire",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/CHRONICLE-OF-THE-YEARS-OF-FIRE_1.jpeg",
-    "directors": [
-      "Mohammed Lakhdar-Hamina"
-    ],
-    "synopsis": "Introduction by Madeleine Dobie, Professor of French and Comparative Literature at Columbia University, on Sunday, April 5th",
-    "year": 1975
-  },
-  {
-    "title": "Alice",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/ALICE_1-copy.jpg",
-    "directors": [
-      "Jan Švankmajer"
-    ],
-    "synopsis": "Of the many, many film adaptations of the beloved Alice books, none so wholly enters into the proto-surrealist spirit of Lewis Carroll’s abundant imagination as Švankmajer’s feature filmmaking debut—completed after more than two decades of…",
-    "year": 1988
-  },
-  {
     "title": "The Story of Qiu Ju",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/THE-STORY-OF-QIU-JU_1-copy.jpg",
     "directors": [
@@ -464,6 +36,24 @@
     "year": 1992
   },
   {
+    "title": "Clouds of Sils Maria",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/07/CLOUDS-OF-SILS-MARIA_5-copy.jpg",
+    "directors": [
+      "Olivier  Assayas"
+    ],
+    "synopsis": "Juliette Binoche and Kristen Stewart come together in perfect disharmony as a fiftysomething French actress and her twentysomething American personal assistant, cooped up together at a house in the Swiss Alps while La Binoche rehearses a return to the…",
+    "year": 2014
+  },
+  {
+    "title": "Zodiac",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/ZODIAC_5-copy.jpg",
+    "directors": [
+      "David Fincher"
+    ],
+    "synopsis": "Described by one viewer, quoted in Nathan Lee’s legendary Village Voice rave, as like “[being] stuck in a filing cabinet for three hours,” Fincher’s obsessively detailed period procedural recounts the facts of the still-unsolved Zodiac killings…",
+    "year": 2007
+  },
+  {
     "title": "Let the Sunshine In",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/LET-THE-SUNSHINE-IN.jpg",
     "directors": [
@@ -471,6 +61,15 @@
     ],
     "synopsis": "Paris artist Juliette Binoche looks for love with a series of sweet and sour partners in Denis’s very free, disarmingly comic, and occasionally staggeringly sleazy adaptation of Roland Barthes’s unadaptable A Lover’s Discourse, a rare (and raw)…",
     "year": 2017
+  },
+  {
+    "title": "Stalker",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/10/STALKER_6.jpeg",
+    "directors": [
+      "Andrei Tarkovsky"
+    ],
+    "synopsis": "Tarkovsky’s stunning, haunted sepia-toned sci-fi masterpiece follows a scientist and a writer who, living in a broken-down totalitarian dystopia, recruit the help of a “Stalker”—a kind of post-apocalyptic Sherpa—to guide them on a voyage of…",
+    "year": 1979
   },
   {
     "title": "The Trap",
@@ -489,6 +88,24 @@
     "year": 2025
   },
   {
+    "title": "The Seventh Seal",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/08/THE-SEVENTH-SEAL_5_resize.jpg",
+    "directors": [
+      "Ingmar Bergman"
+    ],
+    "synopsis": "The subject of homage by Scott Walker, Last Action Hero (1993), Woody Allen, and countless other artists and artworks, Bergman’s film—with its indelible image of weary knight Max von Sydow seated for a match of chess with Death himself—is the…",
+    "year": 1957
+  },
+  {
+    "title": "The Red Turtle",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/05/THE-RED-TURTLE_4-copy.jpg",
+    "directors": [
+      "Michaël  Dudok de Wit"
+    ],
+    "synopsis": "The first external co-production by Studio Ghibli, Academy Award-winning minimalist animator Dudok de Wit’s dialogue-free first feature applies ravishing visuals to the deceptively simple story of a man stranded alone on a desert island whose attempts…",
+    "year": 2016
+  },
+  {
     "title": "The Silence",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2024/07/THE-SILENCE_1.jpg",
     "directors": [
@@ -496,6 +113,51 @@
     ],
     "synopsis": "The third film in Bergman’s Faith Trilogy stars Ingrid Thulin and Gunnel Lindblom as Ester and Anna, two estranged sisters, one prim, the other a voluptuary, who, along with Ester’s young son Johan, take rooms in an otherwise vacant hotel in an…",
     "year": 1963
+  },
+  {
+    "title": "Three Colors: Blue",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/05/THREE-COLORS_-BLUE_5.jpeg",
+    "directors": [
+      "Krzysztof  Kieślowski"
+    ],
+    "synopsis": "The first entry in Kieślowski’s “Three Colors” trilogy—his final artistic statement before his early death and one of three great success stories of ’90s arthouse cinema—is a film as somber as its name implies, a cool, cobalt-shaded study in…",
+    "year": 1993
+  },
+  {
+    "title": "Three Colors: White",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/05/THREE-COLORS_-WHITE_4_small.jpg",
+    "directors": [
+      "Krzysztof  Kieślowski"
+    ],
+    "synopsis": "Literally and figuratively the lightest of Kieslowski’s “Three Colors” trilogy, White stars Zbigniew Zamachowski as a Polish immigrant in Paris who hires a fellow expatriate to smuggle him back home to his native Warsaw after French wife Julie Delpy…",
+    "year": 1994
+  },
+  {
+    "title": "The Gospel According to St. Matthew",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/02/THE-GOSPEL-ACCORDING-TO-ST.-MATTHEW_WP_2.jpeg",
+    "directors": [
+      "Pier Paolo Pasolini"
+    ],
+    "synopsis": "Shooting the story of Christ with non-actors against the rugged landscapes of southern Italy, in a style simultaneously suggesting Quattrocento painting and contemporary cinéma vérité, Pasolini stripped the Gospel down to its core, in the process…",
+    "year": 1964
+  },
+  {
+    "title": "Ju Dou",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/JU-DOU-HERO.jpg",
+    "directors": [
+      "Yimou Zhang"
+    ],
+    "synopsis": "Gong Li commandingly inhabits the title role, that of a beautiful country girl sold into a potentially calamitous marriage with the notoriously sadistic owner of a silk-dyeing mill (Li Wei) in 1920s rural China, in Zhang’s erotically charged,…",
+    "year": 1990
+  },
+  {
+    "title": "Inherent Vice",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/INHERENT-VICE_1-copy.jpg",
+    "directors": [
+      "Paul Thomas Anderson"
+    ],
+    "synopsis": "In which “Doc” Sportello (Joaquin Phoenix), a stoner private detective based in the Los Angeles-area beach ’burg of Gordita Beach, gets sucked into a conspiracy that’s more than mere pot paranoia after a visit from ex-old lady Katherine Waterston.…",
+    "year": 2014
   },
   {
     "title": "High Life",
@@ -507,6 +169,43 @@
     "year": 2018
   },
   {
+    "title": "The Darjeeling Limited",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/02/DARJEELING-LIMITED.jpg",
+    "directors": [
+      "Wes Anderson"
+    ],
+    "synopsis": "Still in mourning—some more obviously than others—a year after their father’s funeral, three estranged brothers (Owen Wilson, Adrien Brody, and Jason Schwartzman, also one of the film’s screenwriters) set off on a “spiritual journey” across…",
+    "year": 2007
+  },
+  {
+    "title": "Nausicaä of the Valley of the Wind",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/NAUSICAA-OF-THE-VALLEY-OF-THE-WIND_4.jpeg",
+    "directors": [
+      "Hayao  Miyazaki"
+    ],
+    "synopsis": "Miyazaki’s jaw-dropping second feature is a film of astonishing imagination and imagistic grandeur, a fantasia that lays its scene years after a devastating global war, in the Valley of the Wind, a seaside kingdom spared from the touch of a creeping,…",
+    "year": 1984
+  },
+  {
+    "title": "The Matrix",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/05/THE-MATRIX_6-copy.jpg",
+    "directors": [
+      "Lilly  Wachowski",
+      "Lana  Wachowski"
+    ],
+    "synopsis": "Keanu Reeves’s cubicle drone/hacker Neo gets a rude awakening, discovering that the real world he knows is a shared hallucination and that humankind are being harvested for bioelectricity by their machine overlords. A watershed movie, not only for the…",
+    "year": 1999
+  },
+  {
+    "title": "Alice",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/ALICE_1-copy.jpg",
+    "directors": [
+      "Jan Švankmajer"
+    ],
+    "synopsis": "Of the many, many film adaptations of the beloved Alice books, none so wholly enters into the proto-surrealist spirit of Lewis Carroll’s abundant imagination as Švankmajer’s feature filmmaking debut—completed after more than two decades of…",
+    "year": 1988
+  },
+  {
     "title": "The Hand",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/THE-HAND_10.jpeg",
     "directors": [
@@ -516,6 +215,15 @@
     "year": 2004
   },
   {
+    "title": "Czechoslovak Animation: A Shorts Program",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/INSPIRATION_1.jpeg",
+    "directors": [
+      "Multiple Dirs"
+    ],
+    "synopsis": "A program of short works from some of the finest creative minds in Czechoslovak animation. Includes Karel Zeman’s Inspiration, a dialogue-free film featuring glass figurines of characters drawn from commedia dell’arte; Jan Švankmajer’s Dimensions…",
+    "year": 1949
+  },
+  {
     "title": "Fiume o morte!",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/FIUME-O-MORTE_still-02_Courtesy-Icarus-Films.jpg",
     "directors": [
@@ -523,6 +231,33 @@
     ],
     "synopsis": "Q&A and introductions with director Igor Bezinović on Friday, April 10th and Saturday, April 11th",
     "year": 2025
+  },
+  {
+    "title": "Shanghai Triad",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/05/SHANGHAI-TRIAD_1.jpeg",
+    "directors": [
+      "Yimou Zhang"
+    ],
+    "synopsis": "Country kid Shuisheng (Wang Xiao Xiao) arrives in bustling c. 1930 Shanghai with the address of a relative, Tang (Li Baotian), provided by his uncle… but what uncle doesn’t know is that Tang is a high-ranking member of the Triad gangs, introducing…",
+    "year": 1995
+  },
+  {
+    "title": "Miami Vice",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/06/MIAMI-VICE_6-copy.jpg",
+    "directors": [
+      "Michael Mann"
+    ],
+    "synopsis": "Mann’s big-screen adaptation of the hit ’80s television series—famously pitched as “MTV Cops”—on which he was executive producer updates the show’s unbuttoned Miami Chic for the mid-aughts, replete with a massive opening needle drop of a…",
+    "year": 2006
+  },
+  {
+    "title": "The Holy Mountain",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/THE-HOLY-MOUNTAIN_7.jpg",
+    "directors": [
+      "Alejandro Jodorowsky"
+    ],
+    "synopsis": "Jodorowsky’s follow-up to his mother of all midnight movies, El Topo, is even wilder and more extravagantly imaginative that its predecessor, a surreal, sacrilegious allegory in which the writer-director stars as a mysterious figure called “The…",
+    "year": 1973
   },
   {
     "title": "Alyonka",
@@ -541,6 +276,15 @@
     ],
     "synopsis": "Introduction by Thomas Dodman, associate professor of French at Columbia University, on Saturday, April 11th",
     "year": 1966
+  },
+  {
+    "title": "Sambizanga",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/01/SAMBIZANGA_1.jpg",
+    "directors": [
+      "Sarah Maldoror"
+    ],
+    "synopsis": "Introduction by writer and artist Yasmine Seale on Saturday, April 11th",
+    "year": 1972
   },
   {
     "title": "Art Cinema for Tots: Journeys",
@@ -575,7 +319,7 @@
     "directors": [
       "Ken Jacobs"
     ],
-    "synopsis": "As part of The Whole Shebang: Celebrating Ken and Flo Jacobs, a city-wide, 14-venue expanded cinema(s) festival saluting the vast legacies of experimental film pioneers and perennial New Yorkers Ken (1933-2025) and Flo (1941-2025) Jacobs, Metrograph…",
+    "synopsis": "Introduction by filmmaker Azazel Jacobs on Saturday, April 11th",
     "year": 2026
   },
   {
@@ -640,6 +384,33 @@
     ],
     "synopsis": "Kieślowski and co-writer Krzysztof Piesiewicz’s monumental serial counts down the remaining Commandments with episodes Thou Shalt Not Bear False Witness, Thou Shalt Not Covet Thy Neighbor’s Wife, and Thou Shalt Not Covet Thy Neighbors Goods. In the…",
     "year": 1990
+  },
+  {
+    "title": "In the Mood for Love",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2025/11/IN-THE-MOOD-FOR-LOVE_8.jpeg",
+    "directors": [
+      "Wong Kar-wai"
+    ],
+    "synopsis": "Wong’s arthouse smash is the very simple tale of two people in early ’60s Hong Kong, Mr. Chow (Tony Leung Chiu-wai) and Mrs. Chen (Maggie Cheung), drawn to one another by the discovery that their spouses are getting together on the side. A little…",
+    "year": 2000
+  },
+  {
+    "title": "Three Colors: Red",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/THREE-COLORS_-RED_1.jpeg",
+    "directors": [
+      "Krzysztof  Kieślowski"
+    ],
+    "synopsis": "The final installment in Kieślowki’s trilogy and indeed his final feature, a magisterial exploration of the operations of chance and fate that earned Kieślowski an Academy Award nomination for Best Director, stars the luminous Irène Jacob as a…",
+    "year": 1994
+  },
+  {
+    "title": "The Outfit",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/10/THE-OUTFIT_1.jpg",
+    "directors": [
+      "John Flynn"
+    ],
+    "synopsis": "The late, lamented Robert Duvall turns in a performance of marvelously pared-down simplicity and intense focus in the film that Westlake considered the finest adaptation of one of the “Parker” novels he wrote under the pseudonym Richard Stark. Parker…",
+    "year": 1973
   },
   {
     "title": "Boyfriends and Girlfriends",
@@ -723,6 +494,15 @@
     "year": 1998
   },
   {
+    "title": "Possession",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2024/11/FILM.00_31_13_18.Still012-1.jpg",
+    "directors": [
+      "Andrzej  Żuławski"
+    ],
+    "synopsis": "Easily the most harrowing divorce drama ever made, Zuławski’s one-of-a-kind genre pastiche has spy Sam Neill returning to his Berlin home from a mission abroad to discover that wife Isabelle Adjani wants suddenly to split up. Launching an investigation…",
+    "year": 1981
+  },
+  {
     "title": "Blind Chance",
     "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/BLIND-CHANCE_3.jpeg",
     "directors": [
@@ -730,6 +510,15 @@
     ],
     "synopsis": "Uncertain as to where his future lies after his father’s death robs him of his sense of vocation, medical student Witek (Bogusław Linda) impulsively decides to catch a train to Warsaw when… Kieślowski’s triptych “sliding doors” film shows…",
     "year": 1987
+  },
+  {
+    "title": "Saturday Afternoon Cartoons: Sweet Treats",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/04/Dreamland-HD-still.jpeg",
+    "directors": [
+      "Multiple Dirs"
+    ],
+    "synopsis": "Introduction and Q&A by curator Tommy Stathes on Saturday, April 18th",
+    "year": 1950
   },
   {
     "title": "The Emperor and the Assassin",
@@ -782,7 +571,7 @@
     "directors": [
       "Jiří Barta"
     ],
-    "synopsis": "Introduction by filmmaker Daria Kascheeva on Saturday, April 18th",
+    "synopsis": "Introduction by Dr. Tereza Porybná, Director of the Czech Center New York, on Saturday, April 18th",
     "year": 1986
   },
   {
@@ -805,7 +594,7 @@
   },
   {
     "title": "Bambi",
-    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/BAMBI_1-copy.jpgA",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/BAMBI_1-copy.jpg",
     "directors": [
       "James Algar",
       "Samuel Armstrong",
@@ -1023,5 +812,14 @@
     ],
     "synopsis": "The film that won Oldboy and The Handmaiden director Park Best Director honors at this year’s Cannes Film Festival, the noir-tinged Decision to Leave is a mesmerizing, slow-burn romance/mystery about a detective (Park Hae-il) whose investigation into a…",
     "year": 2022
+  },
+  {
+    "title": "Prismatic Ground Closing Night: Gangsterism",
+    "imageUrl": "https://metrograph.com/wp-content/uploads/2026/03/Gangsterism-1.jpeg",
+    "directors": [
+      "Isiah Medina"
+    ],
+    "synopsis": "Q&A with director Isiah Medina on Sunday, May 3rd",
+    "year": 2025
   }
 ]

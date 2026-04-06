@@ -1,23 +1,5 @@
 [
   {
-    "title": "Sambizanga",
-    "directors": "Sarah Maldoror",
-    "description": "Introduction by writer and artist Yasmine Seale on Saturday, April 11th",
-    "time_date": "Saturday April 11, 1:50pm"
-  },
-  {
-    "title": "Bountiful Summer",
-    "directors": "Boris Barnet",
-    "description": "Introduction by The Theater of the Matters on Saturday, April 4th – One screening only!",
-    "time_date": "Saturday April 4, 4:30pm"
-  },
-  {
-    "title": "The Wrestler and the Clown",
-    "directors": "Boris Barnet",
-    "description": "Introduction by The Theater of the Matters and programmer Edo Choi on Saturday, April 4th -- One screening only!",
-    "time_date": "Saturday April 4, 6:30pm"
-  },
-  {
     "title": "Fiume o morte!",
     "directors": "Igor Bezinović",
     "description": "Q&A and introductions with director Igor Bezinović on Friday, April 10th and Saturday, April 11th",
@@ -34,6 +16,12 @@
     "directors": "Ousmane Sembène",
     "description": "Introduction by Thomas Dodman, associate professor of French at Columbia University, on Saturday, April 11th",
     "time_date": "Saturday April 11, 12:15pm"
+  },
+  {
+    "title": "Sambizanga",
+    "directors": "Sarah Maldoror",
+    "description": "Introduction by writer and artist Yasmine Seale on Saturday, April 11th",
+    "time_date": "Saturday April 11, 1:50pm"
   },
   {
     "title": "ASC Presents Eve's Bayou",
@@ -78,6 +66,12 @@
     "time_date": "Friday April 17, 9:00pm"
   },
   {
+    "title": "Saturday Afternoon Cartoons: Sweet Treats",
+    "directors": "Multiple Dirs",
+    "description": "Introduction and Q&A by curator Tommy Stathes on Saturday, April 18th",
+    "time_date": "Saturday April 18, 12:00pm"
+  },
+  {
     "title": "Muna moto",
     "directors": "Jean-Pierre Dikongué-Pipa",
     "description": "Introduction by filmmaker and curator Mohamed Challouf on Saturday, April 18th",
@@ -92,7 +86,7 @@
   {
     "title": "The Pied Piper & The Vanished World of Gloves",
     "directors": "Jiří Barta",
-    "description": "Introduction by filmmaker Daria Kascheeva on Saturday, April 18th",
+    "description": "Introduction by Dr. Tereza Porybná, Director of the Czech Center New York, on Saturday, April 18th",
     "time_date": "Saturday April 18, 8:30pm"
   },
   {
@@ -154,5 +148,11 @@
     "directors": "René Laloux, Christopher Kulendran Thomas",
     "description": "Introduction by artist Christopher Kulendran Thomas on Sunday, April 26th",
     "time_date": "Sunday April 26, 7:15pm"
+  },
+  {
+    "title": "Prismatic Ground Closing Night: Gangsterism",
+    "directors": "Isiah Medina",
+    "description": "Q&A with director Isiah Medina on Sunday, May 3rd",
+    "time_date": "Sunday May 3, 9:00pm"
   }
 ]
