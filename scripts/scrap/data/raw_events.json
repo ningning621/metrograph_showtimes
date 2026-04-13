@@ -1,47 +1,5 @@
 [
   {
-    "title": "Fiume o morte!",
-    "directors": "Igor Bezinović",
-    "description": "Q&A and introductions with director Igor Bezinović on Friday, April 10th and Saturday, April 11th",
-    "time_date": "Friday April 10, 7:45pm"
-  },
-  {
-    "title": "Alyonka",
-    "directors": "Boris Barnet",
-    "description": "Introduction by The Theater of the Matters and programmer Edo Choi on Saturday, April 11th – One screening only!",
-    "time_date": "Saturday April 11, 12:00pm"
-  },
-  {
-    "title": "Black Girl",
-    "directors": "Ousmane Sembène",
-    "description": "Introduction by Thomas Dodman, associate professor of French at Columbia University, on Saturday, April 11th",
-    "time_date": "Saturday April 11, 12:15pm"
-  },
-  {
-    "title": "Sambizanga",
-    "directors": "Sarah Maldoror",
-    "description": "Introduction by writer and artist Yasmine Seale on Saturday, April 11th",
-    "time_date": "Saturday April 11, 1:50pm"
-  },
-  {
-    "title": "ASC Presents Eve's Bayou",
-    "directors": "Kasi  Lemmons",
-    "description": "Q&A with cinematographer Amy Vincent, ASC, and director Kasi Lemmons moderated by cinematographer Dejan Georgevich, ASC, on Saturday, April 11th",
-    "time_date": "Saturday April 11, 5:00pm"
-  },
-  {
-    "title": "ASC Presents Hustle & Flow",
-    "directors": "Craig Brewer",
-    "description": "Q&A with cinematographer Amy Vincent, ASC, on Saturday, April 11th",
-    "time_date": "Saturday April 11, 7:45pm"
-  },
-  {
-    "title": "Dekalog: Episodes 1-4",
-    "directors": "Krzysztof  Kieślowski",
-    "description": "Introduction by Annette Insdorf, Columbia University Film Professor and author of “Double Lives, Second Chances: The Cinema of Krzysztof Kieślowski\" on Sunday, April 12th",
-    "time_date": "Sunday April 12, 1:10pm"
-  },
-  {
     "title": "The Double Life of Veronique",
     "directors": "Krzysztof  Kieślowski",
     "description": "Introduction by Richard Peña, Professor Emeritus, Columbia University, on Saturday, April 18th, and Q&A with actor Irène Jacob on Saturday, April 25th",
@@ -50,7 +8,7 @@
   {
     "title": "ACE Presents Billy Madison",
     "directors": "Tamra Davis",
-    "description": "Q&A with editor Jeffrey Wolf, ACE, moderated by editor Meg Reticker, ACE, on Friday, April 17th",
+    "description": "Q&A with editor Jeffrey Wolf, ACE, moderated by editor Robert Nassau, ACE, on Friday, April 17th",
     "time_date": "Friday April 17, 6:30pm"
   },
   {
@@ -142,6 +100,12 @@
     "directors": "Debra Granik",
     "description": "Introduction and Q&A with director Debra Granik and ConBody founder Coss Marte on Sunday, April 26th",
     "time_date": "Sunday April 26, 12:30pm"
+  },
+  {
+    "title": "Soleil Ô",
+    "directors": "Med Hondo",
+    "description": "Introduction by Yassine Ait Ali, PhD candidate at Princeton University and founding director of the Princeton French Film Festival on Sunday, April 26th",
+    "time_date": "Sunday April 26, 3:30pm"
   },
   {
     "title": "Fantastic Planet preceded by The Finesse",
